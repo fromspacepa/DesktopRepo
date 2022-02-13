@@ -1,6 +1,6 @@
 package javaBasics;
 
-public class AssignmentVSCallingVariable {
+public class AssignmentVSCallingVariable2 {
 
 	public static void main(String[] args) {
 		

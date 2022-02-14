@@ -59,9 +59,9 @@ public class AssignmentVSCallingVariable2 {
 		System.out.println(x);
 		x %= 5;//Here the value of X is divided by 5, the remainder is 3. Now the value of X is changed to 3.
 		// (x = x % 5;) this is the same as above^.
-	    System.out.println(x);
-	    x -= 3;//Here the value of X is subtracted by 3, now the value of X is changed to 0.
-	    System.out.println(x);
+	        System.out.println(x);
+	        x -= 3;//Here the value of X is subtracted by 3, now the value of X is changed to 0.
+	        System.out.println(x);
 		 
 	}
 

@@ -1,6 +1,6 @@
 package javaBasics;
 
-public class IncrementsVSDecrements3 {
+public class Operators_IncrementsVSDecrements3 {
 
 	public static void main(String[] args) {
 

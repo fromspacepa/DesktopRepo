@@ -8,7 +8,7 @@ public class SelectiosAndExamples4 {
 //>>>The Unary Operator is short and it's sample, it can take up to one line coding; If you have one condition and you need to check it,
 //and you don't have too many things to execute, depending on the condition. You could use Unary Operator.
 //>>>But if you have multiple conditions, depending on that if one of them is "true" OR "false", you are going to execute lots of steps
-//you would go with the using of "if statement".
+//you would go with using of "if else statement".
 		
 		int x = 10;//Here the Variable 'x' is declared & initialized with the Initialization Process with Assigning value of '10' to 'x'.
 		int y = 15;//Here the Variable 'y' is declared & initialized with the Initialization Process with Assigning value of '15' to 'y'.
@@ -27,13 +27,41 @@ System.out.println("Selection Example with using if statements, Printing texted 
 			System.out.println("'Y' is bigger");
 		}
 
-System.out.println("Selection Example with using if statements, Printing boolean:");
+System.out.println("Selection Example with using 'if statements', Printing boolean:");
 		if (x > y) {
 			System.out.println(true);
 		}else {
 			System.out.println(false);
 		}
 
+System.out.println("Selection Example with using 'if else statement' and using many steps to get one 'True' OR 'False' result:");
+//Below here is the "if else statement". There are many conditions provided, but only one of them will be True OR False.
+//The if else statement will run the code from Top to Bottom, it will run till it get the True OR False condition.
+//If the True OR False condition is found in the first condition the code will stop running because of the result is found.
+//OR if the True OR False condition is found in the middle condition the code will stop running because of the result is found.
+//Basically the code will be running till it finds the True OR False condition.
+
+//SCENARIO OF SCHOOL REPORT CARD GRADES:
+		// 90 - 100		= A
+		// 80 - 89		= B 
+		// 70 - 79		= C
+		// 60 - 69		= D
+		// < 60			= F
+
+		double grade = 83;//This means that the Variable "grade" is equal to any value provided from the list below.
+		
+		if (grade >= 90) {//This means if the grade is equal OR more than 90, print "A".
+			System.out.println("A");
+		} else if (grade >= 80) {//This means if the grade is equal OR more than 80, then print "B".
+			System.out.println("B");
+		} else if (grade >= 70) {//This means if the grade is equal OR more than 70, then print "C".
+			System.out.println("C");
+		} else if (grade >= 60) {//This means if the grade is equal OR more than 60, then print "D".
+			System.out.println("D");
+		} else {//This means if the grade is less than 60, then print "F".
+			System.out.println("F");
+		}
 	}
+	
 
 }

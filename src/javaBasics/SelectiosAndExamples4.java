@@ -19,13 +19,20 @@ System.out.println("Selection Example with using Unary Operator; Using boolean:"
 System.out.println("Selection Example with using Unary Operatpr; Using String:");
 		String result = x > y? "X is bigger" : "It's not!";//Here the String will execute "X is bigger" OR "It's not!" depending on the condition provided.
 		System.out.println(result);//This will print "It's not!" depending on the condition provided above^.
-		
+
+//Selections example with one if Statement and one true block:
+//You can use the one if statement and one true block when you have or looking for true OR false condition.
+//Syntax of one if statement with one true block:
+				// if (conditions){
+				//     "true block"
+				// }
 System.out.println("Selection Example with using if statements, Printing texted result:");
 		if (x > y) {
 			System.out.println("'X' is bigger");
 		}else {
 			System.out.println("'Y' is bigger");
 		}
+
 
 System.out.println("Selection Example with using 'if statements', Printing boolean:");
 		if (x > y) {
@@ -61,6 +68,14 @@ System.out.println("Selection Example with using 'if else statement' and using m
 		} else {//This means if the grade is less than 60, then print "F".
 			System.out.println("F");
 		}
+		
+//Following is the Example of Selection with one true condition to be run:
+		//
+		int w = 130;
+		int h = 100;
+		
+		if (w > h)
+			System.out.println("Habibi Haya Haya");
 	}
 	
 

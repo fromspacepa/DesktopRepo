@@ -33,7 +33,6 @@ System.out.println("Selection Example with using if statements, Printing texted 
 			System.out.println("'Y' is bigger");
 		}
 
-
 System.out.println("Selection Example with using 'if statements', Printing boolean:");
 		if (x > y) {
 			System.out.println(true);

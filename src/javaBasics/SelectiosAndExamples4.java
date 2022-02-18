@@ -21,7 +21,7 @@ System.out.println("Selection Example with using Unary Operatpr; Using String:")
 		System.out.println(result);//This will print "It's not!" depending on the condition provided above^.
 
 //Selections example with one if Statement and one true block:
-//You can use the one if statement and one true block when you have or looking for true OR false condition.
+//You can use the one if statement and one true block when you have or looking for one true OR false condition.
 //Syntax of one if statement with one true block:
 				// if (conditions){
 				//     "true block"

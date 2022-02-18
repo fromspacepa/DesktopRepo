@@ -4,8 +4,23 @@ public class SelectiosAndExamples4 {
 
 	public static void main(String[] args) {
 		
-//Selection Examples with Unary Operators:
-//>>>The Unary Operator is short and it's sample, it can take up to one line coding; If you have one condition and you need to check it,
+//Selection Statements in Java:
+//In Java, Selection Statements are used to control the flow of the program.
+//These are the types of Selection Statements in Java:
+		//>>> 1): if statement
+		//>>> 2): if-else statement
+		//>>> 3): switch statement
+//if statement:
+		//In Java, "if" is a conditional statement. It will provide execution of one of two statements (or blocks), depending on the condition:
+		//Syntax:
+		// if (condition) {
+		// statements;
+		// .........
+		// .........
+		//}
+				
+//Selection Examples with Unary Operator OR Conditional Operator:
+//>>>Using the Unary Operator OR Conditional Operator in Selection Statement is short and it's sample, it can take up to one line coding; If you have one condition and you need to check it,
 //and you don't have too many things to execute, depending on the condition. You could use Unary Operator.
 //>>>But if you have multiple conditions, depending on that if one of them is "true" OR "false", you are going to execute lots of steps
 //you would go with using of "if else statement".
@@ -18,8 +33,9 @@ System.out.println("Selection Example with using Unary Operator; Using boolean:"
 		
 System.out.println("Selection Example with using Unary Operatpr; Using String:");
 		String result = x > y? "X is bigger" : "It's not!";//Here the String will execute "X is bigger" OR "It's not!" depending on the condition provided.
+		String value = x < y? "Y is bigger" : "It's not!";
 		System.out.println(result);//This will print "It's not!" depending on the condition provided above^.
-
+		System.out.println(value);
 //Selections example with one if Statement and one true block:
 //You can use the one if statement and one true block when you have or looking for one true OR false condition.
 //Syntax of one if statement with one true block:

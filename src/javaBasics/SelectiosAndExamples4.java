@@ -41,9 +41,9 @@ public class SelectiosAndExamples4 {
 //Selections example with one if Statement and one true block:
 //You can use the one if statement and one true block when you have or looking for one true OR false condition.
 //Syntax of one if statement with one true block:
-				// if (conditions){
-				//     "true block"
-				// }
+		// if (conditions){
+		//     "true block"
+		// }
 		
 		//Examples of if statement with one true OR false condition, depending on the condition provided:
 		if (x > y) {

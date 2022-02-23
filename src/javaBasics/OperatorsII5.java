@@ -11,16 +11,29 @@ public class OperatorsII5 {
 		
 //Difference between Equal/Equality Operators used with Primitive Data Types & Non-Primitive/Reference Data Types:
 		//In general Equal/Equality Operators will be used with Primitive Data Types; Basically while using Equal/Equality Operators with Primitive Data Types,
-		//they will check the values of the Primitive Data Types in the Stack; to see if the values are Equal/Same OR Not Equal/Same.
+		//they will check/compare the values of the Primitive Data Types in the Stack; to see if the values are Equal/Same OR Not Equal/Same.
 		//But while using Equal/Equality Operators with Non-Primitive/Reference Data Types, they basically will check if both the Non-Primitive/Reference Data Types
 		//are stored/saved OR not stored/saved in the same location in the Memory.
-		
-		int x = 25;//Here the Value of "25" is Initialized and assigned to Variable "X"; Which is changeable at any time.
-		int y = 15;//Here the Value of "15" is Initialized and assigned to Variable "Y"; Which is changeable at any time.
-		
+
+		//Here the Variable is initialized:
+		int x = 25;//Here Variable "X" is Initialized and the Value "25" is assigned to it; Which is changeable at any time.
+		int y = 15;//Here Variable "Y" is Initialized and the Value "15" is assigned to it; Which is changeable at any time.
+		//Example of using Equality Operators: 
 		System.out.println(x == y);//This will printout the boolean result (if "X" is equal to "Y" it will print "true", if not it will print "false").
 		System.out.println(x != y);//This will printout the boolean result (if "X" is not equal to "Y" it will print "true", if not it will print "false").
-		
+
+//NOTE: Never use Equality Operators to compare Non-Primitive/Reference Data Types. Because it will never give you the correct response.
+		//Here the String is created:
+		String str1 = new String("test");//Here the String "str1" is created and the Value "test" is assigned to it.
+		String str2 = new String("test");//Here the String "str2" is created and the same above^ Value "test" is assigned to it.
+		//So, as you see the Value of both Strings are the same. You will be still not able to get the correct response by using the Equality Operators.  
+		//Example of using Equality Operators with String:
+		System.out.println(str1 == str2);//This will printout false, though the Value "test" of both Strings are the same.
+		//Because, while creating String, it will be saved as an Object in Array of Character in different locations in Memory; not as same Value. 
+		//If you want to compare both Strings, you need to use "Equality Method" as follows:
+		//Example of "Equal Method":
+		str1.equals(str2);
+		System.out.println(str1.equals(str2));//This will printout true, because the Value of both Strings are 4 Characters (letters).
 
 	}
 

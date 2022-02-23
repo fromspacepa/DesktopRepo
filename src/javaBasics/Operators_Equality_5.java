@@ -41,6 +41,16 @@ public class Operators_Equality_5 {
 		// ">" >>> Stands for "More than"
 		// ">=" >>> Stands for "More than and Equal to"
 		
+//>>>Any time using the Relational Operators 
+		//Example of Relational Operators:
+		int a = 20;//Here the Integer Variable "a" is Initialized and assigned the Value of "20" to it.
+		int b = 30;//Here the Integer Variable "b" is Initialized and assigned the Value of "30" to it.
+		System.out.println(a > b);//This will basically printout the boolean result (true OR false), depending on the condition provided.
+		System.out.println(a < b);//This will basically printout the boolean result (true OR false), depending on the condition provided.
+		System.out.println(a >= b);//This will the same printout the boolean result (true OR false), depending on the condition provided.
+		System.out.println(a <= b);//This will the same printout the boolean result (true OR false), depending on the condition provided.
+		
+		
 	}
 
 }

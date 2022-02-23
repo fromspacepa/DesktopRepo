@@ -4,8 +4,8 @@ public class OperatorsII5 {
 
 	public static void main(String[] args) {
 
-
-//Equality Operators:
+//OPERATORS:
+//1: EQUALITY OPERATORS:
 		// "==" >>> Stands for "Equal Operator"
 		// "!=" >>> Stands for "Not Equal Operator"
 		
@@ -35,6 +35,12 @@ public class OperatorsII5 {
 		str1.equals(str2);
 		System.out.println(str1.equals(str2));//This will printout true, because the Value of both Strings are 4 Characters (letters).
 
+//2: RELATIONAL OPERATORS:
+		// "<" >>> Stands for "Less than"
+		// "<=" >>> Stands for "Less than and Equal to"
+		// ">" >>> Stands for "More than"
+		// ">=" >>> Stands for "More than and Equal to"
+		
 	}
 
 }

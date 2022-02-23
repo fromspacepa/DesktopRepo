@@ -6,8 +6,8 @@ public class OperatorsII5 {
 
 
 //Equality Operators:
-		// "==" >>> Means: Equal to
-		// "!=" >>> Means: Not Equal to
+		// "==" >>> Stands for "Equal Operator"
+		// "!=" >>> Stands for "Not Equal Operator"
 		
 //Difference between Equal/Equality Operators used with Primitive Data Types & Non-Primitive/Reference Data Types:
 		//In general Equal/Equality Operators will be used with Primitive Data Types; Basically while using Equal/Equality Operators with Primitive Data Types,
@@ -18,8 +18,8 @@ public class OperatorsII5 {
 		int x = 25;
 		int y = 15;
 		
-		
 		System.out.println(x == y);
+		System.out.println(x != y);
 
 	}
 

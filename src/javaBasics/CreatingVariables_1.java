@@ -5,7 +5,7 @@ package javaBasics;
 
     //This part is related to class and the name of class. The name of class is: CreatingVariables.
     //Note: When creating class in Java, the name of class always starts with upper case and then CamleCase.
-public class CreatingVariables1 {
+public class CreatingVariables_1 {
 
 	//This part is related to method which is called main method; it is used to run our code(s) in Java.
 	public static void main(String[] args) {

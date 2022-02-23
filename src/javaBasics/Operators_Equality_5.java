@@ -1,15 +1,15 @@
 package javaBasics;
 
-public class OperatorsII5 {
+public class Operators_Equality_5 {
 
 	public static void main(String[] args) {
 
 //OPERATORS:
-//1: EQUALITY OPERATORS:
+//1:__EQUALITY OPERATORS:
 		// "==" >>> Stands for "Equal Operator"
 		// "!=" >>> Stands for "Not Equal Operator"
 		
-//Difference between Equal/Equality Operators used with Primitive Data Types & Non-Primitive/Reference Data Types:
+//>>>Difference between Equal/Equality Operators used with Primitive Data Types & Non-Primitive/Reference Data Types:
 		//In general Equal/Equality Operators will be used with Primitive Data Types; Basically while using Equal/Equality Operators with Primitive Data Types,
 		//they will check/compare the values of the Primitive Data Types in the Stack; to see if the values are Equal/Same OR Not Equal/Same.
 		//But while using Equal/Equality Operators with Non-Primitive/Reference Data Types, they basically will check if both the Non-Primitive/Reference Data Types
@@ -22,7 +22,7 @@ public class OperatorsII5 {
 		System.out.println(x == y);//This will printout the boolean result (if "X" is equal to "Y" it will print "true", if not it will print "false").
 		System.out.println(x != y);//This will printout the boolean result (if "X" is not equal to "Y" it will print "true", if not it will print "false").
 
-//NOTE: Never use Equality Operators to compare Non-Primitive/Reference Data Types. Because it will never give you the correct response.
+//>>>NOTE: Never use Equality Operators to compare Non-Primitive/Reference Data Types. Because it will never give you the correct response.
 		//Here the String is created:
 		String str1 = new String("test");//Here the String "str1" is created and the Value "test" is assigned to it.
 		String str2 = new String("test");//Here the String "str2" is created and the same above^ Value "test" is assigned to it.
@@ -35,7 +35,7 @@ public class OperatorsII5 {
 		str1.equals(str2);
 		System.out.println(str1.equals(str2));//This will printout true, because the Value of both Strings are 4 Characters (letters).
 
-//2: RELATIONAL OPERATORS:
+//2:__RELATIONAL OPERATORS:
 		// "<" >>> Stands for "Less than"
 		// "<=" >>> Stands for "Less than and Equal to"
 		// ">" >>> Stands for "More than"

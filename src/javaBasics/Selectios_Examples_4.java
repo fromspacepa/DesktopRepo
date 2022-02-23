@@ -1,6 +1,6 @@
 package javaBasics;
 
-public class SelectiosAndExamples4 {
+public class Selectios_Examples_4 {
 
 	public static void main(String[] args) {
 		

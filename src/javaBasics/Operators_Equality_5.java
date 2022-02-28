@@ -5,6 +5,8 @@ public class Operators_Equality_5 {
 	public static void main(String[] args) {
 
 //OPERATORS:
+		//Operators constitute the basic building block to any programming language. Java too provides many types of operators which can be used according to the 
+		//need to perform various calculations and functions, be it Logical, Arithmetic, Relational, etc. They are classified based on the functionality they provide.
 //1:__EQUALITY OPERATORS:
 		// "==" >>> Stands for "Equal Operator"
 		// "!=" >>> Stands for "Not Equal Operator"

@@ -1,28 +1,43 @@
-
-    // This part is related to Package and the name of package. The name of package is: javaBasics.
-    //Note: When creating package in Java, the name of package always starts with lower case and camleCase.
+ 
+    //Following is the package and name of the package is: "package javaBasics".
+    //Note: When creating package in Java/Eclipse, name of the package always starts with lower case and then camleCase if it's a combination of two + names.
 package javaBasics;
 
-    //This part is related to class and the name of class. The name of class is: CreatingVariables.
-    //Note: When creating class in Java, the name of class always starts with upper case and then CamleCase.
+    //Following is the Class and name of the class is: "CreatingVariables".
+    //Note: When creating class in Java/Eclipse, name of class always starts with upper case and then CamleCase if it's a combination of two + names.
 public class CreatingVariables_1 {
 
-	//This part is related to method which is called main method; it is used to run our code(s) in Java.
+	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse, we need main method.
 	public static void main(String[] args) {
 
 	//Following is the basics sample of creating Variable:
-	int x = 20;//<==This is the syntax is called Initialization process.
-	// Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is Assignment Operator, and "20" is the Value.
-	// we basically created Variable and assigned the value "20" to it. 
-	//This portion "int x" of the syntax is called Declaration, This portion "=" of the syntax is called Assignment Operator;
-	//This portion "20" of the syntax is called Initialization.
+	//Note: We have two different types of Variables:
+	//Primitive Data Types and Reference Data Types
+	//We have 8-Primitive Data Types which are listed and explained below and Reference Data Types would be any object that we create
+	//Lets say that we create String, String is a class, so every instance of String is Reference Data Type
+	//Lets say we define a class of Student and then we create an object of it, so that would be a Reference Data Type.
+	//In conclusion: We have 8 Primitive Data Types and we have thousands & thousands of Reference Data Types.
 	
-	int y = 15;//<==This is called Assignment process.
+	int x = 20;//<==This is the syntax, it is called Initialization process.
+	//Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is Assignment Operator, and "20" is the Value.
+	//we basically created Variable and assigned the value "20" to it. 
+	//The portion "int x" of the syntax is called Declaration, The portion "=" of the syntax is called Assignment Operator;
+	//The portion "20" of the syntax is called Initialization.
+	x = 30; //<==This syntax is called the process of assignment.
+	//Note: After the first time of Variable declaration and initialization, and then changing the Variable Value here is called the process of Assignment.
+	
+	
+	int y = 15;//<==This syntax is also the process of Initialization.
 		
 	//Following is the sample of printing our created variables and it's assigned values:
 	System.out.println("The value of X is:"+ x + " and the value of Y is:"+ y);
 	
-//Following here are the types of Primitive data types:
+//Below here we are talking about the two different types of Data Types: 
+//Note: We have Two types of Data Type; Which are Primitive and Reference Data Types.
+//We have 8 Primitive Data Types and Thousands of Non-Primitive/Reference Data Types; Basically, you can create Reference Data Types.
+//All Primitive Data Types starts with lower case and all Reference/Non-Primitive Data Types starts with UpperCase Letter.
+//Following here are the 8-Primitive data types which are mentioned below with all details:
+
 //  Type ------- SizeInBytes ------- Range
 //  byte         1-byte              -128 to 127
 	byte b1 = 127;
@@ -47,6 +62,28 @@ public class CreatingVariables_1 {
 	System.out.println(f);
 	System.out.println(b2);
 	System.out.println(b3);
+	
+//Here we are explaining the Reference OR Non-Primitive Data Types:
+//When we get to the Reference Data Types, we have couple of ways to Initialize the Reference Data Types.
+//One of the most Famous and popular class that we will use a lot, is a String. Every instance of String Class will be an object
+//Or a Reference Data Type. 
+//Following is the example of how we create a String:
+	String text = "texting is fun";//Here is one way of creating a String and it's a special way that's only available to a String Class
+//You'll not be able to do the same way with other Reference Data Types.
+//Note: The text inside two double code is called Literal Value.
+//The other way that you can create a String is going to be as follows:
+	String text1 = new String ("texting is fun");//Here in this syntax when you say "new String", this structure is basically used to 
+//initialized any Reference Data Type and this applicable to all of the Reference Data Types.
+
+//Note: In general when you want to create a Reference Data Type, you need to make sure that your Data Type
+//is the name of the class that you are trying to create an object of. 
+//And then for a String you have the option to initialize the Variable with a Literal Values and you also have the option to call the 
+//Constructor of the Class which is the second way, and then you can create the object of that.
+
+	System.out.println(text);
+	System.out.println(text1);
+	
+
 
 	
 	

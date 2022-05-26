@@ -41,7 +41,9 @@ System.out.println("The flow execution of Post-Decrement:");
 		System.out.println(b--);//This is Post-Decrement, it will still print the value of 'b' as '4' because of the flow execution of Post-Decrement.
 		System.out.println(b);//Now it will print the value of 'b' as '3' because of changes happened above^ by the flow execution of Post-Decrement.
 		
-
+		int z = 10;
+		System.out.println(z);
+		
 	}
 
 }

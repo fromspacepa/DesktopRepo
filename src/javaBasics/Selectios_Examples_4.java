@@ -21,9 +21,9 @@ public class Selectios_Examples_4 {
 		}	*/
 				
 /* Selection Examples with Unary Operator OR Conditional Operator:
-  >>>Using the Unary Operator OR Conditional Operator in Selection Statement is short and it's sample, it can take up to one line coding; If you have one condition and you need to check it,
-  and you don't have too many things to execute, depending on the condition. You could use Unary Operator.
-  >>>But if you have multiple conditions, depending on that if one of them is "true" OR "false", you are going to execute lots of steps
+  >>>Using the Unary Operator OR Conditional Operator in Selection Statement is short and it's sample, it can take up to one line coding; If you have one condition 
+  and you need to check it, and you don't have too many things to execute, depending on the condition. You could use Unary Operator.
+  >>>But if you have multiple conditions, depending on that if one of them is "true" OR "false", you are going to execute lots of steps, 
   you would go with using of "if else statement".    */
 
 		//Example of Selection with Unary Operator, using boolean keyword (Primitive Data Type):

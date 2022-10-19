@@ -7,13 +7,11 @@ package javaBasics;
     //Note: When creating class in Java/Eclipse, the class name always starts with upper case and then CamleCase if it's a combination of two or more than two names.
 public class CreatingVariables_1 {
 
-<<<<<<< HEAD
 	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse, we need main method.
 	public static void main(String args[]) {
-=======
+
 	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse we need main method.
-	public static void main(String[] args) {
->>>>>>> d576055996c7915a82e582a517de8c5259c8c499
+
 
 	//Following is the basics sample of creating Variable:
 	//Note: We have two different types of Variables:
@@ -96,4 +94,6 @@ public class CreatingVariables_1 {
 	}	
 	
 	
+
 }
+

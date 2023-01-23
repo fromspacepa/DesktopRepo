@@ -1,4 +1,5 @@
  
+<<<<<<< HEAD
     //Following is the package and name of the package is: "package javaBasics".
     //Note: When creating package in Java/Eclipse, name of the package always starts with LOWER-CASE and then camleCase if it's a combination of two + names.
 package javaBasics;
@@ -9,6 +10,21 @@ public class CreatingVariables_1 {
 
 	//Following is the method, which is called main method; We need main method to run our code(s) in Java/Eclipse and show us the outcome in the console.
 	public static void main(String[] args) {
+=======
+    //Following is the package and name of the package is: "javaBasics".
+
+package javaBasics;
+
+    //Following is the Class and name of the class is: "CreatingVariables_1".
+    //Note: When creating class in Java/Eclipse, the class name always starts with upper case and then CamleCase if it's a combination of two or more than two names.
+public class CreatingVariables_1 {
+
+	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse, we need main method.
+	public static void main(String args[]) {
+
+	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse we need main method.
+
+>>>>>>> f3b03cf8fd7a7d04603e866212ed6ec66d21adba
 
 	//Following is the basics sample of creating Variable:
 	//Note: We have two different types of Variables:
@@ -51,7 +67,7 @@ public class CreatingVariables_1 {
 	float f = 120.21f;
 //  double       8-bytes             approximately 1.797693134862315 70E +308 (15 significant decimal digits)
 	double d = 12.12;
-//  char         1-bytes             0 to 65,536
+//  char         1-byte              0 to 65,536
 	char c = 'a';
 //  boolean      not precisely       true or false
 //               defined *
@@ -80,12 +96,17 @@ public class CreatingVariables_1 {
 //And then for a String you have the option to initialize the Variable with a Literal Values and you also have the option to call the 
 //Constructor of the Class which is the second way, and then you can create the object of that.
 
+
 	System.out.println(text);
 	System.out.println(text1);
+
 	
-
-
+	
 	
 	
 	}	
+	
+	
+
 }
+

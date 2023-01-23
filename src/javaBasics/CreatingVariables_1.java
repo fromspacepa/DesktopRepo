@@ -1,4 +1,16 @@
  
+<<<<<<< HEAD
+    //Following is the package and name of the package is: "package javaBasics".
+    //Note: When creating package in Java/Eclipse, name of the package always starts with LOWER-CASE and then camleCase if it's a combination of two + names.
+package javaBasics;
+
+    //Following is the Class and name of the class is: "CreatingVariables".
+    //Note: When creating class in Java/Eclipse, name of class always starts with UPPER-CASE and then CamleCase if it's a combination of two + names.
+public class CreatingVariables_1 {
+
+	//Following is the method, which is called main method; We need main method to run our code(s) in Java/Eclipse and show us the outcome in the console.
+	public static void main(String[] args) {
+=======
     //Following is the package and name of the package is: "javaBasics".
 
 package javaBasics;
@@ -12,6 +24,7 @@ public class CreatingVariables_1 {
 
 	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse we need main method.
 
+>>>>>>> f3b03cf8fd7a7d04603e866212ed6ec66d21adba
 
 	/*
 	 * //Following is the basics sample of creating Variable: //Note: We have two
@@ -25,6 +38,7 @@ public class CreatingVariables_1 {
 	 * Data Types.
 	 */	
 	int x = 20;//<==This is the syntax, it is called Initialization process.
+<<<<<<< HEAD
 	/*
 	 * Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is
 	 * Assignment Operator, and "20" is the Value. //we basically created Variable
@@ -33,6 +47,14 @@ public class CreatingVariables_1 {
 	 * Operator; //The portion "20" of the syntax is called Initialization.
 	 */	x = 30; //<==This syntax is called the process of assignment.
 	//Note: After the first time of Variable declaration and initialization, and then changing the Variable Value here is called the process of Assignment.
+=======
+	//Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is Assignment Operator, and "20" is the Value.
+	//we basically created Variable and assigned the value "20" to it. 
+	//The portion "int x" of the syntax is called Declaration, The portion "=" of the syntax is called Assignment Operator;
+	//The portion "20" of the syntax is called Initialization.
+	x = 30; //<==This syntax is called the process of assignment.
+	//Note: After the first time of Variable declaration and initialization, and then changing the Variable Value is called the process of Assignment.
+>>>>>>> 383ed3181877b47a86ca3c8871a0307a3af45534
 	
 	
 	int y = 15;//<==This syntax is also the process of Initialization.
@@ -85,12 +107,20 @@ public class CreatingVariables_1 {
 	
 	//Following is the example of how we create a String:
 	String text = "texting is fun";//Here is one way of creating a String and it's a special way that's only available to a String Class
+<<<<<<< HEAD
 	/*
 	 * You'll not be able to do the same way with other Reference Data Types.
 	 * Note: The text inside two double code is called Literal Value. //The other
 	 * way that you can create a String is going to be as follows:
 	 */	String text1 = new String ("texting is fun");//Here in this syntax when you say "new String", this structure is basically used to 
 //initialized any Reference Data Type and this applicable to all of the Reference Data Types.
+=======
+//You'll not be able to do the same way with other Reference Data Types.
+//Note: The text inside two double code is called Literal Value.
+//The other way that you can create a String is going to be as follows:
+	String text1 = new String ("texting is fun");//Here in this syntax when you say "new String", this structure is basically used to 
+//initialized any Reference Data Type and this is applicable to all of the Reference Data Types.
+>>>>>>> 383ed3181877b47a86ca3c8871a0307a3af45534
 
 	/*
 	 * Note: In general when you want to create a Reference Data Type, you need to

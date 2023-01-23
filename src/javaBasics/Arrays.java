@@ -79,8 +79,12 @@ public class Arrays {
 		System.out.println("-------------------------");
 		for (int b = 0; b < 30; b++) {
 		System.out.println("The Value of Indexes:\t" + data1[b]);//this will printout the value of all indexes.
-
+		
+			}
 		}
+
+
+		
 		
 		
 		
@@ -88,6 +92,6 @@ public class Arrays {
 
 		
 
-	}
+	
 
 }

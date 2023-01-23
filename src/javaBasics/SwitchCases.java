@@ -123,6 +123,20 @@ public class SwitchCases {
 				
 		}
 
+		//Example of Wending Machine:
+		
+		int price = 0;
+		String drink = "PepsiCola";
+		int quatity = 0;
+	
+		switch (drink) {
+		case ("PepsiCola"):
+			if (price <= 3) {
+				System.out.println("You got a PepsiCola");
+			}
+		
+		}
+		
 		
 	}
 

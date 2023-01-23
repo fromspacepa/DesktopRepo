@@ -1,13 +1,13 @@
  
     //Following is the package and name of the package is: "package javaBasics".
-    //Note: When creating package in Java/Eclipse, name of the package always starts with lower case and then camleCase if it's a combination of two + names.
+    //Note: When creating package in Java/Eclipse, name of the package always starts with LOWER-CASE and then camleCase if it's a combination of two + names.
 package javaBasics;
 
     //Following is the Class and name of the class is: "CreatingVariables".
-    //Note: When creating class in Java/Eclipse, name of class always starts with upper case and then CamleCase if it's a combination of two + names.
+    //Note: When creating class in Java/Eclipse, name of class always starts with UPPER-CASE and then CamleCase if it's a combination of two + names.
 public class CreatingVariables_1 {
 
-	//Following is the method, which is called main method; To run our code(s) in Java/Eclipse we need main method.
+	//Following is the method, which is called main method; We need main method to run our code(s) in Java/Eclipse and show us the outcome in the console.
 	public static void main(String[] args) {
 
 	//Following is the basics sample of creating Variable:
@@ -24,7 +24,7 @@ public class CreatingVariables_1 {
 	//The portion "int x" of the syntax is called Declaration, The portion "=" of the syntax is called Assignment Operator;
 	//The portion "20" of the syntax is called Initialization.
 	x = 30; //<==This syntax is called the process of assignment.
-	//Note: After the first time of Variable declaration and initialization, and then changing the Variable Value here is called the process of Assignment.
+	//Note: After the first time of Variable declaration and initialization, and then changing the Variable Value is called the process of Assignment.
 	
 	
 	int y = 15;//<==This syntax is also the process of Initialization.
@@ -73,7 +73,7 @@ public class CreatingVariables_1 {
 //Note: The text inside two double code is called Literal Value.
 //The other way that you can create a String is going to be as follows:
 	String text1 = new String ("texting is fun");//Here in this syntax when you say "new String", this structure is basically used to 
-//initialized any Reference Data Type and this applicable to all of the Reference Data Types.
+//initialized any Reference Data Type and this is applicable to all of the Reference Data Types.
 
 //Note: In general when you want to create a Reference Data Type, you need to make sure that your Data Type
 //is the name of the class that you are trying to create an object of. 

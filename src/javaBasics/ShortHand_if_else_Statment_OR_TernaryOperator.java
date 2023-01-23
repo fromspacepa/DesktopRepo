@@ -42,7 +42,7 @@ public class ShortHand_if_else_Statment_OR_TernaryOperator {
 		} else {
 			System.out.println("Good evening!");
 		}
-		// YOU CAN SIMPLE WRITE "SHORT-HAND IF ELSE" STATEMENT:
+		// YOU CAN SIMPLY WRITE "SHORT-HAND IF ELSE" STATEMENT:
 		int time1 = 20;
 		String result = time1 > 18 ? "Good day!" : "Good evening!";//Short-hand if else statement with String data type.
 		System.out.println(result);
@@ -50,7 +50,7 @@ public class ShortHand_if_else_Statment_OR_TernaryOperator {
 		System.out.println(greatings);
 		
 		
-		// Example of Selection with Unary Operator using 'boolean' the primitive data type:
+		// Example of Selection with Ternary Operator using 'boolean' the primitive data type:
 		 
 		int x = 10;// Here the Variable 'x' is declared & initialized with the Initialization
 					// Process of Assigning value of '10' to 'x'.
@@ -60,11 +60,11 @@ public class ShortHand_if_else_Statment_OR_TernaryOperator {
 											// on the condition provided.
 		System.out.println(z);// This will print 'false' depending on the condition provided above^.
 
-		// Example of Selection with Unary Operator using 'String' the Non-primitive
+		// Example of Selection with Ternary/Unary Operator using 'String' the Non-primitive
 		// data type:
-		String result1 = x > y ? "X is bigger" : "It's not!";// Here the String will execute "X is bigger" OR "It's not!"
+		String result1 = x > y ? "X is bigger" : "Y is bigger!";// Here the String will execute "X is bigger" OR "It's not!"
 															// depending on the condition provided.
-		String value = x < y ? "Y is bigger" : "It's not!";
+		String value = x < y ? "Y is bigger" : "X is bigger!";
 		System.out.println(result1);// This will print "It's not!" depending on the condition provided above^.
 		System.out.println(value);
 		

@@ -5,13 +5,18 @@ public class DoWhileLoop {
 	public static void main(String[] args) {
 
 		
-		//Example of While loop:
+		//Example of While loop just as a Reference:
+
 		int x = 10;
 		while (x > 10 && x <= 20) {
 			System.out.println(x++);
 			}
 		
 		//Example of Do-while loop:
+		
+		/*
+		 * 
+		 */
 		int y = 5;
 		do {
 			System.out.println(y--);

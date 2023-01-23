@@ -5,7 +5,23 @@ public class Arrays {
 	public static void main(String[] args) {
 
 
-		//Examples of Arrays:
+		//Examples of Collections in Arrays:
+		
+		/*
+		 * NOTE:
+		 * Arrays are made of contiguous block of memory.
+		 * When you think of Arrays, following are the 3 three things that you must focus on:
+		 * 1) Fixed in size:
+		 * Arrays are fixed in size. You have to define what is the size of Array(s) that you want to create or work with.
+		 * 2) Define data type:
+		 * You must define the data type that is going to go inside/into the Array(s) that you want to create or work with.
+		 * 3) Dimensions in Array(s):
+		 * There are Dimensions to Array(s); Arrays could have Single-Dimension, They could have Two-Dimensions, 
+		 * Three-Dimensions, Four-Dimensions, and can go on......
+		 * 
+		 * 
+		 * 
+		 */
 		int [] y = {1,2,3,4,5};//This is an example of Hard-Coding. It is not a preferred way to use in coding.
 	
 		int [] data = new int [5];//This is to create the Arrays that has the length of 5 index.

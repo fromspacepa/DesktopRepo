@@ -4,11 +4,10 @@ public class DoWhileLoop {
 
 	public static void main(String[] args) {
 
-		
+		System.out.println("Example of while loop:");
 		//Example of While loop just as a Reference:
-
 		int x = 10;//Here the Variable 'x' is declared, initialized, and assigned the value of 10 to it.
-		while (x > 10 && x <= 20) {//This is the condition.
+		while (x > 0 && x <= 20) {//This is the condition.
 			System.out.println(x++);//This is the loop body.
 			}
 		/*

@@ -5,7 +5,7 @@ public class SelectionStatement {
 	public static void main(String[] args) {
 		
 
-	double carPrice = 50000.00;
+	double carPrice = 60000.00;
 	double fee = 0;
 	double tax = 0;
 	double interest = 0;

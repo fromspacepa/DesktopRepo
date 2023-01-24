@@ -4,12 +4,26 @@ public class ForLoop {
 
 	public static void main(String[] args) {
 
-		// Example of For-Loop:
-		// for loop structure or Syntax:
-		// for (Initialization of Variable/Counter happens at step 1 one and only once;
-		// Condition happens at step 2 two; Update the Counter/Variable happens at step4 four){
-		// The loop body happens at step 3 three. System.out.println(i);
-		// }
+		
+		/*
+		 * FOR LOOP:
+		 * NOTE:
+		 * For Loop is the most commonly used loop, it is the most flexible type of loop that we have in Java.
+		 * It is the most customizable loop, we have lots of options to play with it.
+		 * Also:
+		 * In while loop we initialize variable outside the while loop and then we use that variable inside while loop
+		 * to run to a number of times; but in for loop we do no do that. We just initialize our variable inside for loop
+		 * argument "( )", it becomes part of loop, we are going to use that variable as a counter (in most cases as a counter),
+		 * but we have options to play with it, and use it in different ways.
+		 */
+		/* Example of For-Loop:
+		 for loop structure or Syntax:
+		 for (Initialization of Variable/Counter happens at step 1 one and only once;
+		 Condition happens at step 2 two; Update the Counter/Variable happens at step4 four){
+		 The loop body happens at step 3 three. System.out.println(i);
+		 }*/
+		
+		
 		for (int i = 0; i <= 10; i++) {
 			System.out.println(i);// (3) Loop body.//
 		}
@@ -42,6 +56,6 @@ public class ForLoop {
 			System.out.println(myChar);
 		}
 		
-		
+
 	}
 }

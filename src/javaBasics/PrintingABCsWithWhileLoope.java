@@ -7,7 +7,7 @@ public class PrintingABCsWithWhileLoope {
 		
 		char char1 = 'a';
 		char char2 = 'A';
-		while (char1 <= 'z' ) {
+		while (char1 <='z' ) {
 			System.out.print(char1 + " ");
 			char1++;
 		

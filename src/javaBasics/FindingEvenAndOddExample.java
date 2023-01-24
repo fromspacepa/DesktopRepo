@@ -12,6 +12,13 @@ public class FindingEvenAndOddExample {
 					 System.out.println("ODD");
 				 }
 				 
+				 int y = 101;
+				 if (y % 2 == 0) {
+					 System.out.println("Y is EVEN numeric character");
+				 }else {
+					 System.out.println("Y is ODD numeric character");
+				 }
+				 
 
 
 	}

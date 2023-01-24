@@ -54,8 +54,7 @@ public class SwitchCases {
 
 		switch (type) {
 		case "Checking":
-			System.out.println(
-					amount < 500 && amount >= 0 ? "Transaction Okay" : "Transaction more then 500 not allowed");
+			System.out.println(amount < 500 && amount >= 0 ? "Transaction Okay" : "Transaction more then 500 not allowed");
 			break;
 		case "Saving":
 			System.out.println("You can not directly withdraw from Saving");

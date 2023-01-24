@@ -5,7 +5,7 @@ public class SelectionStatement {
 	public static void main(String[] args) {
 		
 
-	double carPrice = 60000.00;
+	double carPrice = 35000.00;
 	double fee = 0;
 	double tax = 0;
 	double interest = 0;
@@ -19,7 +19,7 @@ public class SelectionStatement {
 	if (carPrice >= 42000.00 && carPrice < 50000.00) {
 		fee = 450;
 		tax = carPrice * 0.08;
-		interest = carPrice * 0.02;
+		interest = carPrice * 0.05;
 		discount = carPrice * 0.01;
 		shipment = carPrice * 0.02;
 		total = carPrice + tax + fee + interest - discount;
@@ -44,8 +44,8 @@ public class SelectionStatement {
 	}  else  {
 		fee = 450;
 		tax = carPrice * 0.08;
-		interest = carPrice * 0.0;
-		discount = carPrice * 0.05;
+		interest = carPrice * 0.04;
+		discount = carPrice * 0.00;
 		expeditedShipment = true;
 		total = carPrice + tax + fee + interest;
 		installments = total / 60;
@@ -60,9 +60,9 @@ public class SelectionStatement {
 	System.out.println("Total amount:\t\t" + total);
 	System.out.println("Monthly installment:\t" + installments);
 	if (expeditedShipment == true) {
-	System.out.println("Expedited Shipment!");
+	System.out.println("\nYou are eligible for Expedited Shipment!");
 	} else {
-		System.out.println("Normal Shipment!");
+		System.out.println("Normal Shipment Applied!");
 
 
 }}}

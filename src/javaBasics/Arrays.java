@@ -19,7 +19,8 @@ public class Arrays {
 		 * There are Dimensions to Array(s); Arrays could have Single-Dimension, They could have Two-Dimensions, 
 		 * Three-Dimensions, Four-Dimensions, and can go on......
 		 * 
-		 * 
+		 * Note:
+		 * We can use Arrays to store multiple values in a single variable, instead of declaring variable multiple times.
 		 * 
 		 */
 		int [] y = {1,2,3,4,5};//This is an example of Hard-Coding. It is not a preferred way to use in coding.
@@ -32,56 +33,35 @@ public class Arrays {
 		data [4] = 5;
 		
 		System.out.println("-------------------------");
-		//This is how to print the length of index:
-		System.out.println(data.length);//the printout is going to be 5.
+		//This is how to print the length of elements in a single dimension Array:
+		System.out.println("Single dimension Array with \nelements of:\t\t\t" + data.length);//the printout is going to be 5.
 
 		//This is how to print the value of index 0:
-		System.out.println(data[0]);//the printout is going to be 20.
-
+		System.out.println("Value of index '0':\t\t" + data[0]);
+		//This is how to printout the value of all indexes:
 		for (int i = 0; i < 5; i++ ) {
-			System.out.println(data[i]);
-
+			System.out.println("Value of indexes from 0 to 4:\t" + data[i]);
 		}
 		
-		int [] data1 = new int [30];
-		data1 [0] = 10;
-		data1 [1] = 12;
-		data1 [2] = 23;
-		data1 [3] = 34;
-		data1 [4] = 46;
-		data1 [5] = 100;
-		data1 [6] = 145;
-		data1 [7] = 12;
-		data1 [8] = 134;
-		data1 [9] = 13;
-		data1 [10] = 134;
-		data1 [11] = 133;
-		data1 [12] = 150;
-		data1 [13] = 25;
-		data1 [14] = 40;
-		data1 [15] = 60;
-		data1 [16] = 70;
-		data1 [17] = 80;
-		data1 [18] = 90;
-		data1 [19] = 100;
-		data1 [20] = 45;
-		data1 [21] = 56;
-		data1 [22] = 67;
-		data1 [23] = 34;
-		data1 [24] = 6;
-		data1 [25] = 56;
-		data1 [26] = 56;
-		data1 [27] = 56;
-		data1 [28] = 15;
-		data1 [29] = 56;
-		System.out.println("-------------------------");
-		System.out.println(data1.length);
-		System.out.println("-------------------------");
-		for (int b = 0; b < 30; b++) {
-		System.out.println("The Value of Indexes:\t" + data1[b]);//this will printout the value of all indexes.
+		//This is how to creat a single dimension Array of String:
+		String[] names = new String [5];
+		names[0] = "Ahmad";
+		names[1] = "Jamal";
+		names[2] = "Kabir";
+		names[3] = "Wali";
+		names[4] = "Sardar";
+		System.out.println("Number of Names: " + names.length);
+		for (int i = 0; i <= 4; i++) {
+			System.out.println("List of all Names: " + names[i]);
+		}
+		System.out.println("Printing the name of index 0: " + names[0]);
+		
+		
+		
+
 		
 			}
-		}
+		
 
 
 		

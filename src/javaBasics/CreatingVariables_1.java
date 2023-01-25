@@ -10,25 +10,27 @@ public class CreatingVariables_1 {
 	public static void main(String args[]) {
 
 		/*
-		 * Following is the basics sample of creating Variable: //Note: We have two
-		 * different types of Variables: //Primitive Data Types and Reference Data Types
+		 * Following is the basics sample of creating Variable: 
+         * Note: We have two different types of Variables: 
+         * Primitive Data Types and Reference Data Types:
 		 * We have 8-Primitive Data Types which are listed and explained below and
-		 * Reference Data Types would be any object that we create //Lets say that we
-		 * create String, String is a class, so every instance of String is Reference
-		 * Data Type //Lets say we define a class of Student and then we create an
-		 * object of it, so that would be a Reference Data Type. //In conclusion: We
-		 * have 8 Primitive Data Types and we have thousands & thousands of Reference
-		 * Data Types.
+		 * Reference Data Types would be any object that we create.
+		 * Lets say that we create String, String is a class, so every instance of String 
+		 * is Reference Data Type.
+		 * Lets say we define a class of Student and then we create an
+		 * object of it, so that would be a Reference Data Type. 
+		 * In conclusion: We have 8 Primitive Data Types and we have thousands & thousands 
+		 * of Reference Data Types.
 		 */
 		int x = 20;// <==This is the syntax, it is called Initialization process.
 
 		/*
 		 * Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is
-		 * Assignment Operator, and "20" is the Value. //we basically created Variable
-		 * and assigned the value "20" to it. //The portion "int x" of the syntax is
-		 * called Declaration, The portion "=" of the syntax is called Assignment
-		 * Operator; //The portion "20" of the syntax is called Initialization. x = 30;
-		 * <==This syntax is called the process of assignment.
+		 * Assignment Operator, and "20" is the Value. 
+		 * We basically created Variable and assigned the value "20" to it. 
+		 * The portion "int x" of the syntax is called Declaration, The portion "=" of the 
+		 * syntax is called Assignment Operator;  
+		 * The portion "20" of the syntax is called Initialization. x = 30; <-This syntax is called the process of assignment.
 		 */
 		// Note: After the first time of Variable declaration and initialization, and
 		// then changing the Variable Value here is called the process of Assignment.
@@ -101,8 +103,8 @@ public class CreatingVariables_1 {
 		 * you can create a String is going to be as follows:
 		 */
 		String text1 = new String("texting is fun");// Here in this syntax when you say "new String", this structure is
-													// basically used to
-		//initialized any Reference Data Type and this applicable to all of the Reference Data Types.
+													// basically used to initialized any Reference Data Type 
+		                                            // and this applied to all of the Reference Data Types.
 
 		/*
 		 * Note: In general when you want to create a Reference Data Type, you need to

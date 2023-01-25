@@ -1,4 +1,4 @@
-package javaBasics;
+package loopsExamples;
 
 public class WhileLoop {
 

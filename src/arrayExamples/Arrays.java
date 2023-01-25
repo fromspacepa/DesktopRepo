@@ -1,4 +1,4 @@
-package javaBasics;
+package arrayExamples;
 
 public class Arrays {
 

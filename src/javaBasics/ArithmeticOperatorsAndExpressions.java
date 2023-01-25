@@ -1,4 +1,4 @@
-package javaBasics;
+ package javaBasics;
 
 public class ArithmeticOperatorsAndExpressions {
 
@@ -95,7 +95,7 @@ public class ArithmeticOperatorsAndExpressions {
 		NOTE: Expression is a term that we use in Java, it is very basics of Java, but it is good to know all the terms (terminology).
 	    In the following example statements after = (Assignment Operator) is/are the Expression(s).
 	    When you have multiple arithmetic operators in your code it is called an expression. 
-	    DataType  Identifier  =    Expression           */
+	       DataType  Identifier  =    Expression           */
 		     int        sum      =     5 + 5;               
 		     double  difference  =    17.3 - 2.1;
 		     long      result    =    32238134435L / (42 - 875842 % 232);

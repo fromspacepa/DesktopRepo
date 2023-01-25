@@ -1,4 +1,4 @@
-package javaBasics;
+package selectionsExamples;
 
 public class ShortHand_if_else_Statment_OR_TernaryOperator {
 

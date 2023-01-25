@@ -1,4 +1,4 @@
-package javaBasics;
+package selectionsExamples;
 
 public class SwitchCases {
 

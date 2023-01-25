@@ -1,4 +1,4 @@
-package javaBasics;
+package selectionsExamples;
 
 public class Selections_If_IfElse_IfElseifElse {
 

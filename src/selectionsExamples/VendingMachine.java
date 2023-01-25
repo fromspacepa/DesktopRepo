@@ -1,11 +1,13 @@
 package selectionsExamples;
 
+import java.text.DecimalFormat;
+
 public class VendingMachine {
 
 	public static void main(String[] args) {
 		
 		/* This is an example of Vending Machine using the selection "if statements":
-		 * The scenario is that we have the following items in the vending machince
+		 * The scenario is that we have the following items in the vending machine
 		 * with different prices and the taxes also applied to each item.
 		 * So, the list of items follows as:
 		 * 
@@ -16,8 +18,10 @@ public class VendingMachine {
 		 * Coffee Regular    Price is $2.50
 		 * Coffee DeCafe     Price is $2.50
 		 * Water             Price is $1
-		 *
 		 * Tax Rate for any item is   %0.08 
+		 * 
+		 * And whatever the number of quantity is selected, all the prices would show up in the console
+		 * such as: item price, quantity, tax, and the total amount.
 		 */
 		
 		String strCoke = "Coke";
@@ -35,12 +39,61 @@ public class VendingMachine {
 		String strWater = "Water";
 		double waterPrice = 1;
 		double taxRate = 0.08;
+		double total = 0;
 		
 		String selectItem = "Coke";
-		
+		int quantity = 5;
+
 		switch (selectItem) {
 		case "Coke":
-			strCoke + cokePrice;
+			System.out.println("Coke Price:\t$" + cokePrice + "\nQuantity:\t" + quantity + "-Pcs" + "\nTax:\t\t$" + 
+		    cokePrice * quantity * taxRate  + "\nTotal:\t\t$" + (taxRate + cokePrice * quantity));
+			break;
+		case "Diet Coke":
+			System.out.println("Diet Coke:\t$" + dietCokePrice);
+			System.out.println("Quantity:\t" + quantity + "-Pcs");
+			taxRate = dietCokePrice * quantity * taxRate;
+			System.out.println("Tax:\t\t$" + taxRate);
+			System.out.println("Total:\t\t$" + (taxRate + dietCokePrice * quantity));
+			break;
+		case "RedBull Regular":
+			System.out.println("RedBull Regular:\t$" + redBullRegularPrice);
+			System.out.println("Quantity:\t\t" + quantity + "-Pcs");
+			taxRate = redBullRegularPrice * quantity * taxRate;
+			System.out.println("Tax:\t\t\t$" + taxRate);
+			System.out.println("Total:\t\t\t$" + (taxRate + redBullRegularPrice * quantity));
+			break;
+		case "RedBull SugarFree":
+			System.out.println("RedBull SugarFree:\t$" + redBullSugFreePrice);
+			System.out.println("Quantity:\t\t" + quantity + "-Pcs");
+			taxRate = redBullSugFreePrice * quantity * taxRate;
+			System.out.println("Tax:\t\t\t$" + taxRate);
+			System.out.println("Total:\t\t\t$" + (taxRate + redBullSugFreePrice * quantity));
+			break;
+		case "Coffee Regular":
+			System.out.println("Coffee Regular:\t$" + coffeeRPrice);
+			System.out.println("Quantity:\t" + quantity + "-Pcs");
+			taxRate = coffeeRPrice * quantity * taxRate;
+			System.out.println("Tax:\t\t$" + taxRate);
+			System.out.println("Total\t\t$" + (taxRate + coffeeRPrice * quantity));
+			break;
+		case "Coffee DeCafe":
+			System.out.println("Coffee DeCafe:\t$" + coffeeDPrice);
+			System.out.println("Quantity:\t" + quantity + "-Pcs");
+			taxRate = coffeeDPrice * quantity * taxRate;
+			System.out.println("Tax Rate:\t$" + taxRate);
+			System.out.println("Total:\t\t$" + (taxRate + coffeeDPrice * quantity));
+			break;
+		case "Water":
+			System.out.println("Water:\t\t$" + waterPrice);
+			System.out.println("Quantity:\t" + quantity + "-Pcs");
+			taxRate = waterPrice * quantity * taxRate;
+			System.out.println("Tax:\t\t$" + taxRate);
+			System.out.println("Total:\t\t$" + (taxRate + waterPrice * quantity));
+			break;
+			default:
+				System.out.println("Please try again! You either insert wrong code or not select any item.");
+		
 			
 		}
 		

@@ -1,6 +1,6 @@
 package selectionsExamples;
 
-public class SelectionStatement {
+public class IfStatementsExampleOfCarPrices {
 
 	public static void main(String[] args) {
 		

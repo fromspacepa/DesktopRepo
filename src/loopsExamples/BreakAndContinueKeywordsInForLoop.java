@@ -4,6 +4,8 @@ public class BreakAndContinueKeywordsInForLoop {
 
 	public static void main(String[] args) {
 
+		
+		//Examples of using the key word "break" & "continue" in the following for loop 
 		//Example of break key-word using with for-loop:
 		System.out.println("----Break keyword with for-loop----");
 		for (int i = 1; i <= 20; i++) {

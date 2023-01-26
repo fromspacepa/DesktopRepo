@@ -24,6 +24,7 @@ public class VendingMachine {
 		 * such as: item price, quantity, tax, and the total amount.
 		 */
 		
+		//Below here all the String & Integer Variables are declared and initialized for the following program:
 		String strCoke = "Coke";
 		double cokePrice = 2;
 		String strDietCoke = "Diet Coke";
@@ -41,38 +42,39 @@ public class VendingMachine {
 		double taxRate = 0.08;
 		double total = 0;
 		
+		//This String statement is for to import the decimal number format:
 		DecimalFormat numberFormat = new DecimalFormat ("#0.00");//Applying the Variable "numberFormat" to any number it will print out the last two decimal numbers.
 		
 		//In the example of this program coded for Vending Machine is coded with several samples of coding, you'll see everything in detail if you go through it:
 		
-		String selectItem = "Coffee DeCafe";
-		int quantity = 5;
+		String selectItem = "Water";//This is to declare and initialize the Variable for "switch case" key.
+		int quantity = 9;
 
-		switch (selectItem) {
-		case "Coke":
+		switch (selectItem) {//<--This is the Key for switch.
+		case "Coke"://Sample 1:
 			taxRate = cokePrice * quantity * taxRate;
 			System.out.println("Coke:\t\t$" + cokePrice + "\nQuantity:\t" + quantity + "-Pcs" + "\nTax:\t\t$" + 
 		    numberFormat.format(taxRate)  + "\nTotal:\t\t$" + (taxRate + cokePrice * quantity));
 			break;
-		case "Diet Coke":
+		case "Diet Coke"://Sample 2:
 			taxRate = dietCokePrice * quantity * taxRate;
 			total = taxRate + dietCokePrice * quantity;
 			System.out.println("Diet Coke:\t$" + dietCokePrice + "\nQuantity:\t" + quantity + "-Pcs" + 
 			"\nTax:\t\t$" + numberFormat.format(taxRate) + "\nTotal:\t\t$" + numberFormat.format(total));
 			break;
-		case "RedBull Regular":
+		case "RedBull Regular"://Sample 2:
 			taxRate = redBullRegularPrice * quantity * taxRate;
 			total = taxRate + redBullRegularPrice * quantity;
 			System.out.println("RedBull Regular:\t$" + redBullRegularPrice + "\nQuantity:\t\t" + quantity + "-Pcs" +
 			"\nTax:\t\t\t$" + numberFormat.format(taxRate) + "\nTotal:\t\t\t$" + numberFormat.format(total));
 			break;
-		case "RedBull SugarFree":
+		case "RedBull SugarFree"://Sample 2:
 			taxRate = redBullSugFreePrice * quantity * taxRate;
 			total = taxRate + redBullSugFreePrice * quantity;
 			System.out.println("RedBull SugarFree:\t$" + redBullSugFreePrice + "\nQuantity:\t\t" + quantity + "-Pcs" +
 			"\nTax:\t\t\t$" + numberFormat.format(taxRate) + "\nTotal:\t\t\t$" + numberFormat.format(total));
 			break;
-		case "Coffee Regular":
+		case "Coffee Regular"://Sample 3:
 			System.out.println("Coffee Regular:\t$" + numberFormat.format(coffeeRPrice));
 			System.out.println("Quantity:\t" + quantity + "-Pcs");
 			taxRate = coffeeRPrice * quantity * taxRate;
@@ -80,7 +82,7 @@ public class VendingMachine {
 			total = taxRate + coffeeRPrice * quantity;
 			System.out.println("Total\t\t$" + numberFormat.format(total));
 			break;
-		case "Coffee DeCafe":
+		case "Coffee DeCafe"://Sample 3:
 			System.out.println("Coffee DeCafe:\t$" + numberFormat.format(coffeeDPrice));
 			System.out.println("Quantity:\t" + quantity + "-Pcs");
 			taxRate = coffeeDPrice * quantity * taxRate;
@@ -88,11 +90,10 @@ public class VendingMachine {
 			total = taxRate + coffeeDPrice * quantity;
 			System.out.println("Total:\t\t$" + numberFormat.format(total));
 			break;
-		case "Water":
+		case "Water"://Sample 4:
 			System.out.println("Water:\t\t$" + waterPrice);
 			System.out.println("Quantity:\t" + quantity + "-Pcs");
-			taxRate = waterPrice * quantity * taxRate;
-			System.out.println("Tax:\t\t$" + taxRate);
+			System.out.println("Tax:\t\t$" + waterPrice * quantity * taxRate);
 			System.out.println("Total:\t\t$" + (taxRate + waterPrice * quantity));
 			break;
 			default:

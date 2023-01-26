@@ -66,14 +66,20 @@ public class RePractice {
 //		x += ++x;
 //		System.out.println(x);
 		
+		int[] nums = new int[5];
+		
+		for (int i = 0; i <= nums.length; i++) {
+			
+			System.out.println("length of arrays:" + i);
+		}
 		int x = 10;
 		int y = 15;
 		
 		boolean z = !( !(x > y) || x + y > 50 && true ^ !false);
 			System.out.println("The return result of \"z\"  is: " + z);
 			
-		{}
-	}}
+		}}
+
 //		}else{
 //			System.out.println("The return result is \"False\"");
 //		}}}
@@ -93,6 +99,9 @@ public class RePractice {
 //		}else {
 //			System.out.println("None.");
 //		}
+		
+
+
 		
 		
 		

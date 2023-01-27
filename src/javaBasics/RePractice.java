@@ -66,11 +66,15 @@ public class RePractice {
 //		x += ++x;
 //		System.out.println(x);
 		
-		int[] nums = new int[5];
-		
-		for (int i = 0; i <= nums.length; i++) {
+		{
+			String[] names = new String [3];
+			names[0] = "Ahmad";
+			names[1] = "Jamal";
+			names[2] = "Akbar";
 			
-			System.out.println("length of arrays:" + i);
+			for (String str: names) {
+				System.out.println(str);
+			}
 		}
 		int x = 10;
 		int y = 15;
@@ -79,6 +83,9 @@ public class RePractice {
 			System.out.println("The return result of \"z\"  is: " + z);
 			
 		}}
+
+
+	
 
 //		}else{
 //			System.out.println("The return result is \"False\"");

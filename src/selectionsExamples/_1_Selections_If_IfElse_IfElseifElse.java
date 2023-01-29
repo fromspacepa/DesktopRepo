@@ -59,35 +59,44 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		 * >>>> MORE DETAILS ABOUT "if/if, else/if, else if, else/ & Nested if blocks"
 		 * STATEMENTS:
 		 *
-		 * ____if (condition){ ------At most one of the blocks will be executed------ }
+		 * ____if (condition) { ------At most one of the blocks will be executed------ 
+		 * //code block.....
+		 * }
 		 *
-		 * ____if (condition){
+		 * ____if (condition) {
+		 * //code block.....
+		 * } else { ------Exactly one of the blocks will be execute------ 
+		 * //code block.....
+		 * }
 		 *
-		 * }else{ ------Exactly one of the blocks will be execute------ }
+		 * ____if (condition) {
+		 * //code block.....
+		 * } else if (condition) {
+		 * //code block.....
+		 * } else if (condition) { ------At most one of the blocks will be executed------ 
+		 * //code block.....
+		 * }
 		 *
-		 * ____if (condition){
-		 *
-		 * }else if{
-		 *
-		 * }else if{ ------At most one of the blocks will be executed------ }
-		 *
-		 * ____if (condition){
-		 *
-		 * {else if{
-		 *
-		 * }else if{
-		 *
-		 * }else{ ------Exactly one of the blocks will be execute------ }
+		 * ____if (condition) {
+		 * //code block.....      
+		 * } else if (condition) {
+		 * //code block.....
+		 * } else if{
+		 * //code block.....
+		 * } else { ------Exactly one of the blocks will be execute------ 
+		 * //code block.....
+		 * }
 		 *
 		 *
-		 * ____if (condition){
-		 *
-		 * } _______if (condition){
-		 *
-		 * } __________if (condition){
-		 *
-		 * } _____________if (condition){ ------At most 4 of the blocks will be executed
-		 * and minimum '0' zero------ }
+		 * ____if (condition) {
+		 * //code block.....
+		 * } _______if (condition) {
+		 * //code block.....
+		 * } __________if (condition) {
+		 * //code block.....
+		 * } _____________if (condition){ ------At most 4 of the blocks will be executed and minimum '0' zero------ 
+		 * //code block.....
+		 * }
 		 *
 		 *
 		 * >>>>> SELECTION EXAMPLES WITH TERNARY OR CONDITIONAL OPERATORS: Using Unary OR
@@ -109,15 +118,19 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 					// Process of Assigning value of '10' to 'x'.
 		int y = 15;// Here the Variable 'y' is declared & initialized with the Initialization
 					// Process of Assigning value of '15' to 'y'.
-		boolean z = x > y ? true : false;// Here the boolean will execute true OR false depending
-											// on the condition provided.
+		boolean z = x > y ? true : false;//Example of Ternary Operator using boolean.
+		// Here the boolean will execute true OR false depending  on the condition provided.
 		System.out.println(z);// This will print 'false' depending on the condition provided above^.
 
 		// Example of Selection with Unary Operator using 'String' the Non-primitive
 		// data type:
+		int nums = x > y ? 10 : 15;//Example of Ternary Operator using integer.
+		System.out.println("If true, the value of X is: " + nums);
+		char myChar = y > x ? 'A' : 'B';//Example of Ternary Operator using char.
+		System.out.println("The value of my char is: " + myChar);
 		String result = x > y ? "X is bigger" : "It's not!";// Here the String will execute "X is bigger" OR "It's not!"
 															// depending on the condition provided.
-		String value = x < y ? "Y is bigger" : "It's not!";
+		String value = x < y ? "Y is bigger" : "It's not!";//Example of Ternary Operator using String.
 		System.out.println(result);// This will print "It's not!" depending on the condition provided above^.
 		System.out.println(value);
 

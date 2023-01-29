@@ -1,5 +1,7 @@
 package selectionsExamples;
 
+import java.text.DecimalFormat;
+
 public class _3_SwitchCases {
 
 	public static void main(String[] args) {
@@ -122,21 +124,40 @@ public class _3_SwitchCases {
 				
 		}
 
-		//Example of Wending Machine:
+		//Example of Vending Machine:
 		
 		int price = 0;
 		String drink = "PepsiCola";
-		int quatity = 0;
+		int quantity = 5;
+		double taxRate = 0.08;
+		double total = 0;
 	
+		DecimalFormat myDecimal = new DecimalFormat ("#0.00");//This is to import the decimal format and apply it to the decimal value in your code.
 		switch (drink) {
 		case ("PepsiCola"):
-			if (price <= 3) {
-				System.out.println("You got a PepsiCola");
+			price = 3;
+		    taxRate = price * quantity * taxRate ;
+		    total = taxRate + price * quantity;
+		    System.out.println("You got a PepsiCola" + "\nThe price is:\t\t$" + price
+			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
+			"\nThe Total is:\t\t$" + myDecimal.format(total));
+				break;
+		case ("Coke"):
+			price = 3;
+	        taxRate = price * quantity * taxRate ;
+	        total = taxRate + price * quantity;
+			System.out.println("You got a PepsiCola" + "\nThe price is:\t\t$" + price
+			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
+			"\nThe Total is:\t\t$" + myDecimal.format(total));
+				break;
+				default:
+					System.out.println("Habibi Haya Haya");
+					
 			}
 		
 		}
-		
+
 		
 	}
 
-}
+

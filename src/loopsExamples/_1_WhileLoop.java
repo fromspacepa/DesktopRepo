@@ -11,11 +11,11 @@ public class _1_WhileLoop {
 		/*
 		 * NOTE:
 		 * When you get to Looping, you have couple of options which are:
-		 * while (loop)
-		 * do while (loop)
-		 * for (loop)
-		 * for each (loop)
-		 * iterators (loop)
+		 * while loop
+		 * do while loop
+		 * for loop
+		 * for each OR enhanced for loop
+		 * iterators loop
 		 * These above are all used to iterate/iterating or looping.
 		 * 
 		 * Basically, same as Selection (if/else/else if), depending on what you are trying to do is that makes sense

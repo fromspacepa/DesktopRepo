@@ -9,7 +9,7 @@ public class _1_SingleDimensionArray {
 		
 		/*
 		 * NOTE:
-		 * Arrays are made of contiguous block of memory.
+		 * --> Arrays are made of contiguous block of memory.
 		 * When you think of Arrays, following are the 3 three things that you must focus on:
 		 * 1) Fixed in size:
 		 * Arrays are fixed in size. You have to define what is the size of Array(s) that you want to create or work with.
@@ -18,6 +18,21 @@ public class _1_SingleDimensionArray {
 		 * 3) Dimensions in Array(s):
 		 * There are Dimensions to Array(s); Arrays could have Single-Dimension, They could have Two-Dimensions, 
 		 * Three-Dimensions, Four-Dimensions, and can go on......
+		 * 
+		 * --> Basically, the idea of Array(s) is that to define the data type that you want to store in the Array(s). 
+		 * And that type could be: integer, String, double, char or any data type.
+		 * 
+		 * --> In general working with Array(s), the biggest thing that is going to help you is understanding each component
+		 * of an Array, and the Variable of Array(s) that you declare and initialize. For instance, you want to create a single
+		 * dimension Array of integer, then you create the following Syntax or Statement and you should understand every 
+		 * component of it:
+		 * --> int[] nums = new int [5]; //This is the single dimension Array of integer;
+		 * "int[]" is the data type of single dimension Array of integer.
+		 * "nums" is the Variable/Identifier.
+		 * "int[] nums" (both data type and identifier) is the declaration.
+		 * "=" is the assignment operator.
+		 * "new" is the keyword and this creates new object.
+		 * "int [5];" is the initialization and it means that inside a single dimension Array of integer is assigned with 5 elements.
 		 * 
 		 * Note:
 		 * We can use Arrays to store multiple values in a single variable, instead of declaring variable multiple times.

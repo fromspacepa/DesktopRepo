@@ -5,68 +5,8 @@ public class PracticingOverAllJavaLessons {
 	public static void main(String[] args) {
 		
 		
-//		int x = 5;
-//		System.out.println("The value of X at 1st time: " + x);
-//		double y = 12.10;
-//		System.out.println("The value of 'y' at 1st time: " + y);
-//		y = x;
-//		System.out.println("The value of 'x' at casting type" + x);
-//		y = (double) x;
-//		System.out.println("The value of 'y' at casting type" + y);
-//		
-//		int num = 5;
-//		System.out.println(num);
-//		double num1 = num / 2;
-//		System.out.println(num1);
-//		
-//		int x = 5;
-//		
-//		x %= 3;
-//		x *= 5;
-//		System.out.println(x);
-//		x += 10;
-//		System.out.println(x);
-//		x /=5;
-//		System.out.println(x);
-//		x -= 4;
-//		System.out.println(x);
-//		x += 100;
-//		System.out.println(x);
-//		double x1 = 20;
-//		System.out.println(x1);
-//		int x2 = 10;
-//		System.out.println(x2);
-//		x1 /= x2;
-//		System.out.println(x2);
-//		int x = 11;
-//		int num = 11;
-//		System.out.println(num %= 4 );
-//		System.out.println(x % 5);
-//		x *= 5;
-//		x /= 2;
-//		x *= 10;
-//		//x %= 3;
-//		//x -= 2;
-//		x /= 2;
-//		System.out.println(x);
-//		int num3 = 21;
-//		num3 = num3++ + 10 - 2;
-//		System.out.println(num3);
-//		System.out.println(num3);
-//		num3 *= ++num3;
-//		System.out.println(num3);
-//		System.out.println(num3);
-//		int x = 10;
-//		++x;
-//		System.out.println(x++);
-//		System.out.println(x);
-//		x *= x++;
-//		System.out.println(x);
-//		x -= x;
-//		x += ++x;
-//		System.out.println(x);
+
 		
-		{
 			String[] names = new String [3];
 			names[0] = "Ahmad";
 			names[1] = "Jamal";
@@ -75,15 +15,43 @@ public class PracticingOverAllJavaLessons {
 			for (String str: names) {
 				System.out.println(str);
 			}
-		}
+			{
 		int x = 10;
 		int y = 15;
 		
 		boolean z = !( !(x > y) || x + y > 50 && true ^ !false);
-			System.out.println("The return result of \"z\"  is: " + z);
+			//System.out.println("The return result of \"z\"  is: " + z);
 			
-		}}
+			}
+			//Following is the example of 3-Dimension Arrays of Integer:
+			//
+		    int[][][] myNumbers = new int [2][5][2];
 
+		    myNumbers [0][0][0] = 5;
+		    myNumbers [0][0][1] = 10;
+		    myNumbers [0][1][0] = 15;
+		    myNumbers [0][1][1] = 20;
+		    myNumbers [0][2][0] = 25;
+		    myNumbers [0][2][1] = 30;
+		    myNumbers [0][3][0] = 35;
+		    myNumbers [0][3][1] = 40;
+		    myNumbers [0][4][0] = 45;
+		    myNumbers [0][4][1] = 50;
+		    myNumbers [1][0][0] = 55;
+		    myNumbers [1][0][1] = 60;
+		    myNumbers [1][1][0] = 65;
+		    myNumbers [1][1][1] = 70;
+		    myNumbers [1][2][0] = 75;
+		    myNumbers [1][2][1] = 80;
+		    myNumbers [1][3][0] = 85;
+		    myNumbers [1][3][1] = 90;
+		    myNumbers [1][4][0] = 95;
+		    myNumbers [1][4][1] = 100;
+		    //myNumbers [2][0][0] = 105;
+		    
+		      System.out.println(myNumbers[1][4][0]);
+{
+}}}
 
 	
 

@@ -9,6 +9,10 @@ public class _1_SingleDimensionArray {
 		
 		/*
 		 * NOTE:
+		 * 
+		 * --> The idea of Array is the data type that you want to store in Array(s)...
+		 * First you have to define the data type, whatever data type that you want to store in Array(s).
+		 * 
 		 * --> Arrays are made of contiguous block of memory.
 		 * When you think of Arrays, following are the 3 three things that you must focus on:
 		 * 1) Fixed in size:

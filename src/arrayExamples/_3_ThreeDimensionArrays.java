@@ -9,8 +9,9 @@ public class _3_ThreeDimensionArrays {
 		//More than One Dimension Array, such as Two, Three, Four Dimension Arrays are like 
 		//Arrays inside Arrays.
 		
-		int[][][] myNumbers = new int [2][5][2];
-
+		int[][][] myNumbers = new int [2][5][2];//Here the 3-Three Dimension Arrays of Integer 
+		                                        //is declared and initialized.
+		//Following here the value is assigned to all the Arrays:
 	    myNumbers [0][0][0] = 5;
 	    myNumbers [0][0][1] = 10;
 	    myNumbers [0][1][0] = 15;

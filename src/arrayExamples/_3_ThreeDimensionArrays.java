@@ -4,7 +4,11 @@ public class _3_ThreeDimensionArrays {
 
 	public static void main(String[] args) {
 
-
+		//Below is the example of 3-Three Dimension Arrays of Integer.
+		//The idea of Array is the data type that you want to store in Array(s).
+		//More than One Dimension Array, such as Two, Three, Four Dimension Arrays are like 
+		//Arrays inside Arrays.
+		
 		int[][][] myNumbers = new int [2][5][2];
 
 	    myNumbers [0][0][0] = 5;

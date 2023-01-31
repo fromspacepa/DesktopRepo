@@ -32,7 +32,7 @@ public class _3_ThreeDimensionArrays {
 	    myNumbers [1][3][1] = 90;
 	    myNumbers [1][4][0] = 95;
 	    myNumbers [1][4][1] = 100;
-	  //myNumbers [2][0][0] = 105;//If you remove the comment line from this could, you will not be able to print out 
+	    //myNumbers [2][0][0] = 105;//If you remove the comment line from this could, you will not be able to print out 
 	                              //or the code will not be executed, because this line of code is out of bound for 
 	                              //length 2 at 3-Dimension Array of Integer which is declared and initialized above.
 	    

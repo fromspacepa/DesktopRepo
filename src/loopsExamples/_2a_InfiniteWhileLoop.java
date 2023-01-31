@@ -14,10 +14,10 @@ public class _2a_InfiniteWhileLoop {
 			System.out.println("Hello!\t" + z);
 			z++;//If you remove this part from the loop/code body, this whole while loop will be executed as infinite loop.
 			    //and the result of infinite loop will be:
-			    //Hello! 0
-				//Hello! 0
-				//Hello! 0
-				//Hello! 0  ---> and the infinite loop goes on and on with no ending of printing "Hello! 0".
+			    //Hello! 20
+				//Hello! 20
+				//Hello! 20
+				//Hello! 20  ---> and the infinite loop goes on and on with no ending of printing "Hello! 0".
 		}
 		System.out.println("-------------");
 		//This Syntax of While-Loop is infinite loop:

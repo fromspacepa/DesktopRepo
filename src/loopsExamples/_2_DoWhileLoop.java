@@ -4,12 +4,14 @@ public class _2_DoWhileLoop {
 
 	public static void main(String[] args) {
 
-		System.out.println("Example of while loop:");
+		System.out.println("Example of while loop printing from 10 - 20:");
 		//Example of While loop just as a Reference:
 		int x = 10;//Here the Variable 'x' is declared, initialized, and assigned the value of 10 to it.
 		while (x > 0 && x <= 20) {//This is the condition.
-			System.out.println(x++);//This is the loop body.
-			}
+			System.out.println(x++);//This is to update the loop body.
+		}
+
+			
 		/*
 		 * Comparison between while and do while loop:
 		 * >>>The idea of "while" loop:
@@ -34,11 +36,12 @@ public class _2_DoWhileLoop {
 		 * but, even if the condition is false, the loop body will still be executed once, and then the Java will continue 
 		 * to rest of the program.
 		 */
+	
 		System.out.println("Example of 'do-while' loop with true condition:");
 		//In this "do-while" loop the looping will occur 6 times and after that the Java will continue to rest of the program.
 		int y = 5;//Here the Variable 'y' is declared, initialized and assigned the value of 5 to it.
 		do {
-			System.out.println(y++);//This is the loop body.
+			System.out.println(y++);//This is to update the loop body.
 		} while (y > 5 && y <= 10);//This is the condition.
 		
 		System.out.println("Example of 'do-while' loop with false condition:");
@@ -46,7 +49,7 @@ public class _2_DoWhileLoop {
 		//because the condition is false, but the loop body will still be executed once.
 		int y1 = 5;//Here the Variable 'y' is declared, initialized and assigned the value of 5 to it.
 		do {
-			System.out.println(y1--);//This is the loop body.
+			System.out.println(y1--);//This is to update the loop body.
 		} while (y1 > 5 && y <= 10);//This is the condition.
 		
 		

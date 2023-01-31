@@ -44,5 +44,16 @@ public class PracticingLooping {
 		do {
 			System.out.println(z2++);
 		}while (z2 <= 20 && z2 >= 10);
-	}
-}
+		{
+			System.out.println("\nWhile Loop Printing from 0 - 10:");
+	 	int a2 = 0;
+	 	while (a2 >= 0 && a2 <= 10) {
+	 		System.out.println(a2++);
+	 	}
+		System.out.println("\nDo While Loop Printing from 0 - 10:");
+	 	int a3 = 0;
+	 	do {
+	 		System.out.println(a3++);
+	 	}while (a3 <= 10);
+	 	}
+}}

@@ -27,7 +27,7 @@ public class PracticingLooping {
 		while (a1 >= 10) {
 			System.out.println(a1);
 			a1--;
-	}
+		}
 		{
 			System.out.println("\nFor Loop Printing from 20 - 10:");
 		for (int z = 20; z >= 10; z--) {
@@ -47,7 +47,7 @@ public class PracticingLooping {
 		{
 			System.out.println("\nWhile Loop Printing from 0 - 10:");
 	 	int a2 = 0;
-	 	while (a2 >= 0 && a2 <= 10) {
+	 	while (a2 <= 10) {
 	 		System.out.println(a2++);
 	 	}
 		System.out.println("\nDo While Loop Printing from 0 - 10:");

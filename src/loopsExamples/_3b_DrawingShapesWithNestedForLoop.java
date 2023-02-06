@@ -18,25 +18,25 @@ public class _3b_DrawingShapesWithNestedForLoop {
 			                     //because the condition becomes false.
 
 		}	
-		System.out.println("____________Square Parallel Bar Pattern__________\n");
+		System.out.println("_________Square Parallel Bar Pattern__________\n");
 		for (int a = 1; a <= 5; a++) {
 			for (int b = 1; b <= 5; b++) {
 				if (b == 1 || b == 5)
-				System.out.print("* ");
+				System.out.print("| ");
 				else 
-					System.out.print("   ");
+					System.out.print(" * ");
 		}
 			System.out.println();
 		
 	
 	}	
-	System.out.println("__________Square Plus Pattern__________\n");
+	System.out.println("_________Square Plus Pattern__________\n");
 	for (int a = 1; a <= 5; a++) {
 		for (int b = 1; b <= 5; b++) {
 			if (a == 5 /2+1 || b == 5 /2+1)
 			System.out.print("*  ");
 			else 
-				System.out.print("   ");
+				System.out.print(" - ");
 	}
 		System.out.println();
 		}
@@ -45,7 +45,7 @@ public class _3b_DrawingShapesWithNestedForLoop {
 	for (int a = 1; a <= 5; a++) {
 		for (int b = 1; b <= 5; b++) {
 			if (a == b || a + b == 5 + 1)
-			System.out.print("*  ");
+			System.out.print("x  ");
 			else 
 				System.out.print("   ");
 	}
@@ -67,7 +67,7 @@ public class _3b_DrawingShapesWithNestedForLoop {
 	for (int a = 1; a <= 5; a++) {
 		for (int b = 1; b <= 5; b++) {
 			if (a == 5 || b == 1 || a == b )
-			System.out.print("*  ");
+			System.out.print("* ");
 			else 
 				System.out.print("   ");
 	}

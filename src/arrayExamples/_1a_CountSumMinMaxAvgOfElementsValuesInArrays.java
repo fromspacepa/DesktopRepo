@@ -14,7 +14,7 @@ public class _1a_CountSumMinMaxAvgOfElementsValuesInArrays {
 		int min = numbers[0];
 		int max = numbers[0];
 		double avg = 0;
-		DecimalFormat numberFormat = new DecimalFormat ("#0.00");
+		DecimalFormat numberFormat = new DecimalFormat ("#0.00");//This is going to print-out the decimal of 2-digit numbers.
 		
 			
 		for (int i = 0; i < numbers.length; i++) {

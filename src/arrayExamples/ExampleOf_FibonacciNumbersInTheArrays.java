@@ -6,7 +6,7 @@ public class ExampleOf_FibonacciNumbersInTheArrays {
 		
 		//Example of an Interview Question about printing out the Fibonacci Numbers:
 		
-		int [] fibnums = new int [10];
+		int [] fibnums = new int [20];
 		fibnums [0] = 0;
 		fibnums [1] = 1;
 		

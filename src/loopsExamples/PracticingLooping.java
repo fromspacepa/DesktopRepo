@@ -56,4 +56,13 @@ public class PracticingLooping {
 	 		System.out.println(a3++);
 	 	}while (a3 <= 10);
 	 	}
+		System.out.println("\nfor each loop Printing all the values of elements in Array:");
+		int [] nums = new int [3];
+		nums [0] = 10;
+		nums [1] = 20;
+		nums [2] = 30;
+		for(int values: nums) {
+			System.out.println(values);
+			
+		}
 }}

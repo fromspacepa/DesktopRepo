@@ -54,7 +54,21 @@ public class PracticingLooping {
 	 	int a3 = 0;
 	 	do {
 	 		System.out.println(a3++);
+<<<<<<< HEAD
 	 	}while (a3 <= 10); // OR the following, both will work the same:
 		}//while (a3 <= 10 && a3 >= 0);
 	 	
+=======
+	 	}while (a3 <= 10);
+	 	}
+		System.out.println("\nfor each loop Printing all the values of elements in Array:");
+		int [] nums = new int [3];
+		nums [0] = 10;
+		nums [1] = 20;
+		nums [2] = 30;
+		for(int values: nums) {
+			System.out.println(values);
+			
+		}
+>>>>>>> fa505a5314322d07ebc851b03af0583e35e51774
 }}

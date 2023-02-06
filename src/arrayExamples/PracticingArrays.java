@@ -51,7 +51,7 @@ public class PracticingArrays {
 			}
 			System.out.println();//This code will make every iteration go to the next line.
 			
-		}System.out.println("\nThis is to print-out the value of row 7-seven and col 3-three:\t" + data[6][2]);
+		}System.out.println(data[6][2]);//This is to print-out the value of row 7-seven and col 3-three
 		
 		
 		

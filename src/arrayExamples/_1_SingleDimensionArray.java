@@ -75,11 +75,16 @@ public class _1_SingleDimensionArray {
 		names[2] = "Kabir";
 		names[3] = "Wali";
 		names[4] = "Sardar";
-		System.out.println("Number of Names and Elements: " + names.length);
-		for (int i = 0; i <= 4; i++) {
-			System.out.println("List of all Names: " + names[i]);
+		System.out.println("Number of Names and Elements: " + names.length + "\n");
+		System.out.println("for loop example of looping through all elements in Array:");
+		for (int nameList = 0; nameList <= 4; nameList++) {
+			 
+			System.out.println(names[nameList]);
 		}
-		System.out.println("Printing the name of index 0: " + names[0]);
+		System.out.println("\nfor-each loop example of looping through all Elements in Array:");
+		for (String str: names) {
+			System.out.println(str);
+		}
 		
 		
 		
@@ -94,7 +99,7 @@ public class _1_SingleDimensionArray {
 		
 		
 
-
+	
 		
 
 	

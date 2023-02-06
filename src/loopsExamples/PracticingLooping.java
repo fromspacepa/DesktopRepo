@@ -54,6 +54,7 @@ public class PracticingLooping {
 	 	int a3 = 0;
 	 	do {
 	 		System.out.println(a3++);
-	 	}while (a3 <= 10);
-	 	}
+	 	}while (a3 <= 10); // OR the following, both will work the same:
+		}//while (a3 <= 10 && a3 >= 0);
+	 	
 }}

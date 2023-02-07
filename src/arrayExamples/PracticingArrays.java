@@ -14,7 +14,7 @@ public class PracticingArrays {
 		 */
 		//}
 	//{
-		System.out.println("Printing a square data table of 2-Dimension Arrays of Integer:");
+
 		int [][] data = new int [7][4];
 		data [0][0] = 1;
 		data [0][1] = 2;
@@ -45,23 +45,37 @@ public class PracticingArrays {
 		data [6][2] = 27;
 		data [6][3] = 28;
 		
+		System.out.println("Print-out of values assigned manually into the 2-Dimension Arrays of Integer:\n");
 		for (int row = 0; row < data.length; row++){//This is to go through (print-out) the outer loop, printing the rows.
 			for (int col = 0; col < data[row].length; col++) {//This is to go through (print-out) the inner loop, printing all cells.
 				System.out.print(data[row][col]+ "\t");
 			}
 			System.out.println();//This code will make every iteration go to the next line.
+		}
 			
-		}System.out.println(data[6][2]);//This is to print-out the value of row 7-seven and col 3-three
+		//Following is the example of automatically assigning values into the 2-Dimension Arrays of Integer.
+		//Both below and above examples are the same, but different methods.
+		System.out.println("\nPrint-out of values assigned by the help of 'for loop' into the 2-Dimension Arrays of Integer:\n");
+		int [][] myNums = new int [7][4];//Creating 2-Dimension Arrays of Integer
+		int values = 0;//Declaration and Initialization of Variable.
+		
+		for (int i = 0; i < myNums.length; i++){//This will go through outer loop.
+			for (int j = 0; j < myNums[i].length; j++){//This will go through inner loop.
+				myNums[i][j] = values++;
+				System.out.print(values + "\t");
+			}
+			System.out.println();//This will make every loop/iteration got to the next line.
+
+				
+			
 		
 		
 		
 		
+		}
 		
-		
-		
-		
-		{}		
-}
+		}		
+
 		
 } 
 

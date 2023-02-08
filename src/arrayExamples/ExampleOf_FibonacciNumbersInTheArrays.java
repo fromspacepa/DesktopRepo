@@ -14,13 +14,15 @@ public class ExampleOf_FibonacciNumbersInTheArrays {
 			fibnums [i] = fibnums[i-1] + fibnums[i-2];
 			System.out.println(fibnums[i]);//This is going to printout 1, 2, 3, 5, 8, 13, 21, 34.
 		} 
-		
+		System.out.println("\n");
+		int value = 0;
 		int [][] nums = new int [7][4];
-		for(int i = 1; i < nums.length; i++) {
-			for (int j = 1; j < nums.length; j++) {
-				j = i;
-				System.out.println(nums.);
+		for(int outerLoop = 0; outerLoop < nums.length; outerLoop++) {
+			for (int innerLoop = 0; innerLoop < nums[outerLoop].length; innerLoop++) {
+				nums[outerLoop][innerLoop] = value++;
+				System.out.print(value + "\t");
 			}
+			System.out.println("\n");
 		}
 		
 

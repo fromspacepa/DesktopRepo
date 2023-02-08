@@ -55,9 +55,9 @@ public class PracticingArrays {
 			
 		//Following is the example of automatically assigning values into the 2-Dimension Arrays of Integer.
 		//Both below and above examples are the same, but different methods.
-		System.out.println("\nPrint-out of values assigned by the help of 'for loop' into the 2-Dimension Arrays of Integer:\n");
-		int [][] myNums = new int [7][4];//Creating 2-Dimension Arrays of Integer
-		int values = 0;//Declaration and Initialization of Variable.
+		System.out.println("\nPrint-out of values (9 - 50) assigned by the help of \n'for loop' into the 2-Dimension Arrays of Integer:\n");
+		int [][] myNums = new int [7][6];//Creating 2-Dimension Arrays of Integer
+		int values = 8;//Declaration and Initialization of Variable.
 		
 		for (int i = 0; i < myNums.length; i++){//This will go through outer loop.
 			for (int j = 0; j < myNums[i].length; j++){//This will go through inner loop.

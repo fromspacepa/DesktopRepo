@@ -17,7 +17,7 @@ public class _3_SwitchCases {
 		 * is called Condition (Ternary) Operator, which is also known as a short-hand
 		 * if statement, then "If statements" and "switch cases" are the alternative
 		 * selection forms. __Technically "If statements" and "switch cases" have the
-		 * same idea of "Conditional (Ternary) Operator", but it is "If statements" and
+		 * same idea of "Conditional (Ternary) Operator", but "If statements" and
 		 * "switch cases" has different Syntaxes, kind of sugar coded Syntax, you will
 		 * use "If statements" and " switch cases" in different cases.
 		 * 
@@ -52,7 +52,7 @@ public class _3_SwitchCases {
 		 */
 
 		String type = "Yo Yo";
-		double amount = 501;
+		double amount = 300;
 
 		switch (type) {
 		case "Checking":
@@ -64,10 +64,11 @@ public class _3_SwitchCases {
 		case "Credit":
 			default:
 			System.out.println("Habibi Haya Haya");
+			System.out.println("\n");
 			
 			//Example of "Fall Through"
 			//Fall Through is when there is no "break" key word in the switch statements and all the cases get executed:
-		String greatings = "Hello";
+		String greatings = "John";
 		switch (greatings){
 		case "Hello":
 			System.out.println("good morning");
@@ -77,12 +78,12 @@ public class _3_SwitchCases {
 			System.out.println("Mike is also here");
 			
 		}
-			// System.out.println(amount < 1000 || amount > 500 ? "Transaction Okay on
-			// Credit" : "Confirmation message sent!");
-			// System.out.println(amount < 1000 && amount > 500 ? "Transaction Okay on
-			// Credit" : "Confirmation message sent!");
-			// System.out.println(amount < 1000 ^ amount > 500 ? "Transaction Okay on
-			// Credit" : "Confirmation message sent!");
+			//System.out.println(amount < 1000 || amount > 500 ? "Transaction Okay on
+			//Credit" : "Confirmation message sent!");
+			//System.out.println(amount < 1000 && amount > 500 ? "Transaction Okay on
+			//Credit" : "Confirmation message sent!");
+			//System.out.println(amount < 1000 ^ amount > 500 ? "Transaction Okay on
+			//Credit" : "Confirmation message sent!");
 
 			if (amount < 1000) {
 				System.out.println("Transaction Okay on Credit!");

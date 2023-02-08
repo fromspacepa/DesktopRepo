@@ -9,7 +9,7 @@ public class _3b_DrawingShapesWithNestedForLoop {
 			for (int y = 1; y <= 5; y++) {//This is called "InnerLoop". Then we enter or start with InnerLoop and this holds the Column numbers,
 				                                      // which starts with 1 and runs till 5, printing all the Columns.
 				                                      // Once InnerLoop is finished, 
-			System.out.print("*" + " ");
+			System.out.print("* ");
 		}
 			System.out.println();//it executes this "Println" statement to go to the next Row. Where then the Loop control goes back to the OuterLoop,
 			                     //then OuterLoop increments by 1. Again the Loop control goes to the InnerLoop, and the InnerLoop prints all 5 columns

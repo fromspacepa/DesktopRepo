@@ -35,8 +35,15 @@ public class _3_ThreeDimensionArrays {
 	    //myNumbers [2][0][0] = 105;//If you remove the comment line from this could, you will not be able to print out 
 	                              //or the code will not be executed, because this line of code is out of bound for 
 	                              //length 2 at 3-Dimension Array of Integer which is declared and initialized above.
-	    
-	      System.out.println(myNumbers[1][4][0]);
+
+	    for (int i = 0; i < 2; i++) {
+	    	for (int j = 0; j < 5; j++) {
+	    		for (int i1 = 0; i1 < 2; i1++) {
+	    			System.out.print(myNumbers[i][j][i1] + "\t");
+	    		}
+	    		System.out.println();
+	    	}
+	    }
 
 	}
 

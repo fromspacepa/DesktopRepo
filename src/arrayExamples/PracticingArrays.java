@@ -15,6 +15,8 @@ public class PracticingArrays {
 		//}
 	//{
 
+		
+		System.out.println("Print-out of values assigned manually into the 2-Dimension Arrays of Integer:\n");
 		int [][] data = new int [7][4];
 		data [0][0] = 1;
 		data [0][1] = 2;
@@ -44,8 +46,7 @@ public class PracticingArrays {
 		data [6][1] = 26;
 		data [6][2] = 27;
 		data [6][3] = 28;
-		
-		System.out.println("Print-out of values assigned manually into the 2-Dimension Arrays of Integer:\n");
+
 		for (int row = 0; row < data.length; row++){//This is to go through (print-out) the outer loop, printing the rows.
 			for (int col = 0; col < data[row].length; col++) {//This is to go through (print-out) the inner loop, printing all cells.
 				System.out.print(data[row][col]+ "\t");

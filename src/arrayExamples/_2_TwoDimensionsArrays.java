@@ -5,11 +5,12 @@ public class _2_TwoDimensionsArrays {
 	public static void main(String[] args) {
 
 
+		System.out.println("Print-out of data stored in 2-Dimension Arrays of Integer:");
 		int[][] nums = new int [7][4];
 		nums [0][0] = 1; 
 		nums [0][1] = 2; 
 		nums [0][2] = 3; 
-		nums [1][3] = 4; 
+		nums [0][3] = 4; 
 		nums [1][0] = 5; 
 		nums [1][1] = 6; 
 		nums [1][2] = 7; 
@@ -34,9 +35,25 @@ public class _2_TwoDimensionsArrays {
 		nums [6][1] = 26; 
 		nums [6][2] = 27; 
 		nums [6][3] = 28; 
-		System.out.println(nums.length);
 		
+		for (int i = 0; i < 7; i++) {
+			for (int j = 0; j < 4; j++) {
+			System.out.print(nums[i][j] + "\t");
+		}
+			System.out.println();
 
+		}		
+
+	//Example of "Nested for loop" assigning values to the 2-Dimension Arrays of Integer.
+	System.out.println("\nPrint-out of the data stored in 2-Dimension Arrays of Integer, \nusing 'for loop':");
+		
+		int value = 0;
+	for (int i = 0; i < nums.length; i++) {
+		for (int j = 0; j <nums[i].length; j++) {
+			nums[i][j] = value++;
+			System.out.print(value + "\t");
+		}
+		System.out.println(" ");
 	}
 
-}
+}}

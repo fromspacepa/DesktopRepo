@@ -14,7 +14,7 @@ public class _4_FourDimensionArrays {
 		int myNum = 0;
 		int[][][][] values = new int[6][2][2][2];
 
-		for (int out1 = 0; out1 < 6; out1++) {
+		for (int out1 = 0; out1 < values.length; out1++) {
 			for (int out2 = 0; out2 < values[out1].length; out2++) {
 				for (int out3 = 0; out3 < values[out1][out2].length; out3++) {
 					for (int innerLoop = 0; innerLoop < values[out1][out2][out3].length; innerLoop++) {

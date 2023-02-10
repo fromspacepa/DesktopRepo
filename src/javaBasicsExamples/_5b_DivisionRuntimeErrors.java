@@ -1,4 +1,4 @@
-package javaBasics;
+package javaBasicsExamples;
 
 public class _5b_DivisionRuntimeErrors {
 

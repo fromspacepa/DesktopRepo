@@ -1,5 +1,5 @@
 
-package javaBasics;
+package javaBasicsExamples;
 
 		//Following is the Class and name of the class is: "CreatingVariables_1".
 		//Note: When creating class in Java/Eclipse, the class name always starts with upper case and then CamleCase if it's a combination of two or more than two names.

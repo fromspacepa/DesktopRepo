@@ -1,4 +1,4 @@
-package arrayList;
+package arrayListExamples;
 
 public class PracticingArrayLists {
 

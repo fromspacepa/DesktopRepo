@@ -25,7 +25,7 @@ public class _2__ArrayList {
 	 * is, the way they are implemented, they are using a concept called Generics; in Generics you can only
 	 * pass a Reference data types, you cannot pass Primitive data types.
 	 * 
-	 * 
+	 *                                                                                    
 	 */
 
 }

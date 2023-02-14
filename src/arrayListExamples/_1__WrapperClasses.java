@@ -1,6 +1,6 @@
 package arrayListExamples;
 
-public class _2__WrapperClasses {
+public class _1__WrapperClasses {
 
 	public static void main(String[] args) {
 		

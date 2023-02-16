@@ -34,7 +34,7 @@ public class _2__ArrayList {
 	/*
 	 * Understanding of all components of the above ArrayList Syntax:
 	 * __"ArrayList<String>" is the Data-Type (String Data type).
-	 * __"names" is the Attribute/Variable/Identifier/Name.
+	 * __"names" is the Identifier/Name of ArrayList.
 	 * __"=" is the Assignment Operator.
 	 * __"new" is the Keyword which creates new Object.
 	 * __"new ArrayList<String>();" all together is the Initialization part, The Initialization part is used to reserve the memory/space in database.
@@ -75,9 +75,9 @@ public class _2__ArrayList {
 	 * And the way that you are referring to indexes in ArrayList is that, it is different than Arrays. 
 	 * We don't use the brackets, we are going to call methods/functions. 
 	 * For example if you want:
-	 * __To Add data to ArrayList, we use method: add()
-	 * __To Get the length/size of indexes in the ArrayList, we use method: size()
-	 * __To Get the value/data of an index from ArrayList, we use method: get()
+	 * --> Method: "add()" is used to add data into the ArrayList.
+	 * --> Method: "size()" is used to get the length/size of indexes in the ArrayList.
+	 * --> Method: "get()" is used to get the value/data of an index from the ArrayList.
 	 * 
 	 * >>> Example of Adding data into the ArrayList:
 	 */
@@ -95,6 +95,8 @@ public class _2__ArrayList {
 		for(int i = 0; i < numbers.size(); i++) {
 			System.out.println(numbers.get(i));
 		}
+		
+
 	
 
 	

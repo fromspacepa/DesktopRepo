@@ -38,6 +38,7 @@ public class _1__WrapperClasses {
 			  * >>> In general when you are calling a function, it is like using a function, so when you are calling a function,
 			  * it calls on that Variable, such as follows: 
 			  */
+		      int value = 20;//Here the "int" is just a Primitive Data type.
 			  Integer x = 20;//Here the "Integer" is a Class, the "x" is Variable, and the "20" is Value.
 			                 //Basically it is the Syntax of Wrapper Class of Primitive Data type "int" after wrapped into Wrapper Class
 			                 //and "x" is the variable/Identifier, and the Value of "20" is assigned to the Variable "x".
@@ -46,7 +47,6 @@ public class _1__WrapperClasses {
 			                        //able to do something. Basically, the Wrapper Classes comes with these functions/methods to be used
 			                        //for different purposes. Try it yourself by removing the comment line "forward slashes" before print-line above.
 			 //Here following are some more examples: Concatenation 
-			 
 			 Integer y = 30;
 			 String z = "5";
 			 System.out.println("This is Addition of Integers with a Concatenation of a String:");
@@ -55,6 +55,9 @@ public class _1__WrapperClasses {
 			 System.out.println(+ x + y + Integer.valueOf(z));//This is an Addition of Integers and a String after getting the value of a String.
 			 System.out.println("Per the prcedence of Java, here is the print-out of Concatenation of a String 'z' and Integers 'x' & 'y':");
 			 System.out.println("z="+z +", x="+ x +", & y="+ y);//This is Concatenation of a String and Integers.
+			 System.out.println(z + x + y);
+			//This is Concatenation of a String with the Addition of Integers in the Parenthesis
+			 System.out.println(z + (x + y));//This is going to print: 550. "5" is the String Value and "50" is the Addition of integers inside Parenthesis.
 		
 
 	}

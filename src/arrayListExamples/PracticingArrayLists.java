@@ -23,14 +23,21 @@ public class PracticingArrayLists {
 		states.add("VA");
 		states.add("CA");
 		states.add("TX");
-			for(int i = 0; i < states.size(); i++) {
+			for(int i = 0; i < states.size(); i++) {//This "for-loop" will print-out all the indexes from start to end.
 				System.out.println(states.get(i));
 			}
 			System.out.println("---------");
 	
-			for(int j = states.size()-1; j >= 0; j--) {
-				System.out.println(states.get(j));
+			for(int i = states.size()-1; i >= 0; i--) {//This "for-loop" will print-out the indexes from end to start.
+				System.out.println(states.get(i));
 			}
+			System.out.println("---------");
+			for (String i: states) {//This "for-each loop" will print-out the entire 
+				System.out.println(i);
+			}
+			System.out.println("---------");
+			System.out.println(states);//This is to print-out the names of the states without a loop.
+			
 			}
 		
 

@@ -43,6 +43,8 @@ public class ClassStudent {
 	
 	public ClassStudent () {//This syntax is the Method.
 		//This is the body of Method body.
+		name = " ";
+		age = 0;
 	}
 	
 	public ClassStudent(String newName, int newAge) {

@@ -1,7 +1,7 @@
  package classAndObjectExamples;
 
 public class ClassStudent {
-	
+		
 	 /*
 	  * >>>>> CLASS:
 	  * Q: What is a Class? A: Class is a BluePrint OR a Template.
@@ -50,8 +50,9 @@ public class ClassStudent {
 	public ClassStudent(String newName, int newAge) {
 		name = newName;
 		age = newAge;
-	}
 	
+	}
+	 
 	
 
 }

@@ -33,15 +33,15 @@ public class _1__WrapperClasses {
 			   char ---------------------->>>>> Charater                  
 			  *
 			  * __ Question: What are the members of a Class?
-			  * __ Answer: Members of a Class are Attributes/Variables and Methods which are functions.
+			  * __ Answer: Members of a Class are Attributes/Variables and Methods/functions.
 			  *
 			  * >>> In general when you are calling a function, it is like using a function, so when you are calling a function,
 			  * it calls on that Variable, such as follows: 
 			  */
 		      int value = 20;//Here the "int" is just a Primitive Data type.
-			  Integer x = 20;//Here the "Integer" is a Class, the "x" is Variable, and the "20" is Value.
+			  Integer x = 20;//Here the "Integer" is a Class(WrapperClass), the "x" is Variable, and the "20" is Value.
 			                 //Basically it is the Syntax of Wrapper Class of Primitive Data type "int" after wrapped into Wrapper Class
-			                 //and "x" is the variable/Identifier, and the Value of "20" is assigned to the Variable "x".
+			                 //and "x" is the V ariable/Identifier, and the Value of "20" is assigned to the Variable "x".
 			                 //So, when you call on a Variable "x" such as follows:
 			 //System.out.println(x.);//When you put a dot "." after Variable "x" it will give you so many functions, each function will be
 			                        //able to do something. Basically, the Wrapper Classes comes with these functions/methods to be used
@@ -56,9 +56,9 @@ public class _1__WrapperClasses {
 			 System.out.println("Per the prcedence of Java, here is the print-out of Concatenation of a String 'z' and Integers 'x' & 'y':");
 			 System.out.println("z="+z +", x="+ x +", & y="+ y);//This is Concatenation of a String and Integers.
 			 System.out.println(z + x + y);
-			//This is Concatenation of a String with the Addition of Integers in the Parenthesis
+			 //This is Concatenation of a String with the Addition of Integers in the Parenthesis
 			 System.out.println(z + (x + y));//This is going to print: 550. "5" is the String Value and "50" is the Addition of integers inside Parenthesis.
-		
+			
 
 	}
 

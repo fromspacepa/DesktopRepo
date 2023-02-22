@@ -34,11 +34,11 @@ public class _2__ArrayList {
 	/*
 	 * Understanding of all components of the above ArrayList Syntax:
 	 * __"ArrayList<String>" is the Data-Type (String Data type).
-	 * __"names" is the Identifier/Name of ArrayList.
+	 * __"nameList" is the Identifier/Name of ArrayList.
 	 * __"=" is the Assignment Operator.
 	 * __"new" is the Keyword which creates new Object.
-	 * __"new ArrayList<String>();" all together is the Initialization part, The Initialization part is used to reserve the memory/space in database.
-	 * __"ArrayList<String> names" all together is the Declaration part, The Declaration part is used to only reserve the Identifier/Name.
+	 * __"new ArrayList<String>();" all together is the Initialization part, The Initialization part is going to reserve the memory/space in database.
+	 * __"ArrayList<String> nameList" all together is the Declaration part, The Declaration part is only going to reserve the Identifier/Name.
 	 *
 	 * >>> ArrayList is collection or class that is developed, as you can develop a class too:
 	 * When you get to the collection frame work in Java, you cannot use Primitive Data Types in ArrayList.
@@ -53,10 +53,9 @@ public class _2__ArrayList {
 	 * __ Question: what if we need a list of numbers or what if we need a list of double value,
 	 * char value, booleans or what we would do if we need a list of any Primitives Data types?
 	 * __ Answer: For that Java has these Classes called "Wrapper Classes" for all Primitives:
-	 * (byte, short, int, long,  float, double, boolean, and char) Java has Wrapper Class, means
-	 * that for each Primitive Data type Java has a Wrapper Class.
+	 * (byte, short, int, long,  float, double, boolean, and char) Java has Wrapper Classes.
 	 * __ The term Wrapper is like wrapping a gift box or wrapping something in a paper.
-	 * __ Basically, the Wrapper classes is wrapping Primitive Data Types into a Class structure,
+	 * __ Basically, the Wrapper Classe(s) is wrapping Primitive Data Types into a Class structure,
 	 * the Wrapper Class will store the Primitives Data type(s) in a Class in an instance of a Class.
 	 * 
 	 * >>> NOTE: Alone with Primitive Data types you don't get any functions, but with a Class you get a bunch of 
@@ -66,13 +65,13 @@ public class _2__ArrayList {
 	 * all Primitives into Wrapper Class, the naming of the Primitives will be starting with Upper-case letter 
      *
 	 * >>>>> For more about "WRAPPER CLASSES" Please visit the Wrapper Class named as: 
-	 * "_1__WrapperClasses" in the same package: arrayExamples.
+	 * "_1__WrapperClasses" in the same package: arrayListExamples.
 	 * 
 	 * 
 	 * >>>>> ArrayList & Arrays:
 	 * __ As we mentioned above ^: "The difference between ArrayList & Arrays is that Arrays is fixed in size, but
 	 * ArrayList is not fixed in size, ArrayList is Dynamic in size, you don't have to define a size for ArrayList.
-	 * And the way that you are referring to indexes in ArrayList is that, it is different than Arrays. 
+	 * And the way that you are referring to indexes in ArrayList is different than Arrays. 
 	 * We don't use the brackets, we are going to call methods/functions. 
 	 * For example if you want:
 	 * --> Method: "add()" is used to add data into the ArrayList.

@@ -61,20 +61,31 @@ public class ClassStudent {
 	  * 
 	  * public ClassStudent (){
 	  * 
+	  *     //This is the body of Constructor Method. 
 	  *  
-	  *  } Here "public" is the Access Modifier, "ClassStudent" is the class name, and "(Argument)" here between both Parenthesis 
-	  * is called Argument which is the inputs to the method. 
+	  *  } 
+	  * 
+	  * __NOTE: Here ^ "public" is the Access Modifier, "ClassStudent" is the name of a Class, and "(Argument)" < here between both Parenthesis 
+	  * is called Argument which is the inputs to the method. Then you have open bracket "{" and then you have close bracket "}" so, the section
+	  * between open and close bracket "{  }" is called the body of method (Constructor Method).
+	  * 
+	  * __NOTE: If someone wants to make/create an Object of this above example class which has an empty method, and call this empty method,
+	  * it will basically means that they are not going to have any input because the argument is empty. 
+	  * So, in this case we have to initialize out Variables without assigning any value to it because it is an empty Object they are trying to 
+	  * create, same as like creating an empty form; they don't add any values, so that is an empty Object/Form. So, if that is the case
+	  * then we create an empty Variable inside the Method body.  
 	  * 
 	  * 
 	  * 
 	  * 
 	  * */
 		
+	// When you are creating a Class, you will need to 
 	
 	String name;//This is to create a String Variable.
 	int age;//This is to create an integer Variable.
 	
-	public ClassStudent () {//This syntax is the Method.
+	public ClassStudent () {//This syntax of a default constructor.
 		//This is the body of Method body.
 		name = " ";
 		age = 0;

@@ -44,7 +44,7 @@ public class _1_SingleDimensionArray {
 		 */
 		int [] y = {1,2,3,4,5};//This is an example of Hard-Coding. It is not a preferred way to use in coding.
 	
-		int [] data = new int [5];//This is to create the Arrays that has the length of 5 index.
+		int [] data = new int [5];//This is to create the Single Arrays of Integer that has the length of 5 index.
 		data [0] = 20;
 		data [1] = 25;
 		data [2] = 30;
@@ -56,14 +56,15 @@ public class _1_SingleDimensionArray {
 		System.out.println("--------Single dimension--------\n--integer Arrays with 5 elements--");//the printout is going to be 5.
 		System.out.println("Numbers of Elements:\t\t" + data.length);
 
-		//This is how to print the value of index 0:
+		//This is how to print-out the value of every single index 0, 1, 2, 3, 4:
 		System.out.println("Value of index '0':\t\t" + data[0]);
 		System.out.println("Value of index '1':\t\t" + data[1]);
 		System.out.println("Value of index '2':\t\t" + data[2]);
 		System.out.println("Value of index '3':\t\t" + data[3]);
 		System.out.println("Value of index '4':\t\t" + data[4]);
+		
+		//This is how to loop through the above Single Array of Integer and printout the value of all indexes by using for-loop:
 		System.out.println("\n---Value of indexes from 0 to 4 by order:");
-		//This is how to printout the value of all indexes:
 		for (int i = 0; i < 5; i++ ) {
 			System.out.println(data[i]);
 		}
@@ -75,13 +76,13 @@ public class _1_SingleDimensionArray {
 		names[2] = "Kabir";
 		names[3] = "Wali";
 		names[4] = "Sardar";
-		System.out.println("Number of Names and Elements: " + names.length + "\n");
-		System.out.println("for loop example of looping through all elements in Array:");
-		for (int nameList = 0; nameList <= 4; nameList++) {
+		System.out.println("Number of Elements: " + names.length + "\n");
+		System.out.println("Example of for-loop, looping through all elements in the Array:");
+		for (int nameList = 0; nameList < 5; nameList++) {
 			 
 			System.out.println(names[nameList]);
 		}
-		System.out.println("\nfor-each loop example of looping through all Elements in Array:");
+		System.out.println("\nExampl of forEachLoop, looping through all Elements in Array:");
 		for (String str: names) {
 			System.out.println(str);
 		}

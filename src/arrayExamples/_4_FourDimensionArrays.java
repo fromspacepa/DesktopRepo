@@ -10,8 +10,8 @@ public class _4_FourDimensionArrays {
 		 * example the task is to print-out the value from 9 to 50.
 		 */
 		System.out.println(
-				"Following is the example of executing numbers from 9 - 50\nin 4-Dimension Arrays of Integer:");
-		int myNum = 0;
+				"Following is the example of looping through 4-Dimension Arrays of Integer:");
+		int myNum = 8;
 		int[][][][] values = new int[6][2][2][2];
 
 		for (int out1 = 0; out1 < values.length; out1++) {

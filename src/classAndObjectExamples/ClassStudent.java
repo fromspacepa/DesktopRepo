@@ -25,78 +25,51 @@ public class ClassStudent {
 	  * of a method to do something different.
 	  * 
 	  * >>> Constructors:
-	  * In general constructors are absolutely different than methods; The rules that applied to constructors
-	  * you cannot use the same rules for your methods. You would not be able to write the methods as you write
-	  * the constructors.
 	  * Q: What are Constructors? 
 	  * A: Constructors are basically the methods that will help you create Objects.
-	  * Basically, constructors will help you create an instance(exact)  copy (object) of a Class.
-	  * And you have so many options to create Constructors, you have different versions of it that you can create
-	  * Constructors in different ways. But there are certain rules that you have to follow, which will be discussed
-	  * in other classes of this ClassAndObjectExamples package. 
+	  * Also the job of Constructor is to initialize all of the Variables of the Class.
 	  * 
-	  * __Generally when you say:
-	  * Student obj1 = new Student(John, 23); 
-	  *                    This ^ part "Student(John, 23)" after new is the Constructor and this is what creates the Object
-	  *                    and this is the way that you are calling the Constructor.
+	  * >>>>> Step by step instructors how to create a class:
+	  * --> Declare your Variables.
+	  * --> Create your Default Constructor
+	  * --> Initialize your early declared Variables in the body of Default Constructor.
+	  * --> Create your Parameterized Constructor.
+	  * --> Assign the Variables of the Arguments to the early initialized Variables in the body of Parameterized Constructor.
 	  * 
-	  * >>>>> Let's create a Class below, name of the Class is going to be: ClassStudent.
-	  * ___NOTE: When you are creating a Class, as you know by now that it is going to be a Blue-Print OR a Template of something
-	  * that you are going to be creating object(s) from it. Basically, it is like you are creating the structure of object such as 
-	  * Form to be filled with some information.
-	  * __NOTE: that when you are creating a Class in the E-Clips, you don't need to have a main method in your Class.
-	  * Q: What is the main method?
-	  * A: It is a method to print out the outcome of your code written in the E-Clips.
-	  * __NOTE: while creating a Class you will only need to create Variables and Methods, you don't need to assign any Values to the Variables
-	  * in the Class. You will assign Values to the Variables while you creating an Object of the Class.
-	  * __Earlier we talked about Constructors, we said that Constructors are the methods that we create, so then when you want to create an Object
-	  * of this Class below (that we are going to create) you will need to call the Constructor of it that creates the Object for you.
-	  * And the rule is that you have to call/write the Access Modifier "public"; public is an Access Modifier, it is a modifier that can access to it
-	  * from anywhere in your project, after "public" you will mention/write the name of a Class, which in this following example is the:
-	  * "ClassStudent" then you will need to have an open Parenthesis "(" and then you will have close Parenthesis ")". 
-	  * That is the rule, you cannot put anything else here. The section between open and close as a above^ is called Argument of the Constructor method.
-	  * __NOTE: Argument(s) of the method(s) is the inputs to the method.
-	  * 
-	  * Example as shown below:
-	  * 
-	  * public ClassStudent (){
-	  * 
-	  *     //This is the body of Constructor Method. 
-	  *  
-	  *  } 
-	  * 
-	  * __NOTE: Here ^ "public" is the Access Modifier, "ClassStudent" is the name of a Class, and "(Argument)" < here between both Parenthesis 
-	  * is called Argument which is the inputs to the method. Then you have open bracket "{" and then you have close bracket "}" so, the section
-	  * between open and close bracket "{  }" is called the body of method (Constructor Method).
-	  * 
-	  * __NOTE: If someone wants to make/create an Object of this above example class which has an empty method, and call this empty method,
-	  * it will basically means that they are not going to have any input because the argument is empty. 
-	  * So, in this case we have to initialize out Variables without assigning any value to it because it is an empty Object they are trying to 
-	  * create, same as like creating an empty form; they don't add any values, so that is an empty Object/Form. So, if that is the case
-	  * then we create an empty Variable inside the Method body.  
-	  * 
-	  * 
-	  * 
-	  * 
-	  * */
-		
-	// When you are creating a Class, you will need to 
+	  * __NOTE: The Variables that you will have in the Arguments/Parameters of the Parameterized Constructor are going to be called by the Object Class,
+	  * OR that from the Object Class the Values will be assigned to the Variables that you have in the Arguments/Parameters of the Parameterized Constructor,
+	  * and then these Variables that you have in the Arguments/Parameters of the Parameterized Constructor will be then assigned to the Variables that you have
+	  * in the body of Parameterized Constructor, and then these Variables that you have in the body of Parameterized Constructor will be assigned to the initially
+	  * Declared and Initialized Variables. This way the Constructor will get implemented by creating the Object(s) as follows and visit the RunnerClassAsAnObjectOfClass.
+	  */
 	
 	String name;//This is to create a String Variable.
 	int age;//This is to create an integer Variable.
 	
-	public ClassStudent () {//This syntax of a default constructor.
-		//This is the body of Method body.
+	public ClassStudent () {//This Constructor method is called: Default Constructor, because the argument of this constructor is empty (it has no parameters).
 		name = " ";
 		age = 0;
 	}
 	
-	public ClassStudent(String newName, int newAge) {
+	public ClassStudent(String newName, int newAge) {//This Constructor method is called: Parameterized Constructor, because the argument of this constructor is parameters.
 		name = newName;
 		age = newAge;
 	
 	}
 	 
+	/*
+	 * >>>>> Understanding Terminology of every portion/section of the above Parameterized Constructor:
+	 * --> "public" is the Access modifier.
+	 * --> "ClassStudent" is the Name of Constructor method.
+	 * --> "(String newName, int newAge)" is the Arguments/Parameters (Think of Arguments/Parameters as the inputs of the Constructor method).
+	 * --> All together the "public ClassStudent(String newName,int newAge)" is the Definition of the Constructor method.
+	 * --> All together the "ClassStudent(String newName, int newAge)" is the Signature of the Constructor method.
+	 * --> From open to close bracket "{
+	 *      name = newName;
+	 *      age = newAge;
+	 *    }" is Implementation of Constructor method. So think of every constructor's portions/sections the same way.
+	 *    
+	 */
 	
 
 }

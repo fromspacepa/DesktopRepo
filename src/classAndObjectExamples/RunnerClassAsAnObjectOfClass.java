@@ -1,6 +1,6 @@
 package classAndObjectExamples;
 
-public class ObjectOfClassStudent {
+public class RunnerClassAsAnObjectOfClass {
 	public static void main(String[] args) {
 		
 		ClassStudent obj1 = new ClassStudent("Jack", 23);

@@ -7,7 +7,7 @@ public class RunnerClassAsAnObjectOfClass {
 		ClassStudent obj2 = new ClassStudent("Lisa", 21);
 		System.out.println(obj1.name);
 		System.out.println(obj2.name);
-		
+		System.out.println(obj1.age);
 		
 		
 		

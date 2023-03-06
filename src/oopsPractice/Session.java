@@ -3,36 +3,42 @@ package oopsPractice;
 import java.util.ArrayList;
 
 public class Session {
-	
-	
+	String sessionName;
 	ArrayList<Student> students;
 	ArrayList<Instructor> instructors;
-	ArrayList<MobileDevice> mobileDevice;
-	String sessionName;
+	ArrayList<MobileDevice> devices;
+
 	
 	public Session() {
-		
+		sessionName = "";
 		students = new ArrayList<Student>();
 		instructors = new ArrayList<Instructor>();
-		mobileDevice = new ArrayList<MobileDevice>();
-		sessionName = "";
-		
+		devices = new ArrayList<MobileDevice>();
+
 	}
 	
-	public Session(ArrayList<Student> students, ArrayList<Instructor> instructors, 
-			ArrayList<MobileDevice> mobileDevice, String sessionName) {
+	public Session(String sessionName, ArrayList<Student> students, ArrayList<Instructor> instructors, ArrayList<MobileDevice> devices) {
+		this.sessionName = sessionName;
 		this.students = students;
 		this.instructors = instructors;
-		this.mobileDevice = mobileDevice;
-		this.sessionName = sessionName;
-		
+		this.devices = devices;
+
 	}
-	
 	public void printSessionInfo() {
-		System.out.println("*****************************************************");
-		System.out.println("Session Name:\n" + sessionName + "Students List:\n" + students +
-				"Instructors List:\n" + instructors + "Device List:\n" + mobileDevice);
-		System.out.println("*****************************************************");
+		System.out.println("\n********************************************************************\n");
+		System.out.println("SESSION INFORMATION:\n\nSession Name:\t" + sessionName + "\nList of Students:\t\t" + students + 
+            			   "\nList of Instructors:\t" + instructors + "\nList of Devices:\t" + devices);
+		for(Student i: students) {
+			System.out.println(i);
+			for(Instructor j: instructors) {
+				System.out.println(j);
+				for(MobileDevice d: devices) {
+					System.out.println(d);
+				}
+			}
+	
+		}
+		
 		
 	}
 

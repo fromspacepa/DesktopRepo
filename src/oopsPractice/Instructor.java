@@ -30,11 +30,13 @@ public class Instructor {
 		this.email = email;
 	}
 	
+
 	@Override
 	public String toString() {
+		System.out.println("Objects of Class Instructor:\n-------------------------------------------");
 		String tempPhone = "("+ phoneNo.substring(0, 3)+") "+phoneNo.subSequence(3, 6)+"-"+phoneNo.substring(6, 10);
 		return "Instructors Information:\n\nFirst Name:\t" + firstName + "\nLast Name:\t" + lastName + "\nAge:\t\t" + age + "\nPhoneNo:\t" 
-				+ tempPhone + "\nAddress:\t" + address + "\nSubject:\t" + subject + "\nEmail:\t\t" + email;	
+				+ tempPhone + "\nAddress:\t" + address + "\nSubject:\t" + subject + "\nEmail:\t\t" + email;
 	}
 
 

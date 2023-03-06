@@ -4,32 +4,42 @@ import java.util.ArrayList;
 
 public class MobileDevice {
 	
-	String ownerName;
+	String owner;
+	String make;
+	String model;
 	int yearBuilt;
 	String condition;
-	String model;
 	ArrayList<String> listOfApps;
 	
 	public MobileDevice() {
-		
-		ownerName = "";
+		owner = "";
+		make = "";
+		model = "";
 		yearBuilt = 0;
 		condition = "";
-		model = "";
 		listOfApps = new ArrayList<String>();
 		
 	}
 	
-	public MobileDevice(String ownerName, int yearBuilt, String condition, String model, ArrayList<String> listOfApps) {
-		this.ownerName = ownerName;
+	public MobileDevice(String owner, String make, String model, int yearBuilt, String condition, ArrayList<String> listOfApps) {
+		this.owner = owner;
+		this.make = make;
+		this.model = model;
 		this.yearBuilt =yearBuilt;
 		this.condition = condition;
-		this.model = model;
 		this.listOfApps = listOfApps;
-		
-		
-		
-		
+	
+	}
+	
+	public void printDeviceInfo() {
+		System.out.println("\n********************************************************************\n");
+		System.out.println("MOBILE DEVICE INFORMATION:\n\nOwner Name:\t" + owner + "\nMake:\t\t" + make + "\nModel:\t\t" + model +
+				"\nYear Built:\t" + yearBuilt + "\nCondition:\t" + condition + "\n\nList of Applications:");
+		for(String i: listOfApps) {
+			System.out.println(i);
+			
+		}
+
 	}
 	
 	

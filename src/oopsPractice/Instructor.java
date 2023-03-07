@@ -1,7 +1,7 @@
 package oopsPractice;
 
-public class Instructor {
-	
+public class Instructor {//This is a Class and named Instructor.
+	//Here following variables are declared:
 	String firstName;
 	String lastName;
 	int age;
@@ -10,7 +10,8 @@ public class Instructor {
 	String subject;
 	String email;
 	
-	public Instructor() {
+	public Instructor() {//This is a default constructor.
+		//Here following variables are initialized with default values:
 		firstName = "";
 		lastName = "";
 		age = 0;
@@ -20,7 +21,9 @@ public class Instructor {
 		email = "";
 	}
 	
-	public Instructor(String firstName, String lastName, int age, String phoneNo, String address, String subject, String email) {
+	public Instructor(String firstName, String lastName, int age, String phoneNo, String address, String subject, String email) {//This is a parameterized constructor.
+		//Here following we are using a keyword "this":
+		//A keyword "this" will refer to the variables out of the current scope of method body or in other words, will refer to the variables in the body of the class.
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;

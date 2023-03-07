@@ -1,8 +1,7 @@
 package oopsPractice;
 
-public class Student {
-	
-	
+public class Student {//This is a Class and named Student.
+	//Here following variables are declared:
 	String firstName;
 	String lastName;
 	int age;
@@ -12,7 +11,8 @@ public class Student {
 	String phoneNo;
 	String address;
 	
-	public Student() {
+	public Student() {//This is a default constructor.
+		//Here following variables are initialized with default values:
 		firstName = "";
 		lastName = "";
 		age = 0;
@@ -24,7 +24,9 @@ public class Student {
 
 	}
 	
-	public Student(String firstName, String lastName, int age, String ssn, String subject, String email, String phoneNo, String address) {
+	public Student(String firstName, String lastName, int age, String ssn, String subject, String email, String phoneNo, String address) {//This is a parameterized constructor.
+		//Here following we are using a keyword "this":
+		//A keyword "this" will refer to the variables out of the current scope or in other words, will refer to the variables in the body of the class.
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
@@ -58,7 +60,8 @@ public class Student {
 	 * --------------------------------------------
      *
 	 */
-	public void printInfo() {
+	public void printInfo() {//We create this method which will print-out the content/data of an object of the above class in the following format just by calling 
+                             //the method "printInfo();" in the object.
 		String separator = "------------------------------------------------\n";
 		String tempSSN = "***-**-" + ssn.substring(7);//Here the "substring();" method is going to print the last 4 digits of SSN and 
 		//by creating a variable "tempSSN" is going to print "***-**-3321" the stars and last 4 digits of SSN with the help of "substring" method.

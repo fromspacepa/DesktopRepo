@@ -28,16 +28,9 @@ public class Session {
 		System.out.println("\n********************************************************************\n");
 		System.out.println("SESSION INFORMATION:\n\nSession Name:\t" + sessionName + "\nList of Students:\t\t" + students + 
             			   "\nList of Instructors:\t" + instructors + "\nList of Devices:\t" + devices);
-		for(Student i: students) {
-			System.out.println(i);
-			for(Instructor j: instructors) {
-				System.out.println(j);
-				for(MobileDevice d: devices) {
-					System.out.println(d);
-				}
-			}
-	
-		}
+
+				
+			
 		
 		
 	}

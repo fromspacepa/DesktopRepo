@@ -2,7 +2,7 @@ package oopsPractice;
 
 import java.util.ArrayList;
 
-public class RunnerClass {
+public class RunnerClass {//This is a RunnerClass which is only going to test-out the codes of classes: Student, Instructor, MobileDevice, and Session.
 
 	public static void main(String[]args) { 
 		

@@ -1,4 +1,4 @@
-package oopsPractice;
+package oopsPractice_Class_Student;
 
 public class Student {//This is a Class and named Student.
 	//Here following variables are declared:

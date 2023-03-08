@@ -1,4 +1,4 @@
-package oopsPractice;
+package oopsPractice_Class_MobileDevice;
 
 import java.util.ArrayList;
 

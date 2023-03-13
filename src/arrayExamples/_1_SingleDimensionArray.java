@@ -45,7 +45,7 @@ public class _1_SingleDimensionArray {
 		int [] y = {1,2,3,4,5};//This is an example of Hard-Coding. It is not a preferred way to use in coding.
 	
 		int [] data = new int [5];//This is to create the Single Arrays of Integer that has the length of 5 index.
-		data [0] = 20;
+		data [0] = 20;//This and the following are how to assign the value to index in the arrays:
 		data [1] = 25;
 		data [2] = 30;
 		data [3] = 10;

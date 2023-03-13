@@ -1,6 +1,10 @@
-package oopsPractice;
+package oopsPractice_Class_Session;
 
 import java.util.ArrayList;
+
+import oopsPractice_Class_Instructor.Instructor;
+import oopsPractice_Class_MobileDevice.MobileDevice;
+import oopsPractice_Class_Student.Student;
 
 public class Session {
 	String sessionName;

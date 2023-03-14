@@ -14,6 +14,7 @@ public class Session {
 
 	
 	public Session() {
+		//NOTE: The job of any constructor is to initialize all of the variables of a class and help us to create object(s) of the class.
 		sessionName = "";
 		students = new ArrayList<Student>();
 		instructors = new ArrayList<Instructor>();

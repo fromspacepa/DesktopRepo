@@ -47,6 +47,7 @@ public class ClassStudent {
 	int age;//This is to create an integer Variable.
 	
 	public ClassStudent () {//This Constructor method is called: Default Constructor, because the argument of this constructor is empty (it has no parameters).
+		//NOTE: The job of any constructor is to initialize all of the variables of a class and help us to create object(s) of the class.
 		name = " ";
 		age = 0;
 	}

@@ -25,7 +25,7 @@ public class Student extends InheritableClass {// This here is the child/sub-cla
 		this.gpa = gpa;
 		this.major = major;
 	}
-	
+
 	// >>>>> NOTE: 
 	// While using keyword "private" to encapsulate the variable(s) you would need to have/write method "get" known as a "getter" and method "set" known as a "setter"
 	// for each variable that is encapsulated so that the variable(s) is/are accessible from outside the current class.

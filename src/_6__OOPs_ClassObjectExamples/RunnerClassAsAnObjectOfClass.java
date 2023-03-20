@@ -1,4 +1,4 @@
-package _6__OOPsClassAndObjectExamples;
+package _6__OOPs_ClassObjectExamples;
 
 public class RunnerClassAsAnObjectOfClass {
 	public static void main(String[] args) {

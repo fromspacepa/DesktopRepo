@@ -1,4 +1,4 @@
-package _8__OPPsPractice_InheritanceExamples;
+package _8__OPPs_InheritancePractice;
 
 public class RunnerClass {
 	

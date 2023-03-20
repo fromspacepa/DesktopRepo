@@ -1,4 +1,4 @@
-package _6b__OOPsPractice_Class_Student;
+package _6b__OOPs_ClassObjectPractice;
 
 public class Student {// This is a Class and named Student.
 	// Here following variables are declared:

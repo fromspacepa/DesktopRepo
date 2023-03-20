@@ -1,10 +1,10 @@
-package _6c__OOPsPractice_Class_Session;
+package _6c__OOPs_ClassObjectPractice;
 
 import java.util.ArrayList;
 
-import _6a__OOPsPractice_Class_Instructor.Instructor;
-import _6b__OOPsPractice_Class_Student.Student;
-import _6d__OOPsPractice_Class_MobileDevice.MobileDevice;
+import _6a__OOPs_ClassObjectPractice.Instructor;
+import _6b__OOPs_ClassObjectPractice.Student;
+import _6d__OOPs_ClassObjectPractice.MobileDevice;
 
 public class Session {
 	String sessionName;

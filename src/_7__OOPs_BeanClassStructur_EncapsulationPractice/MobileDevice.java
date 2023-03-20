@@ -1,4 +1,4 @@
-package _7__OOPsPractice_BeanClassStructur_EncapsulatedClass;
+package _7__OOPs_BeanClassStructur_EncapsulationPractice;
 
 import java.util.ArrayList;
 

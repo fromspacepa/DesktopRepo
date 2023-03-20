@@ -1,4 +1,4 @@
-package _6a__OOPsPractice_Class_Instructor;
+package _6a__OOPs_ClassObjectPractice;
 
 public class Instructor {//This is a Class and named Instructor.
 	//Here following variables are declared:

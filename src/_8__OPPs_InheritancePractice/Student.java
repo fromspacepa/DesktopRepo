@@ -1,4 +1,4 @@
-package _8__OPPsPractice_InheritanceExamples;
+package _8__OPPs_InheritancePractice;
 
 // Here the class name is "Student"; the keyword "extends" is to inherit all of the methods and variables
 // but not constructors from a parent/super class; the parent/super class here inheriting from is named: IheritableClass.

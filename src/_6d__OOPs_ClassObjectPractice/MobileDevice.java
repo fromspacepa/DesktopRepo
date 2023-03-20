@@ -1,4 +1,4 @@
-package _6d__OOPsPractice_Class_MobileDevice;
+package _6d__OOPs_ClassObjectPractice;
 
 import java.util.ArrayList;
 

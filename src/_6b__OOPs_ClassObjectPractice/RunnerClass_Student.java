@@ -1,4 +1,4 @@
-package _6b__OOPsPractice_Class_Student;
+package _6b__OOPs_ClassObjectPractice;
 
 public class RunnerClass_Student {//This is a RunnerClass which is only going to test-out the codes of class: Student
 	

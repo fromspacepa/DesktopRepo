@@ -13,6 +13,7 @@ public class Employee extends Student{
 	}
 	
 	public Employee(String firstName, String lastName, String backGround, String dateOfBirth, String address, String email, String phoneNo) {
+		
 		this.backGround = backGround;
 		this.dateOfBirth = dateOfBirth;
 		

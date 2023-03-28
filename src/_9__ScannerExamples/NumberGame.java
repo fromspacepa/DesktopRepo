@@ -20,13 +20,16 @@ public static void main(String[] args) {
 	 */
 	
 	/*
-	 * Scenario:
-	 * Create a program that you have an integer value
+	 * SCENARIO:
+	 * Create a program with condition and using if/else/while loop that you have an integer value
 	 * The target number/value to be entered in the program is: 13
 	 * if the value entered by the user in the console is the matched with a targeted value, 
 	 * you would receive a message saying: The number you entered is correct!
-	 * else if the value entered by the user is more than the targeted value, you would receive a message saying: Go down! 
-	 * Or if the value entered by the user is less than the targeted value, you would receive a message saying: Go up!
+	 * else if the value entered by the user is more than the targeted value, you would receive a first message saying: Try again! 
+	 * In the second try, if the entered value is more than the targeted value, you would receive a message saying: Go down! Try again!
+	 * and on the next try if the value entered is less than the targeted value, you would receive a message saying: Go up! Try again!
+	 * and will keep asking you till you enter the correct value. Once the correct value is entered you would receive a message saying:
+	 * The number you guessed is correct!.
 	 */
 	Scanner input = new Scanner(System.in);
 	
@@ -36,15 +39,22 @@ public static void main(String[] args) {
 	
 	numEntered = input.nextInt();
 	
-	if(goalNum == numEntered) {
+	if(numEntered == goalNum) {
 		System.out.println("The number you guessed is correct!");
 	}else {
-		if (numEntered > goalNum) {
-			System.out.println("Go down!");
-		}else {
+		while (numEntered != goalNum) { 
+			System.out.println("Try again!");
+			numEntered = input.nextInt();
+		  if(numEntered == goalNum) {
+			System.out.println("The number you guessed is correct!");
+			break;
+		  }else { 
+     		 if(numEntered > goalNum) {
+				System.out.println("Go down!");
+			}else {
 			System.out.println("Go up!");
 		}
-	}
+	}}}
 
 		
 	/* NOTE:
@@ -62,6 +72,6 @@ public static void main(String[] args) {
 
 		
 
-	}
-
+	
+}
 }

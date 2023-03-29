@@ -46,7 +46,7 @@ public static void main(String[] args) {
 			System.out.println("Try again!");
 			numEntered = input.nextInt();
 		  if(numEntered == goalNum) {
-			System.out.println("The number you guessed is correct!");
+			System.out.println("The number you guessed is correct; Congradulations!!!");
 			break;
 		  }else { 
      		 if(numEntered > goalNum) {

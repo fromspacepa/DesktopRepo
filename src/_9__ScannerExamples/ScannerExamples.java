@@ -7,17 +7,19 @@ public class ScannerExamples {
 	
 	public static void main(String[] args) {
 
-	/*
-	 * Scanner by itself is a class which comes with Java.util package.
-	 * The Scanner class is used to get user's input, to use the Scanner class, you need to create/instantiate an object of the Scanner class
-	 * and use any of the available methods found in the Scanner class documentation. In our example below, we will use the "nextLine() method, which reads Strings.
-	 * A parameter "System.in" which is in the argument of constructor is going to be the input that you input in the console,
-	 * you would need to modify it based on what you want to do that what is your input would be.
-	 * Basically, in the example below, by typing something in the console a respond to your respond will be printed in the console.
-	 *
-	 * NOTE:
-	 * If you enter wrong input (for example instead of integer value you enter String value), you will get an exception/error message (like "InputMismatchException").
-	 */
+		/* Brief introduction of a Scanner class:
+		 * Scanner by itself is a class which comes with Java.util package.
+		 * The Scanner class is used to get user's input, to use the Scanner class, you need to create/instantiate an object of the Scanner class
+		 * and use any of the available methods found in the Scanner class documentation. In our example below, we will use the "nextLine() method, which reads Strings.
+		 * A parameter "System.in" which is in the argument of constructor is going to be the input that you input in the console,
+		 * you would need to modify it based on what you want to do that what is your input would be.
+		 * Basically, in the example below, by typing something in the console a respond to your respond will be printed in the console.
+		 *
+		 * NOTE:
+		 * If you enter wrong input (for example instead of integer value you enter String value), you will get an exception/error message (like "InputMismatchException").
+		 * Also, when you create the Scanner constructor, you would see the red underline under Scanner, that is then you need to import it from java.util by hovering your mouse. 
+		 */
+		
 	Scanner input = new Scanner(System.in);// This is a constructor to instantiate the object of a class scanner. 
 	System.out.println("What is your name? ");// In this example when you run this code, you will see this text (a question) in the console and you would 
 	                                          // need to type your respond (input) in the console; based on your respond you will see the results in the console.

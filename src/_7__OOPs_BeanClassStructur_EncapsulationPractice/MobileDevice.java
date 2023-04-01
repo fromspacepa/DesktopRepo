@@ -4,6 +4,16 @@ import java.util.ArrayList;
 
 public class MobileDevice {
 	
+	   /* Object Oriented Programming (OOPs) Pillar number 2:
+	    * __3) ENCAPSULATION: 
+	    * 
+	    * Q: What is the concept/purpose/meaning of ENCAPSULATION?
+	    * A: It is to make sure that sensitive data/attributes is hidden and secured from users; 
+	    * and do this, you must declare the class attribute(s)/variable(s) as private by using the keyword 'private'
+	    * and to get access and change the value of hidden attribute(s) of the class, you would need to use the methods: getters and setters.
+	    *
+	    */
+	
 	/*
 	 * Bean Class Structure:
 	 * We usually create a "Bean Class Structure" when we are working with data sets and when working with Object Oriented Programming fashion in Java

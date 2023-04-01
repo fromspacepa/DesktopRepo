@@ -1,5 +1,13 @@
 package _6a__OOPs_ClassObjectPractice;
 
+/* Object Oriented Programming (OOPs):
+ * _There are four fundamental concepts of Object Oriented Programming
+ * such as: 1) INHERITANCE, 2) ENCAPSULATION, 3) POLYMORPHISM, and 4) ABSTRACTION. 
+ * 
+ * 
+ * 
+ */
+
 public class Instructor {//This is a Class and named Instructor.
 	//Here following variables are declared:
 	String firstName;

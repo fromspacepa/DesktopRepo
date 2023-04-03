@@ -25,7 +25,7 @@ public class _3a_VendingMachine {
 		 */
 		
 		//Below here all the String & Integer Variables are declared and initialized for the following program:
-		String strCoke = "Coke";
+		String cokeStr = "Coke";
 		double cokePrice = 2;
 		String strDietCoke = "Diet Coke";
 		double dietCokePrice = 2;

@@ -2,6 +2,7 @@ package _6a__OPPs_InheritanceExamples;
 
 /* Object Oriented Programming (OOPs) Pillar number 1:
  * >>> INHERITANCE (SubClass and SuperClass):
+ * 
  * Q: What does the word Inheritance mean to you?
  * A: When someone pass-on/away he/she leaves his/her belongings to someone else, in most cases to someone in the family or he/she can choose 
  * who he/she wants to give his/her belongings to, and that would be considered as Inheritance or Heritage; 

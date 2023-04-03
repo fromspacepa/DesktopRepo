@@ -1,6 +1,6 @@
 package _6a__OPPs_InheritanceExamples;
 
-public class Hierarchy_Or_Hierarchical_Inheritance {
+public class Hierarchical_Inheritance_Explanation {
 	
 	
 	/*

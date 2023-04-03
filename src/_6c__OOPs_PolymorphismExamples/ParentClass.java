@@ -2,15 +2,9 @@ package _6c__OOPs_PolymorphismExamples;
 
 
    /* Object Oriented Programming (OOPs) Pillar number 3:
+    * >>> POLYMORPHISM:
     * 
-    * __3) POLYMORPHISM: 
-    * POLYMORPHISM means "many forms", and it occurs when we have many classes that are related to each other by Inheritance.
-    * _Like it is specified in the package of Inheritance, that Inheritance lets you inherit attributes and methods from another class, and 
-    * Polymorphism is used to use those methods to perform different tasks. This allows you to perform a single action in different ways. 
-    * 
-    */
-
-   /* Here keyword 'extends' is used to inherit the class Object from java. (keyword 'extends' is used in the concept of Inheritance)
+    * Here keyword 'extends' is used to inherit the class Object from java. (keyword 'extends' is used in the concept of Inheritance)
     * while you use the keyword 'extends' it will inherit all the attributes(variables) and methods from the parent class, but
     * it cannot inherit the constructors; in order to inherit constructor(s), you will need to use method 'super()'; 
     * more about method 'super()' explanation is given below where I used it.

@@ -4,20 +4,22 @@ import java.util.ArrayList;
 
 public class MobileDevice {
 	
-	   /* Object Oriented Programming (OOPs) Pillar number 2:
-	    * __3) ENCAPSULATION: 
-	    * 
-	    * Q: What is the concept/purpose/meaning of ENCAPSULATION?
-	    * A: It is to make sure that sensitive data/attributes is hidden and secured from users; 
-	    * and do this, you must declare the class attribute(s)/variable(s) as private by using the keyword 'private'
-	    * and to get access and change the value of hidden attribute(s) of the class, you would need to use the methods: getters and setters.
-	    *
-        * Why Encapsulation?
-        * Better control of class attributes and methods
-        * Class attributes can be made read-only (if you only use the get method), or write-only (if you only use the set method)
-        * Flexible: the programmer can change one part of the code without affecting other parts
-        * Increased security of data
-        */
+	/*
+	 * Object Oriented Programming (OOPs) Pillar number 2: >>> ENCAPSULATION:
+	 * 
+	 * Q: What is the concept/purpose/meaning of ENCAPSULATION? A: It is to make
+	 * sure that sensitive data/attributes is hidden and secured from users; and do
+	 * this, you must declare the class attribute(s)/variable(s) as private by using
+	 * the keyword 'private' and to get access and change the value of hidden
+	 * attribute(s) of the class, you would need to use the methods: getters and
+	 * setters.
+	 *
+	 * Why Encapsulation? Better control of class attributes and methods Class
+	 * attributes can be made read-only (if you only use the get method), or
+	 * write-only (if you only use the set method) Flexible: the programmer can
+	 * change one part of the code without affecting other parts Increased security
+	 * of data
+	 */
 	
 	
 	/*

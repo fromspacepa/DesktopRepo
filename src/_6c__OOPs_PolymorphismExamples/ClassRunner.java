@@ -18,6 +18,8 @@ public class ClassRunner {
 		// This is to create an object (instance copy) of a child/sub-class named: ChildClass__C
 		ChildClass__C objctOfSubClassC = new ChildClass__C("David", "Dhawan", "03311994", "Indian", "dhawan392@yahoo.com","0345674876", "New Delhi, India");
 		System.out.println(objctOfSubClassC);
+
+	
 	}
 
 }

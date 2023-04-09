@@ -41,6 +41,7 @@ public class ParentClass extends Object{
 	 * to the initially declared and initialized attributes.
 	 */
 	public ParentClass(String firstName, String lastName, String dateOfBirth, String nationality) {
+		this();
 		this.firstName = firstName;// Here the keyword 'this' is used to eliminate the confusion between class attributes and parameters with the same name.
 		this.lastName = lastName;
 		this.dateOfBirth = dateOfBirth;
@@ -79,13 +80,16 @@ public class ParentClass extends Object{
 		this.nationality = nationality;
 	}
 	
-	/* The annotation 'Override' will help with correction of method "toString", 
+	/* >>> The annotation 'Override' will help with correction of method "toString", 
      * in case the method toString is not written correct, the annotation "@Override" will help in indicating the red underline toString, and 
 	 * when the toString method is underline with red color, it means that the method 'toString' is not functional/working.
+	 * _Basically, the tag or annotation "@Override" will need to be added above the method "toString" to make sure that you are actually matching
+	 * the definition of a method that you inherit; by doing so, you are making sure that you are actually overriding something and not making
+	 * a new method.
 	 */
 	@Override 
 	
-	/* The method 'toString' is a class which comes with java, it basically lets you format the template of your class, and you can define the format of
+	/* >>> The method 'toString' is a class which comes with java, it basically lets you format the template of your class, and you can define the format of
 	 * your class/code the way you want print it.
 	 */
 	public String toString() {

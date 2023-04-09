@@ -1,1 +1,0 @@
-package _5__ArrayListExamples;

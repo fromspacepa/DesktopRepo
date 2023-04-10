@@ -18,7 +18,6 @@ public class staticExample__StudentClass {
 	
  public staticExample__StudentClass() {
 	 super();//<<< This is to inherit the default constructor from class Object from java.
-	
 	 this.name = "";
 	 this.phoneNo = "";
 	 this.address = "";
@@ -51,11 +50,12 @@ public class staticExample__StudentClass {
  public void setAddress(String address) {
 	 this.address = address;
  }
- public int getClassNum() {// This is the getter method for a static variable named: classNum
+ public static int getClassNum() {// This is the getter method for a static variable named: classNum
 	 return classNum;
  }
- public void setClassNum(int classNum) {// This is the setter method for a static variable named: classNum
+ public static void setClassNum(int classNum) {// This is the setter method for a static variable named: classNum
 	 staticExample__StudentClass.classNum = classNum;
+	
  }
  public static String getSchoolName() {// This is the getter method for a static variable named: schoolName
 	return schoolName;

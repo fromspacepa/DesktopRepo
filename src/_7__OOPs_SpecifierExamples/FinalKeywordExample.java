@@ -1,4 +1,4 @@
-package _7__SpecifierExamples;
+package _7__OOPs_SpecifierExamples;
 
 /*
  * >>> Keyword "final" is also called: specifier or Non-Access Modifier
@@ -20,18 +20,18 @@ package _7__SpecifierExamples;
  * Basically, all Non-Access modifiers goes after Access modifiers
  */
 
-// Example of final class:
+// *** Example of final class:
 public final class FinalKeywordExample {
 
-		//Example of final attribute/variable that is encapsulated:
-		private final int myNum = 10;
-		
-		// Example of final attribute/variable:
-		final int x = 10;
-		// x = 5;// Here you can see the attribute is not changeable anymore.
+	// *** Example of final attribute/variable that is encapsulated:
+	private final int myNum = 10;
+	
+	// *** Example of final attribute/variable:
+	final int x = 10;
+	// x = 5;// Here you can see the attribute is not changeable anymore.
 	
 
-	// Example of final method:
+	// *** Example of final method:
 	@Override
 	public final String toString() {
 		return "This is final method, it is not changeable!!!";

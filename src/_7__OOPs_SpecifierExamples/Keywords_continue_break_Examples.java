@@ -1,4 +1,4 @@
-package _7__SpecifierExamples;
+package _7__OOPs_SpecifierExamples;
 
 public class Keywords_continue_break_Examples {
 

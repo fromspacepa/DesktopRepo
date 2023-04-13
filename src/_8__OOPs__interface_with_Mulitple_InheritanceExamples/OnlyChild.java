@@ -1,7 +1,6 @@
 package _8__OOPs__interface_with_Mulitple_InheritanceExamples;
 
 
-
 public abstract class OnlyChild implements ParentA, ParentB {
 	
 
@@ -15,8 +14,12 @@ public abstract class OnlyChild implements ParentA, ParentB {
 	  System.out.println(phoneNo);
   }
   
+
+	  
+}
+  
  
 	  
 
 
-}
+

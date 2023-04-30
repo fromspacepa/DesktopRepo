@@ -139,7 +139,7 @@ public class _3_SwitchCases {
 			price = 3;
 		    taxRate = price * quantity * taxRate ;
 		    total = taxRate + price * quantity;
-		    System.out.println("You got a PepsiCola" + "\nThe price is:\t\t$" + price
+		    System.out.println("You got PepsiCola" + "\nThe price is:\t\t$" + price
 			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
 			"\nThe Total is:\t\t$" + myDecimal.format(total));
 				break;
@@ -147,7 +147,7 @@ public class _3_SwitchCases {
 			price = 3;
 	        taxRate = price * quantity * taxRate ;
 	        total = taxRate + price * quantity;
-			System.out.println("You got a PepsiCola" + "\nThe price is:\t\t$" + price
+			System.out.println("You got PepsiCola" + "\nThe price is:\t\t$" + price
 			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
 			"\nThe Total is:\t\t$" + myDecimal.format(total));
 				break;

@@ -7,6 +7,7 @@ public interface ParentA {
 	double gradutionGPA = 23.50;
 
 	void display();
+ 
 		
 	
 	

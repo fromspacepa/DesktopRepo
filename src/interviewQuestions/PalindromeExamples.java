@@ -1,6 +1,6 @@
-package _0__InterviewQuestions__PalindromeExample;
+package interviewQuestions;
 
-public class Palindrome {
+public class PalindromeExamples {
 
 	public static void main(String[] args) {
 		

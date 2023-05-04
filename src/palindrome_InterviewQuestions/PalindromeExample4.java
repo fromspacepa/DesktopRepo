@@ -15,6 +15,7 @@ public class PalindromeExample4 {
 
 			
 			System.out.println(f +  "  " + b);
+			
 		}
 		
 		return true;

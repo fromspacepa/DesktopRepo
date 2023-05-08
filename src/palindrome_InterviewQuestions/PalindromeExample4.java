@@ -12,9 +12,9 @@ public class PalindromeExample4 {
 	public static boolean palindrome4(String str) {
 		
 		for(int f = 0, b = str.length() -1; f < str.length(); f ++ , b --) {
-
-			
-			System.out.println(f +  "  " + b);
+		
+				
+				System.out.println(f + "  " + b + (str.charAt(b)));
 			
 		}
 		

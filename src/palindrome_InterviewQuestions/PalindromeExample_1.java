@@ -7,7 +7,7 @@ public class PalindromeExample_1 {
 			
 		
 	String reverse = "";
-	String original = "JAN";
+	String original = "1100112";
 
 		
 	for (int i = original.length() - 1; i >= 0; i--) {

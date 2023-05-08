@@ -3,20 +3,23 @@ package palindrome_InterviewQuestions;// This is the package.
 
 public class PalindromeExample_1 {
 
-	public static void main(String[] args) {
-		palindrome1("ABCBA");
-		
-}
-	public static boolean palindrome1(String str) {
-		for(int i = str.length() - 1; i >= 0; i--) {
+	public static void main(String[]args) {
 			
-			System.out.print(" " + str.charAt(i));
-		}
 		
-		return true;
+	String reverse = "";
+	String original = "JAN";
+
 		
+	for (int i = original.length() - 1; i >= 0; i--) {
+		reverse += original.charAt(i);
 	}
+	System.out.println(reverse);
+	if (reverse.equals(original))
+		System.out.println("The above word is a palindrome");
+	else
+	System.out.println("The above word is not a palindrome!");
+}{
 
 
 
-}
+}}

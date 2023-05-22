@@ -1,13 +1,71 @@
 
+		/**
+		 * From this package and this class we are going to start learn about Core-Java Object Oriented Programming (OOPs).
+		 * 
+		 * QUESTION: What is Java? 
+		 * ANSWER: Java is one of the popular and high-level programming language which was created in 1995, 
+		 * It is used for:
+		 * Mobile applications (specially for Android applications)
+		 * Desktop applications
+		 * Web applications
+		 * Web servers and application servers
+		 * Games
+		 * Database connection
+		 * And much, much more.
+		 * 
+		 * QUESTION: Why use Java?
+		 * ANSWER:
+		 * 
+		 * Following here the 1st thing will be the package which is named as: _1__JavaBasicsExamples and 2nd is the Class, which is named as: _1_CreatingVariables
+		 * NOTE:
+		 * When creating java Class in Java/Eclipse, the package name in java always starts lower-case letters and underscores, and camelCase if the name is a combination 
+		 * of two or more words. Also, the Class name in java always starts with Upper-case letters and underscores, and camelCase if the name is a combination of two or
+		 * more words.
+         * 
+		 */
+		 
+	// This is the package.
 package _1__JavaBasicsExamples;
 
-		//Following is the Class and name of the class is: "CreatingVariables_1".
-		//Note: When creating class in Java/Eclipse, the class name always starts with upper case and then CamleCase if it's a combination of two or more than two names.
+	//This here is the Class.
 public class _1_CreatingVariables {
 
-		// Following is the method, which is called main method; To run our code(s) in
-		// Java/Eclipse, we need main method.
+
+		// This following is the main method, which is used to run our code in the counsel:
+		// For instance: You have written a code and would like to execute the code to see the outcome in the counsel, then you need to have this main method:
 	public static void main(String args[]) {
+
+		// Following this the sample way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:
+		int x = 20; 
+		
+		/** 
+		 * >>> Explanation of the above syntax of creating variable:
+		 * "int" is a one of Primitives Data Type
+		 * "x" is Variable 
+		 * "=" is the Assignment Operator
+		 * "20" is the value assigned to variable "x"
+		 * portion "int x" of the syntax is called Declaration 
+		 * The portion "=" of the syntax is called Assignment Operator  
+		 * The portion "20" of the syntax is called Initialization.  
+		 * "= 30;" <-This syntax is called the process of assignment.
+		 * 
+		 * NOTE:
+		 * After first time of variable/identifier declaration and initialization and then 
+		 * changing the value of a variable is the process of Assignment.
+		 * 
+		 */
+	
+		// Following here is the sample of assignment, which occurs after first time declaration and initialization:
+		x = 30; // <==This syntax is called the process of assignment.
+		// Note: After the first time of Variable declaration and initialization, and
+		// then changing the Variable Value is called the process of Assignment.
+
+		int y = 15;// <==This syntax is also the process of Initialization.
+
+		// Following is the sample of printing our created variables and it's assigned
+		// values:
+		System.out.println("The value of X is:" + x + " and the value of Y is:" + y);
+		
 
 		/*
 		 * Following is the basics sample of creating Variable: 
@@ -22,34 +80,6 @@ public class _1_CreatingVariables {
 		 * In conclusion: We have 8 Primitive Data Types and we have thousands & thousands 
 		 * of Reference Data Types.
 		 */
-		int x = 20;// <==This is the syntax, it is called Initialization process.
-
-		/*
-		 * Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is
-		 * Assignment Operator, and "20" is the Value. 
-		 * We basically created Variable and assigned the value "20" to it. 
-		 * The portion "int x" of the syntax is called Declaration, The portion "=" of the 
-		 * syntax is called Assignment Operator;  
-		 * The portion "20" of the syntax is called Initialization. x = 30; <-This syntax is called the process of assignment.
-		 */
-		// Note: After the first time of Variable declaration and initialization, and
-		// then changing the Variable Value here is called the process of Assignment.
-
-		// Here "int" is a one of Primitives Data Type; "x" is Variable, "=" is
-		// Assignment Operator, and "20" is the Value.
-		// we basically created Variable and assigned the value "20" to it.
-		// The portion "int x" of the syntax is called Declaration, The portion "=" of
-		// the syntax is called Assignment Operator;
-		// The portion "20" of the syntax is called Initialization.
-		x = 30; // <==This syntax is called the process of assignment.
-		// Note: After the first time of Variable declaration and initialization, and
-		// then changing the Variable Value is called the process of Assignment.
-
-		int y = 15;// <==This syntax is also the process of Initialization.
-
-		// Following is the sample of printing our created variables and it's assigned
-		// values:
-		System.out.println("The value of X is:" + x + " and the value of Y is:" + y);
 
 		/*
 		 * Below here we are talking about the two different types of Data Types: Note:

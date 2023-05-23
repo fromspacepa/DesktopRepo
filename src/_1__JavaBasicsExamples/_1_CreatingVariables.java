@@ -40,7 +40,7 @@ public class _1_CreatingVariables {
 		
 		/** 
 		 * >>> Explanation of the above syntax of creating variable:
-		 * "int" is a one of Primitives Data Type
+		 * "int" is a one of Primitives Data Type (Below you'll learn more about data types)
 		 * "x" is Variable 
 		 * "=" is the Assignment Operator
 		 * "20" is the value assigned to variable "x"
@@ -50,46 +50,42 @@ public class _1_CreatingVariables {
 		 * "= 30;" <-This syntax is called the process of assignment.
 		 * 
 		 * NOTE:
-		 * After first time of variable/identifier declaration and initialization and then 
-		 * changing the value of a variable is the process of Assignment.
+		 * After the first time of variable/identifier declaration and initialization and then 
+		 * changing the value of a variable is called the process of Assignment.
 		 * 
 		 */
 	
-		// Following here is the sample of assignment, which occurs after first time declaration and initialization:
-		x = 30; // <==This syntax is called the process of assignment.
-		// Note: After the first time of Variable declaration and initialization, and
-		// then changing the Variable Value is called the process of Assignment.
+		// Here following is the process of assignment:
+		x = 30; 
+        // Just to refresh your memories, here following is the process of declaration and initialization of a variable:
+		int y = 15;
 
-		int y = 15;// <==This syntax is also the process of Initialization.
-
-		// Following is the sample of printing our created variables and it's assigned
-		// values:
+		// Following here this code/method is going to printout our code (the variable "x" and "y" that we created them above) in the counsel:
 		System.out.println("The value of X is:" + x + " and the value of Y is:" + y);
 		
 
-		/*
-		 * Following is the basics sample of creating Variable: 
-         * Note: We have two different types of Variables: 
-         * Primitive Data Types and Reference Data Types:
-		 * We have 8-Primitive Data Types which are listed and explained below and
-		 * Reference Data Types would be any object that we create.
-		 * Lets say that we create String, String is a class, so every instance of String 
-		 * is Reference Data Type.
-		 * Lets say we define a class of Student and then we create an
-		 * object of it, so that would be a Reference Data Type. 
-		 * In conclusion: We have 8 Primitive Data Types and we have thousands & thousands 
-		 * of Reference Data Types.
+		/**
+		 * ____Data Types in Java:
+		 * Question: How many data types do we have in Java?
+		 * Answer: We have two data types.
+		 * 
+		 * ___The two data types that we have are: 1) Primitive data types and 2) Reference (Non-Primitive) data types
+		 * QUESTION: Why do we call the primitive data types, Primitive?
+		 * ANSWER: Because the primitive data types are size predefined or we can say they have predefined sizes.
+		 * QUESTION: How many primitive data types do we have?
+		 * ANSWER: We have only 8-primitive data types, which are: "byte, short, int, long, float, double, char, and boolean"
+		 * >>>NOTE: All 8-primitive data types have different sizes and size can't be changed, because they are all predefined and they all starts with lower-case letter.
+		 * 
+		 * QUESTION: How many Reference (Non-Primitive) data types do we have?
+		 * ANSWER: Reference (Non-Primitive) data types would be any object that we create; for instance: Lets say that we create String,
+		 * String is a class so every instance of a String is Reference data type. 
+		 * >>>NOTE: Lets say we define a class of Student and then we create an object of it, so that every object would be a Reference (Non-Primitive) data type
+		 * In conclusion: We have 8-Primitive data types and we have thousand and thousands of Reference (Non-Primitive) data types.
+		 * 
 		 */
+		
+        // Following here are the 8 eight Primitive data types with all details:
 
-		/*
-		 * Below here we are talking about the two different types of Data Types: Note:
-		 * We have Two types of Data Type; Which are Primitive and Reference Data Types.
-		 * We have 8 Primitive Data Types and Thousands of Non-Primitive/Reference Data
-		 * Types; Basically, you can create Reference Data Types. All Primitive Data
-		 * Types starts with lower case and all Reference/Non-Primitive Data Types
-		 * starts with UpperCase Letter. //Following here are the 8-Primitive data types
-		 * which are mentioned below with all details:
-		 */
 		//  Type ------- SizeInBytes ------- Range
 		//  byte         1-byte              -128 to 127
 		byte b1 = 127;

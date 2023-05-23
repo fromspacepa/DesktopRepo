@@ -4,7 +4,8 @@ public class _4_EscapeSequences {
 
 	public static void main(String[] args) {
 		
-		/** >>>>> ESCAPE SEQUENCES:
+		/** 
+		 * >>>>> ESCAPE SEQUENCES:
 		 * ___Following are the Escape Sequences we have and can use them in special cases when needed:
 		 * 
 		 * __ \n: (back slash and letter n) means: go to the next line; if you use it in your code.
@@ -12,7 +13,9 @@ public class _4_EscapeSequences {
 		 * __ \"Hello World\" (back slash and quotation and then a sentence and then back slash and quotation)
 		 * __ means that the sentence between both back slashes and quotations will printout between both quotations.
 		 * 
-		 * >>> All the Escape Sequences are used in the following example: */
+		 * >>> All the Escape Sequences are used in the following example: 
+		 * 
+		 */
 		
 		System.out.println("Following are the simple examples: \n" + "'backSlash and letter n' and 'backSlash and letter t' \t \"Hello World\"");
 

@@ -1,4 +1,4 @@
-package _10__OOPs__Collectdions;
+package _11__OOPs__CollectdionsFramework;
 
 import java.util.ArrayList;
 
@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  */
 
-public class ArrayList_InCollectionExamples {
+public class List__ArrayListExamples {
 
 	public static void main(String[] args) {
 

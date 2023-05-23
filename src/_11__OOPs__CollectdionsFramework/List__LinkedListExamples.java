@@ -1,4 +1,4 @@
-package _10__OOPs__Collectdions;
+package _11__OOPs__CollectdionsFramework;
 
 import java.util.LinkedList;
 
@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * 
  *
  */
-public class LinkedList_InCollectionExamples {
+public class List__LinkedListExamples {
 
 	public static void main(String[] args) {
 

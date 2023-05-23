@@ -107,41 +107,44 @@ public class _1_CreatingVariables {
 		boolean b2 = false;
 		boolean b3 = b1 > i;
 		b2 = b;
+		// Here this printOut method is to print out the variable "f":
 		System.out.println(f);
+		// Here this printOut method is to print out the variable "b2":
 		System.out.println(b2);
+		// Here this printOut method is to print out the variable "b3":
 		System.out.println(b3);
 
-		/*
-		 * Here we are explaining the Reference OR Non-Primitive Data Types: When we get
-		 * to the Reference Data Types, we have couple of ways to Initialize the
-		 * Reference Data Types. One of the most Famous and popular class that we will
-		 * use a lot, is a String. Every instance of String Class will be an object Or a
-		 * Reference Data Type.
+		/**
+		 * Here we are explaining more about Reference (Non-Primitive) Data Types: 
+		 * When we get to the Reference data types, we have couple of ways to Initialize the Reference data types.
+		 * One of the most famous and popular class that we will use a lot, is the String; every instance/copy of a String class will be an object
+		 * OR a Reference data type.
+		 * 
+		 * ___Following here is the example of how to create a String:
+		 * "String" is the data type, which is a class.
+		 * "text" is the variable name.
+		 * "=" is the assignment operator.
+		 * ""texting is fun"" is the literal value that is assigned to the variable "text"
+		 * 
 		 */
 
-		// Following is the example of how we create a String:
-		String text = "texting is fun";// Here is one way of creating a String and it's a special way that's only
-										// available to a String Class
+		String text = "texting is fun";
+		
+		// Here in this following example syntax when you say "new String", this structure is basically used to initialize any Reference data type,
+		// and this applied to all of the Reference data types.
+		String text1 = new String("texting is fun");
 
-		/*
-		 * You'll not be able to do the same way with other Reference Data Types. Note:
-		 * The text inside two double code is called Literal Value. //The other way that
-		 * you can create a String is going to be as follows:
-		 */
-		String text1 = new String("texting is fun");// Here in this syntax when you say "new String", this structure is
-													// basically used to initialized any Reference Data Type 
-		                                            // and this applied to all of the Reference Data Types.
 
-		/*
-		 * Note: In general when you want to create a Reference Data Type, you need to
-		 * make sure that your Data Type //is the name of the class that you are trying
-		 * to create an object of. //And then for a String you have the option to
-		 * initialize the Variable with a Literal Values and you also have the option to
-		 * call the //Constructor of the Class which is the second way, and then you can
-		 * create the object of that.
+		/** 
+		 * ___NOTE: In general when you want to create a Reference data type, you would need to make sure that your data type is the name of the class that 
+		 * you are trying to create an object of it, and then for a String you have the option to initialize the variable with a literal values and you also
+		 * have the option to call the constructor of the class which is the second way, and then you can create the object of that.
+		 * 
 		 */
 
+		// Here this printout method is print out the variable "text":
 		System.out.println(text);
+		// Here this printOut method is to print out the variable "text1":
 		System.out.println(text1);
 
 	}

@@ -45,9 +45,8 @@ public class _5_ArithmeticOperatorsAndExpressions {
 		 * >>> OPERAND VS OPERATOR (2-OF-4):
 		 * 
 		 * Operand is any data or value that we assign the operator to it and both Operand and Operator is just the term that we call these
-		 * Operand is any data/value that we assign the operator to it; as examples
-		 * Note: Both Operand and Operator is just a term that we call these two in Java
-		 * shown below:
+		 * two in Java; Following here it is explained it details:
+		 * 
 		 */
 
 		System.out.println("Examples of Operand VS Operation...........");

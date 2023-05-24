@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _4_EscapeSequences {
+public class _4__EscapeSequences {
 
 	public static void main(String[] args) {
 		

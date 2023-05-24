@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _3_Operators_IncrementsVSDecrements {
+public class _3__Operators_IncrementsVSDecrements {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class PowerExamples {
+public class _8__Power__ToThePowerOfExamples {
 
 	public static void main(String[] args) {
 

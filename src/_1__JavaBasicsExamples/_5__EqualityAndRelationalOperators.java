@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _5_Operators_Equality_5 {
+public class _5__EqualityAndRelationalOperators {
 
 	public static void main(String[] args) {
 

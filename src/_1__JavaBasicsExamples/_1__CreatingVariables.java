@@ -28,7 +28,7 @@
 package _1__JavaBasicsExamples;
 
 	//This here is the Class.
-public class _1_CreatingVariables {
+public class _1__CreatingVariables {
 
 
 		// This following is the main method, which is used to run our code in the counsel:

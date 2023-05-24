@@ -5,7 +5,8 @@ public class _5a__ShortcutOperatorsOfArithmeticOperators {
 	public static void main(String[] args) {
 
 
-		/** >>>>> SHORTCUT OF ARITHMETIC OPERATORS:
+		/** 
+		 * >>> SHORTCUT OF ARITHMETIC OPERATORS:
 		 *  
 		 * >>>Shortcut Arithmetic Operators:  (1-OF-3)
 		 * ___Operators_______Usage__________Equivalent

@@ -4,76 +4,76 @@ public class _5__EqualityAndRelationalOperators {
 
 	public static void main(String[] args) {
 
-//OPERATORS:
-		// Operators constitute the basic building block to any programming language.
-		// Java too provides many types of operators which can be used according to the
-		// need to perform various calculations and functions, be it Logical,
-		// Arithmetic, Relational, etc. They are classified based on the functionality
-		// they provide.
-//1:__EQUALITY OPERATORS:
-		// "==" >>> Stands for "Equal Operator"
-		// "!=" >>> Stands for "Not Equal Operator"
+		/**
+ 		* >>> OPERATORS:
+ 		* Operators constitute the basic building block to any programming language. Java also provides many types of Operators which can be used according
+ 		* to the need to perform various calculations and functions such as: Logical, Arithmetic, Relational, Equality, and etc... They are classified based
+ 		* on the functionality they provide.
+ 		* 
+ 		* ___Here in the class we are covering/talking about two types of operators: 
+ 		* 1) Equality Operators and 2) Relational Operators:
+ 		* 
+ 		* >>> EQUALITY OPERATORS:
+ 		* --> "==" stands for "Equal Operator"
+ 		* --> "!=" stands for "Not Equal Operator"
+ 		* 
+ 		* >>> Difference between Equal/Equality Operators used with Primitive data types and Non-Primitive data types:
+ 		* In general Equal/Equality Operators will be used with Primitive data types, basically while using Equal/Equality Operators with Primitive data types
+ 		* they will check/compare the values of the Primitive data types in Stack, to see if the values are Equal/Same OR not Equal/Same, but while using Equal/
+ 		* Equality Operators with Non-Primitive data types, they will basically check if both the Non-Primitive/Reference data types are stored OR not stored
+ 		* in the same location in the Memory.
+ 		* 
+ 		* NOTE: Never use Equality Operators to compare Non-Primitive/Reference data types, because it will never give you the correct response.
+ 		* 
+ 		*/
 
-//>>>Difference between Equal/Equality Operators used with Primitive Data Types & Non-Primitive/Reference Data Types:
-		// In general Equal/Equality Operators will be used with Primitive Data Types;
-		// Basically while using Equal/Equality Operators with Primitive Data Types,
-		// they will check/compare the values of the Primitive Data Types in Stack; to
-		// see if the values are Equal/Same OR Not Equal/Same.
-		// But while using Equal/Equality Operators with Non-Primitive/Reference Data
-		// Types, they basically will check if both the Non-Primitive/Reference Data Types 
-		//are stored/saved OR not stored/saved in the same location in the Memory.
+		int x = 25;// As you know this is the process of declaration and initialization; Value "25" is assigned to variable "x", which is changeable any time
+		int y = 15;// As above same here.
+		
+		/**
+		 * >>> Example of using Equality Operators:
+		 * These following printOut methods will print out the boolean (true) result in the console, if the "x" is equal to "y", if not equal it will print (false)
+		 *
+		 */
+		System.out.println("Example of Equality Operator with Primitive data types:\t\t" + (x == y));
+		System.out.println("Example of Not Equal Operator with Primitive data types:\t" + (x != y));
 
-		// Here the Variable is initialized:
-		int x = 25;// Here Variable "X" is Initialized and the Value "25" is assigned to it; Which
-					// is changeable at any time.
-		int y = 15;// Here Variable "Y" is Initialized and the Value "15" is assigned to it; Which
-					// is changeable at any time.
-		// Example of using Equality Operators:
-		System.out.println(x == y);// This will printout the boolean result (if "X" is equal to "Y" it will print
-									// "true", if not it will print "false").
-		System.out.println(x != y);// This will printout the boolean result (if "X" is not equal to "Y" it will
-									// print "true", if not it will print "false").
+		/**
+		 * >>> Examples of using Equality Operators with Non-Primitive/Reference data types:
+		 * Following here "str1" and "str2" the new objects of a class String is created in the Memory, and the value "Test" is assigned to both objects "str1" 
+		 * and "str2". So, as you see the value of both String objects are the same, you will still not be able to get the correct response by using the Equality
+		 * Operators, because they are both stored in different locations in the Memory.
+		 * 
+		 * NOTE: While creating a String, it will be saved as an object in Array of Character in different locations in the Memory, not as same value.
+		 * If you want to compare both Strings, you need to use the method ".equal();"
+		 */
+		String str1 = new String("Test");// This is to create an object of a String
+		String str2 = new String("Test");// This is to create an object of a String too
+		System.out.println("Example of using Equality Operator with Reference data types:\t" + (str1 == str2));// This will printout false, though the Value "test" 
+		                                                                                                       // of both Strings are the same.
+		str1.equals(str2);// Example of using method: ".equal();"
+		System.out.println("Example of using \".equal()\" method for comparing two Strings:\t" + str1.equals(str2));// This will printout true, because the Value 
+		                                                                                                            // of both Strings are 4 Characters (letters).
+		/**
+		 * >>> RELATIONAL OPERATORS:
+		 * 
+		 * --> "<" stands for "Less than"
+		 * --> "<=" stands for "Less than and Equal to"
+		 * --> ">" stands for "More than"
+		 * --> ">=" stands for "More than and Equal to"
+		 * 
+		 * NOTE: Using of the Relational Operators will give the boolean (true/false) result, depending on the condition provided in your code.
+		 * Example of using Relational Operators:
+		 * 
+		 */
 
-//>>>NOTE: Never use Equality Operators to compare Non-Primitive/Reference Data Types. Because it will never give you the correct response.
-		// Here the String is created:
-		String str1 = new String("test");// Here the String "str1" OR new Object is created in the Memory, and the Value
-											// "test" is assigned to it.
-		String str2 = new String("test");// Here the String "str2" OR new Object is created in the Memory, and the same
-											// above^ Value "test" is assigned to it.
-		// So, as you see the Value of both Strings are the same. You will be still not
-		// able to get the correct response by using the Equality Operators
-		// because, there are both stored/saved in the different locations in the
-		// Memory.
-		// Example of using Equality Operators with String:
-		System.out.println(str1 == str2);// This will printout false, though the Value "test" of both Strings are the
-											// same.
-		// Because, while creating String, it will be saved as an Object in Array of
-		// Character in different locations in Memory; not as same Value.
-		// If you want to compare both Strings, you need to use ".equals" method:
-		str1.equals(str2);
-		System.out.println(str1.equals(str2));// This will printout true, because the Value of both Strings are 4
-												// Characters (letters).
-
-//2:__RELATIONAL OPERATORS:
-		// "<" >>> Stands for "Less than"
-		// "<=" >>> Stands for "Less than and Equal to"
-		// ">" >>> Stands for "More than"
-		// ">=" >>> Stands for "More than and Equal to"
-
-//>>>Any time using the Relational Operators 
-		// Example of Relational Operators:
-		int a = 20;// Here the Integer Variable "a" is Initialized and assigned the Value of "20"
-					// to it.
-		int b = 30;// Here the Integer Variable "b" is Initialized and assigned the Value of "30"
-					// to it.
-		System.out.println(a > b);// This will basically printout the boolean result (true OR false), depending on
-									// the condition provided.
-		System.out.println(a < b);// This will basically printout the boolean result (true OR false), depending on
-									// the condition provided.
-		System.out.println(a >= b);// This will the same printout the boolean result (true OR false), depending on
-									// the condition provided.
-		System.out.println(a <= b);// This will the same printout the boolean result (true OR false), depending on
-									// the condition provided.
+		int a = 20;// As of you know that here the value "20" is assigned to the variable "a"
+		int b = 30;// Same here the value "30" is assigned to the variable "b"
+		System.out.println("\nExamples of using the Relational Operators:");
+		System.out.println(a > b);// This will results into "false"
+		System.out.println(a < b);// This will results into "true"
+		System.out.println(a >= b);// This will results into "false"
+		System.out.println(a <= b);// This will results into "true"
 
 	}
 

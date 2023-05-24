@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _5c__MixedTypeArithmeticExpressionsAndTypeCasting {
+public class _5d__MixedTypeArithmeticExpressionsAndTypeCasting {
 
 	public static void main(String[] args) {
 		

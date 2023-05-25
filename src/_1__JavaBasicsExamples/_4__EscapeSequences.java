@@ -17,6 +17,7 @@ public class _4__EscapeSequences {
 		 * 
 		 */
 		
+		// Following here all the escape sequences are use:
 		System.out.println("Following are the simple examples: \n" + "'backSlash and letter n' and 'backSlash and letter t' \t \"Hello World\"");
 
 	}

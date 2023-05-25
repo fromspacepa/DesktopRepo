@@ -4,26 +4,35 @@ public class _5d__MixedTypeArithmeticExpressionsAndTypeCasting {
 
 	public static void main(String[] args) {
 		
-		/** >>>>> Mixed-Type Arithmetic Expressions: 
+		/**
+		 * >>> Mixed-Type Arithmetic Expressions:
+		 * 
+		 * In this class we will be covering the following problems in Mixed Type Arithmetic Expressions:
+		 * 		1) Mixed Type
+		 * 		2) Mixed Type with Promotion
+		 * 		3) Type Casting:
+		 *   	__Implicite Casting
+		 *    	__Explicite Casting
 		 *    
-		 * >>>Mixed-Type: (1-OF-3)
-		 * (Arithmetic Execution An Operation Between Double and Integer Values) 
-		 * ___Mixed-Type is when you are trying to do an operation between double and integer values.
-		 * While doing Mixed-Type Arithmetic Execution in your code such as "int <--> double" the
-		 * outcome/result of the execution will be double. 
-		 * Note: double is more accurate then integer value.
-		 * Examples are provided below: */
+		 * 1) Mixed Type is when you are trying to do an operation between double and integer values,
+		 * while doing Mixed Type Arithmetic Execution in your code such as "int <--> double" it will give you the
+		 * result of double value.
+		 * NOTE: Just keep in mind that the double data type is more accurate then integer data type.
+		 * 
+		 * Following are the examples:
+		 */
+		double x = 6.7;
+		int y = 3;
 		
-		double x = 6.7;//By now you should know this is the process of declaration and initialization
-		int y = 3;//By now you should know this is also the process of declaration and initialization
-		
-		double sum = x + y;//With the operation of Mixed-Type addition, this will give the result of 9.7
-		System.out.println("The outcome for Mixed-Type execution of 'doubl <--> int':\n.......... " + sum);
-		double multiplication = x * y;//With the execution/operation of Mixed-Type multiplication,
-		                              //this will give you the result of 20.1.
-		System.out.println("The outcome for Mixed-Type execution of 'double <--> int':\n.......... " + multiplication);
-		double division = x / y;//With the execution of Mixed-Type division this will give the result of 2.2333333333333334
-		System.out.println("The outcome for Mixed-Type execution of 'double <--> int':\n.......... " + division);
+		// With the execution of Mixed Type Addition, this will give you the result of 9.7:
+		double sum = x + y;
+		System.out.println("The outcome for Mixed-Type execution of 'doubl --> int':\n.......... " + sum);
+		// With the execution of Mixed-Type Multiplication, this will give you the result of 20.1:
+		double multiplication = x * y;
+		System.out.println("The outcome for Mixed-Type execution of 'double --> int':\n.......... " + multiplication);
+		// With the execution of Mixed-Type Division this will give the result of 2.2333333333333334
+		double division = x / y;
+		System.out.println("The outcome for Mixed-Type execution of 'double --> int':\n.......... " + division);
 		
 		/** >>>>> Mixed-Type Arithmetic Expressions CONTINUES....:
 		 * 

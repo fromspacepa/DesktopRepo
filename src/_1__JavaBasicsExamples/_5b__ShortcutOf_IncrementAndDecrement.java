@@ -55,7 +55,7 @@ public class _5b__ShortcutOf_IncrementAndDecrement {
 		System.out.println("Variable after PostfixDecrement Applied:\t" +"numD:"+ numD +" numE:"+ numE +" numF:"+ numF);
 		
 		
-		//>>>>> What is the outcome of following question?
+		//>>> You figure out the out come of the following code work:
 		System.out.println("\nYou could find out where these coming from:");
 		int a = 5;
 		int b = 6;

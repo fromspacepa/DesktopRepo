@@ -51,11 +51,14 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	 */
 	System.out.println("Printing Variable 'X':\n" + x +"____Here this is just the printOut of Variable 'X'.\n");
 		
-/*Important Note:
-		One thing you need to realize that what you do with the Assignment(s): (x = 5;) OR (x += 5;), is that you are assigning the right side of the 
-		equal = side to the left side of the equal side.*/
+	/**
+	 * IMPORTANT NOTE:
+	 * One thing you need to realize that what you do with the Assignment(s): 
+	 * (x = 5;) OR (x += 5;), is that you are assigning the right side of the equal = to the left side of the equal.
+	 * 
+	 */
 
-//Example of Assignment Operators ShortCut:
+	//Example of Assignment Operators ShortCut:
 	x += 10;//ShortCut of Addition Assignment Operator. (The original value of Variable "X" was "20", and I added "10" to it, now the value of X is 30.
 	System.out.println("Result of Addition 'x += 10;' ShortCut Assingment Operator:");
 	System.out.println(x);//The result is printed in the Console below:

@@ -27,7 +27,7 @@
 	// This is the package.
 package _1__JavaBasicsExamples;
 
-	//This here is the Class.
+		//This here is the Class.
 public class _1__CreatingVariables {
 
 

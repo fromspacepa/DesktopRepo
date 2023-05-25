@@ -32,7 +32,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		x = 2 * 4;// Here the "x" Multiplication Operator is used, which basically multiply the value "2" of a variable by "4", which changes  
 				  // the value of variable from "2" to "8"
 		System.out.println(x);
-		x = 6 / 2;// Here the "/" Division Operator is used, which basically divide the value "6" by "2", which changes the value of varialbe
+		x = 6 / 6;// Here the "/" Division Operator is used, which basically divide the value "6" by "2", which changes the value of varialbe
 		          // into "3"
 		System.out.println(x);
 		x = 5 % 3;// Here the "%" Modulus/Remainder Operator is used, which basically divided the whole number (not decimal numbers) of value "5" 
@@ -73,7 +73,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		 * Step one: 	-> () Parenthesis
 		 * Step two: 	-> * Multiplication
 		 * 			 	-> / Division
-		 * 			 	-> & Modulus
+		 * 			 	-> % Modulus
 		 * Step three:	-> + Addition
 		 * 				-> - Subtraction
 		 * Step four:	-> = Equal Assignment OR Assignment Operator

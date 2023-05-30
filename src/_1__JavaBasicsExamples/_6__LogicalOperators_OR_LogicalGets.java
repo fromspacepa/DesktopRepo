@@ -18,9 +18,9 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		 * 1)__&&__________Logical AND____Returns TRUE if both side statements are true.
 		 * 2)__||__________Logical OR_____Returns TRUE if one or both side statements are true.
 		 * 3)__!___________Logical NOT____Reverses the result; Returns FALSE if the result is TRUE.
-		 * 4)__^___________Logica XOR_____If both sides of the XOR '^' are different the return result will be TRUE.
-		 * _______________________________If both sides of the XOR '^' are the same/true value, the return result will be FALSE.
-		 * _______________________________XOR '^' Means Exclusive OR.
+		 * 4)__^___________Logica XOR_____If both sides of the XOR '^' are different, it will return TRUE.
+		 * _______________________________If both sides of the XOR '^' are the same (either true or false), it will return FALSE.
+		 * _______________________________XOR '^' / Exclusive OR means: one or another.
 		 * 
 		 * 1) Logical "AND (&&)" Operator:
 		 * NOTE:
@@ -35,6 +35,7 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		System.out.println(x < 5 && x < 10);
 		System.out.println(x > 5 && x > 10);
 		System.out.println(x > 10 && x > 20);
+		
 		// Example of Logical "AND (&&)" Operator with boolean data type:
 		System.out.println("\n2)__Using of Logical \"AND (&&)\" Operator with boolean data type:");
 		boolean num1 = x < 5 && x < 10;
@@ -84,10 +85,10 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		 * NOTE:
 		 * To return "true" we only need to have one side of the Logical "NOT (!)" Operator to be "true".
 		 * Logical "NOT (!)" Operator reverses the result. It returns "false" if the result is "true".
-		 * Basically, reverses the result of boolean. For instance, if the return result for other Logical Operators is "true" 
+		 * Basically, Logical Not "!" Operator reverses the result of boolean. For instance, if the return result for other Logical Operators is "true" 
 		 * and you add the Logical "NOT (!)" to it, the return results will get reverse from "true" to "false". 
 		 * 
-		 * Examples are shown below:
+		 * Following are the examples of Logical "NOT (!)" Operator:
 		 */
 		
 		int z = 40;
@@ -96,6 +97,7 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		System.out.println(!(z > 50 || 30 < z));
 		System.out.println(!(60 != z && z != 70));
 		System.out.println(z > 30 || 30 > z);
+		
 		// Example of Logical "NOT (!)" with Selection Statements (if, else if, else):
 		System.out.println("\n7)__Return result for Logical \"NOT (!)\" with Selection Statements (if, else if, else):");
 		if (!(z < 20 || 30 > z)) {
@@ -105,6 +107,7 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		}else {
 			System.out.println("Look both sides of Logical OR");
 		}
+		
 		// Example of Logical "NOT (!)" with boolean data type:
 		System.out.println("\n8)__Return results for Logical \"NOT (!)\" with boolean data type:");
 		boolean num4 = 10 < z || z != 20;
@@ -115,23 +118,25 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		System.out.println(num6);
 		
 		/**
-		 * 4) >>> LOGICAL XOR '^'(EXCLUSIVE OR) EXAMPLES:
-		 * As explained above, Logical XOR '^' (Exclusive OR) Operator means one or another.
-		 * To return the 'true' result, both sides of the conditions or value should be different;
-		 * (Means that on side of the XOR '^' should be 'true' and the other side should be 'false' to return 'true'.
-		 * To return the 'false' result, both sided of the conditions or value should be the same;
-		 * (Means that both sides of the XOR '^' should be the same value of either 'true' OR 'false' to return 'false'.
-		 * Examples are shown below:
+		 * 4) Logical "XOR '^'(Exclusive OR)" Operator:
+		 * NOTE:
+		 * It means one or another. To return the "true" result, both sides of the condition or value of the "XOR '^'" operator should be different;
+		 * Means that one side of the "XOR '^'" operator should be "true" and the other side should be "false" to return "true". And to return the 
+		 * "false" result;  both sides of the conditions or value of the "XOR '^'" operator should be the same (either true or false);
+		 * 
+		 * Following are the examples of Logical "XOR '^'" Operator:
 		 */
 		
 		int x1 = 100;
-		//Examples of LOGICAL XOR '^' (Exclusive OR with simple printout:
-		System.out.println("\nReturn results for Logical XOR '^' (Exclusive OR):");
+		//Examples of LOGICAL "XOR '^' (Exclusive OR)" with simple printout:
+		System.out.println("\n9)__Return results for Logical XOR '^' (Exclusive OR):");
 		System.out.println(!(x1 > 50 ^ 30 < x1));
 		System.out.println(!(60 != x1 ^ x1 == 70));
 		System.out.println(x1 > 30 ^ 30 < x1);
 		System.out.println(x1 == 100 ^ 100 == x1);
-		//Example of LOGICAL XOR '^' (Exclusive OR) with Selection Statements (if/else if/else):
+		
+		//Example of LOGICAL "XOR '^' (Exclusive OR)" with Selection Statements (if/else if/else):
+		System.out.println("\n10)__Return result for Logical \"XOR (^)\" with Selection Statements (if, else if, else):");
 		if (x1 < 100 ^ 30 > x1) {
 			System.out.println("If block is: TRUE");
 		}else if(!(70 > x1 && x1 > 50)){//(Not(F&&T=F) = 'NotFalse = True')
@@ -139,13 +144,6 @@ public class _6__LogicalOperators_OR_LogicalGets {
 		}else {
 			System.out.println("Look both sides of Logical OR");
 		}
-		//Example of LOGICAL XOR '^' (Exclusive OR) with boolean data type:
-		boolean numD = 10 < 20 ^ x1 > 20 && (x1 > 90 ^ 30 == x1);//T^T='False' && (T^F=True') Returns result to: "False && True = False"
-		System.out.println("Depending on the condition of both sides of Logical XOR '^', the result is: " + numD);
-		boolean numE = !(20 != 50 ^ 30 != 20);//Not(T^T='False') Returns result to: "Not False = True"
-		System.out.println("Depending on the condition of both sides of Logical XOR '^', the result is: " + numE);
-		boolean numF = !(20 > 30 ^ 30 > 20);//Not(F^T='True') Returns result to: "Not True = false"
-		System.out.println("Depending on the condition of both sides of Logical XOR '^', the result is: " + numF);
 		
 		boolean result1 = true;
 		boolean result2 = false;
@@ -156,6 +154,17 @@ public class _6__LogicalOperators_OR_LogicalGets {
 			System.out.println("Your return of XOR is False");
 		}
 		
+		//Example of LOGICAL "XOR '^' (Exclusive OR)" with boolean data type:
+		System.out.println("\n11)__Return results for Logical \"XOR (^)\" with boolean data type:");
+		boolean numD = 10 < 20 ^ x1 > 20 && (x1 > 90 ^ 30 == x1);//T^T='False' && (T^F=True') Returns result to: "False && True = False"
+		System.out.println(numD);
+		boolean numE = !(20 != 50 ^ 30 != 20);//Not(T^T='False') Returns result to: "Not False = True"
+		System.out.println(numE);
+		boolean numF = !(20 > 30 ^ 30 > 20);//Not(F^T='True') Returns result to: "Not True = false"
+		System.out.println(numF);
+		
+		//Examples of mix used of different Logical Operators with boolean data type:
+		System.out.println("\n12)__Return results for mix used of different Logical Operators with boolean data type:");
 		int A = 10, B = 20;
 		boolean C = A == B ^ B != A;
 		System.out.println(C);

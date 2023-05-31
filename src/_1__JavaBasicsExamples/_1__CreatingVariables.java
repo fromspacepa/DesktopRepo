@@ -1,4 +1,17 @@
 
+		 
+	// This is the package.
+package _1__JavaBasicsExamples;
+
+		//This here is the Class.
+public class _1__CreatingVariables {
+
+
+		// This following is the main method, which is used to run our code in the counsel:
+		// For instance: You have written a code and would like to execute the code to see the outcome in the counsel, then you need to have this main method:
+	public static void main(String args[]) {
+		
+
 		/**
 		 * From this package and this class we are going to start learn about Core-Java Object Oriented Programming (OOPs).
 		 * 
@@ -23,19 +36,8 @@
 		 * more words.
          * 
 		 */
-		 
-	// This is the package.
-package _1__JavaBasicsExamples;
 
-		//This here is the Class.
-public class _1__CreatingVariables {
-
-
-		// This following is the main method, which is used to run our code in the counsel:
-		// For instance: You have written a code and would like to execute the code to see the outcome in the counsel, then you need to have this main method:
-	public static void main(String args[]) {
-
-		// Following this the sample way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:
+		// Following this the simple way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:
 		int x = 20; 
 		
 		/** 
@@ -48,6 +50,22 @@ public class _1__CreatingVariables {
 		 * The portion "=" of the syntax is called Assignment Operator  
 		 * The portion "20" of the syntax is called Initialization.  
 		 * "= 30;" <-This syntax is called the process of assignment.
+		 * 
+		 * QUESTION: What is Variable/Attribute?
+		 * ANSWER: Variable in Java is a data container that saves the data values during Java program execution. 
+		 * ________Every variable is assigned a data type that designates the type and quantity of value it can hold. 
+		 * ________A variable is a memory location name for the data.
+		 * 
+		 * >>> General rules for naming variables are:
+		 * __Names can contain letters, digits, underscores, and dollar signs
+		 * __Names must begin with a letter
+		 * __Names should start with a lower-case letter and it cannot contain whitespace
+		 * __Names can also begin with "$" dollar sign and "_" underscore
+		 * __Names are case sensitive ("myVar" and "myvar" are different variables)
+		 * __Names can be camelCase (if a name is more than one word you would use camelCase names, 
+		 *   the first letter of a first word starts with lower-case and then
+		 *   the first letter of second and third word will start with UpperCase letter.
+		 * __Names cannot use Reserved words (like Java keywords, such as int or boolean)
 		 * 
 		 * NOTE:
 		 * After the first time of variable/identifier declaration and initialization and then 
@@ -65,7 +83,8 @@ public class _1__CreatingVariables {
 		
 
 		/**
-		 * ____Data Types in Java:
+		 * >>> Data Types in Java:
+		 * 
 		 * Question: How many data types do we have in Java?
 		 * Answer: We have two data types.
 		 * 
@@ -74,12 +93,14 @@ public class _1__CreatingVariables {
 		 * ANSWER: Because the primitive data types are size predefined or we can say they have predefined sizes.
 		 * QUESTION: How many primitive data types do we have?
 		 * ANSWER: We have only 8-primitive data types, which are: "byte, short, int, long, float, double, char, and boolean"
-		 * >>>NOTE: All 8-primitive data types have different sizes and size can't be changed, because they are all predefined and they all starts with lower-case letter.
+		 * 
+		 * NOTE: All 8-primitive data types have different sizes and size can't be changed, because they are all predefined and they all starts with lower-case letter.
 		 * 
 		 * QUESTION: How many Reference (Non-Primitive) data types do we have?
 		 * ANSWER: Reference (Non-Primitive) data types would be any object that we create; for instance: Lets say that we create String,
 		 * String is a class so every instance of a String is Reference data type. 
-		 * >>>NOTE: Lets say we define a class of Student and then we create an object of it, so that every object would be a Reference (Non-Primitive) data type
+		 * 
+		 * NOTE: Lets say we define a class of Student and then we create an object of it, so that every object would be a Reference (Non-Primitive) data type
 		 * In conclusion: We have 8-Primitive data types and we have thousand and thousands of Reference (Non-Primitive) data types.
 		 * 
 		 */

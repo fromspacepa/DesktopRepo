@@ -5,59 +5,69 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	public static void main(String[] args) {
 
 		/**
-		 * >>>>> SELECTIONS: __Selection is basically the idea of having
-		 * condition/logic; based on the condition/logic something will happen (the code
-		 * will be executed). __Selection statements in Java are used to control the
-		 * flow of the program.
+		 * Here we will cover "Control Statements", in Control Statements we have "Selections", Iteration/Looping, and Jump Statements.
 		 * 
-		 * __NOTE: We know that the flow of execution in Java is sequential (starts from
-		 * top to bottom); basically, Java will start from the top of the code and will
-		 * go towards the bottom of the code; when it reaches that selection
-		 * (condition/logic) it will check the condition in the selection, if the
-		 * condition is true, it will execute the true block, and if the condition is
-		 * false, it will continue to the next code statement OR to the rest of the code
-		 * to reach true block; if there's no true block it will execute the last block
-		 * of else statement if available.
+		 * >>> SELECTIONS (if/else if/else statements): 
 		 * 
-		 * __IMPORTANT NOTE: In the if statements the first if condition is
-		 * important/must; rest of the "if blocks/else if/else/nested if blocks" are
-		 * optional, depending on the condition. __We usually avoid having "nested if
-		 * blocks" because it creates confusion and it is hard to read the code. But we
-		 * use it in most cases. The more important thing in "if statements" is to
-		 * understand the flow of execution of your code.
+		 * QUESTION: What is Selection?
+		 * ANSWER: Selection is basically the idea of having condition/logic; based on the condition/logic something will happen
+		 *         (the code will be executed). Selection statements in Java are used to control the flow of the program.
 		 * 
-		 * __FOLLOWING ARE THE TYPES OF SELECTION IN JAVA:
+		 * NOTE: 
+		 * We know that the flow of execution in Java is sequential (starts from top to bottom); basically, Java will start 
+		 * from the top of the code and will go towards the bottom of the code; when it reaches that selection (condition/logic) 
+		 * it will check the condition in the selection, if the condition is true, it will execute the true block, and 
+		 * if the condition is false, it will continue to the next code statement OR to the rest of the code to reach true block; 
+		 * if there's no true block it will execute the last block of else statement if available.
 		 * 
-		 * >>> 1) if statement: __Following is the example of "if" statement: if
-		 * (condition){ System.out.println("Hello World");//this is going to be the
-		 * statement block. } __NOTE: In the above "if" statement the minimum execution
-		 * is "0" zero and maximum "1" one; Depending on the condition we provide
-		 * (either the block of statement(s) will execute or not).
+		 * IMPORTANT NOTE: 
+		 * In the if statements the first if condition is important/must; rest of the "if blocks/else if/else/nested if blocks" are optional, 
+		 * depending on the condition. We usually avoid having "nested if blocks" because it creates confusion and it is hard to read the code. 
+		 * But we use it in most cases. The more important thing in "if statements" is to understand the flow of execution of your code.
 		 * 
-		 * >>> 2) if/else statement: __Following is the example of "if/else" statement:
-		 * if (condition){ System.out.println("Afghanistan");//this is going to be the
-		 * "if" statement block. }else{ System.out.println("Afghan");//this is going to
-		 * be the "else" statement block. } __NOTE: In the above "if/else" statement the
-		 * minimum execution is "1" one and same the maximum is "1" one. Depending on
-		 * the condition we provide; if the "if" statement block is true, it will be
-		 * executed OR if the "if" statement is false, the "else" statement block will
-		 * be definitely executed, it does not matter if the "else" statement is true OR
-		 * false.
+		 * FOLLOWING ARE THE TYPES OF SELECTION IN JAVA:
 		 * 
-		 * >>> 3) if/else if/: __Following is the example of "if/else if" statement: if
-		 * (condition){ System.out.println("Afghan Watan!");//this is going to be the
-		 * "else" statement block. }else if{ System.out.println("Afghani Rupees");//this
-		 * is going to be the "else if" statement block. } __NOTE: In the above "if/else
-		 * if" statement the minimum execution is "0" zero, and same the maximum
-		 * execution is "0" zero. Depending on the condition we provide; if the "if"
-		 * statement block is true, it will be executed OR if the "if" statement is
-		 * false, Java program will go towards bottom and check the "else if" statement,
-		 * if it is true it will be executed; And if both "if" and "else if" statement
+		 * 1) if statement (following is the example of "if" statement): 
+		 * 
+		 * if (condition) { 
+		 * 
+		 * System.out.println("Hello World");//this is going to be the statement block. 
+		 * 
+		 * }
+		 *  
+		 * NOTE: 
+		 * In the above "if" statement the minimum execution is zero and maximum one; depending on the condition we provide 
+		 * (either the statement(s) block will get execute or not).
+		 * 
+		 * 2) if/else statement (following is the example of "if/else" statement):
+		 * 
+		 * if (condition) { 
+		 * System.out.println("Afghanistan");//this is the "if" statement block. 
+		 * } else { 
+		 * System.out.println("Afghan");//this is "else" statement block. 
+		 * } 
+		 * 
+		 * NOTE: 
+		 * In the above "if/else" statement the minimum is one and same the maximum is one; depending on the condition we provide.
+		 * If the "if" statement block is true, it will be executed OR if the "if" statement is false, the "else" statement block will
+		 * be definitely executed, it does not matter if the "else" statement is true OR false.
+		 * 
+		 * 3) if/else if/ (following is the example of "if/else if" statement): 
+		 *  
+		 * if (condition) { 
+		 * System.out.println("Afghan Watan!");//this is the "if" statement block. 
+		 * } else if { 
+		 * System.out.println("Afghani Rupees");//this is the "else if" statement block.
+		 * } 
+		 * 
+		 * NOTE: 
+		 * In the above "if/else if" statement the minimum execution is zero, and same the maximum execution is zero; depending on the 
+		 * condition we provide; if the "if" statement block is true, it will be executed OR if the "if" statement is false, Java program 
+		 * will go towards bottom and check the "else if" statement, if it is true it will be executed; And if both "if" and "else if" statement
 		 * blocks are false, none of the blocks will get executed.
 		 * 
 		 * 
-		 * >>>> MORE DETAILS ABOUT "if/if, else/if, else if, else/ & Nested if blocks"
-		 * STATEMENTS:
+		 * MORE EXAMPLES OF "if, if/else, if/else if/else if, if/else if/else if/else, & Nested if blocks (3 if blocks in 1 if block)" STATEMENTS:
 		 *
 		 * ____if (condition) { ------At most one of the blocks will be executed------ 
 		 * //code block.....
@@ -87,7 +97,6 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		 * //code block.....
 		 * }
 		 *
-		 *
 		 * ____if (condition) {
 		 * //code block.....
 		 * } _______if (condition) {
@@ -98,16 +107,11 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		 * //code block.....
 		 * }
 		 *
-		 *
-		 * >>>>> SELECTION EXAMPLES WITH TERNARY OR CONDITIONAL OPERATORS: Using Unary OR
-		 * Conditional Operator in Selection Statement is short and it's sample; it can
-		 * take up to one line coding. If you have one condition and you need to check
-		 * it and you don't have too many things to execute, depending on the condition.
-		 * You could use Unary OR Conditional Operators. But if you have multiple
-		 * conditions, depending on that if one of them is "true" OR "false" you are
-		 * going to execute lots of steps; So, you would go with using of "if/else
-		 * if/else" statements.
-		 * 
+		 * >>> SELECTION (Unary OR Conditional Operators): 
+		 * Using Unary OR Conditional Operator in Selection Statement is short and it's sample; it can take up to one line coding. 
+		 * If you have one condition and you need to check it and you don't have too many things to execute, depending on the condition.
+		 * You could use Unary OR Conditional Operators, but if you have multiple conditions, depending on that if one of them is "true" 
+		 * OR "false" you are going to execute lots of steps; So, you would go with using of "if/else if/else" statements.
 		 */
 
 		/**

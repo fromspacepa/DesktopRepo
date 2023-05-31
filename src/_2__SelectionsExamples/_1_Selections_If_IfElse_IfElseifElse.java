@@ -7,7 +7,8 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		/**
 		 * Here we will cover "Control Statements", in Control Statements we have "Selections", Iteration/Looping, and Jump Statements.
 		 * 
-		 * >>> SELECTIONS (if/else if/else statements): 
+		 * >>> CONTROL STATEMENTS:
+		 * ___ 1) SELECTIONS (if, else if, else statements): 
 		 * 
 		 * QUESTION: What is Selection?
 		 * ANSWER: Selection is basically the idea of having condition/logic; based on the condition/logic something will happen
@@ -107,7 +108,11 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		 * //code block.....
 		 * }
 		 *
-		 * >>> SELECTION (Unary OR Conditional Operators): 
+		 * >>> CONTROL STATEMENTS: 
+		 * __ 2) CONDITIONAL (TERNARY) OPERATOR: 
+		 * The conditional (ternary) operator is the only JavaScript operator that takes three operands: 
+		 * A condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), 
+		 * and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.
 		 * Using Unary OR Conditional Operator in Selection Statement is short and it's sample; it can take up to one line coding. 
 		 * If you have one condition and you need to check it and you don't have too many things to execute, depending on the condition.
 		 * You could use Unary OR Conditional Operators, but if you have multiple conditions, depending on that if one of them is "true" 

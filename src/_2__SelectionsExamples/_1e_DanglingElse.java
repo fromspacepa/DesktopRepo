@@ -4,7 +4,8 @@ public class _1e_DanglingElse {
 
 	public static void main(String[] args) {
 
-		/** DANGLING ELSE......Below is the example of Dangling Else block.
+		/** 
+		 * DANGLING ELSE......Below is the example of Dangling Else block.
 		 * 
 		 * Note: Dangling Else is when you have an extra Else block in your "If Else" statement. and while having Dangling Else
 		 * in your "If Else" statement, you will get a Compiler Error and the code will not get run.

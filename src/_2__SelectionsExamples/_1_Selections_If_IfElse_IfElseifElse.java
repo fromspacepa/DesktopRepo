@@ -276,12 +276,6 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		if (num1 < 50) {
 			System.out.println("'num1' must be between 10 - 50");
 
-			int a = 10;
-			double b = 20.12;
-			int c = (int) b;
-			System.out.println(c);
-			double d = b;
-			System.out.println(d);
 
 			{
 			}

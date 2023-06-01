@@ -109,49 +109,43 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		 * }
 		 *
 		 * >>> CONTROL STATEMENTS: 
-		 * __ 2) CONDITIONAL (TERNARY) OPERATOR: 
+		 * ___ 2) CONDITIONAL (TERNARY) OPERATOR: 
 		 * The conditional (ternary) operator is the only JavaScript operator that takes three operands: 
 		 * A condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), 
 		 * and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.
-		 * Using Unary OR Conditional Operator in Selection Statement is short and it's sample; it can take up to one line coding. 
+		 * Using Conditional (Ternary) Operator in Selection Statement is short and it's sample; it can take up to one line coding. 
 		 * If you have one condition and you need to check it and you don't have too many things to execute, depending on the condition.
-		 * You could use Unary OR Conditional Operators, but if you have multiple conditions, depending on that if one of them is "true" 
+		 * You could use Conditional (Ternary) Operators, but if you have multiple conditions, depending on that if one of them is "true" 
 		 * OR "false" you are going to execute lots of steps; So, you would go with using of "if/else if/else" statements.
+		 * 
 		 */
 
-		/**
-		 * Example of Selection with Unary Operator using 'boolean' the primitive data
-		 * type:
-		 */
-		int x = 10;// Here the Variable 'x' is declared & initialized with the Initialization
-					// Process of Assigning value of '10' to 'x'.
-		int y = 15;// Here the Variable 'y' is declared & initialized with the Initialization
-					// Process of Assigning value of '15' to 'y'.
-		boolean z = x > y ? true : false;//Example of Ternary Operator using boolean.
-		// Here the boolean will execute true OR false depending  on the condition provided.
-		System.out.println(z);// This will print 'false' depending on the condition provided above^.
-
-		// Example of Selection with Unary Operator using 'String' the Non-primitive
-		// data type:
-		int nums = x > y ? 10 : 15;//Example of Ternary Operator using integer.
+		// Examples of Conditional (Ternary) Operator, using boolean data type:
+		int x = 10;
+		int y = 15;
+		boolean z = x > y ? true : false;
+		System.out.println(z);// This will print 'false' depending on the condition provided.
+		
+		// Example of Condition (Ternary) Operator, using integer data type:
+		int nums = x > y ? 10 : 15;
 		System.out.println("If true, the value of X is: " + nums);
-		char myChar = y > x ? 'A' : 'B';//Example of Ternary Operator using char.
+		
+		// Example of Conditional (Ternary) Operator, using char data type:
+		char myChar = y > x ? 'A' : 'B';
 		System.out.println("The value of my char is: " + myChar);
-		String result = x > y ? "X is bigger" : "It's not!";// Here the String will execute "X is bigger" OR "It's not!"
-															// depending on the condition provided.
-		String value = x < y ? "Y is bigger" : "It's not!";//Example of Ternary Operator using String.
-		System.out.println(result);// This will print "It's not!" depending on the condition provided above^.
+		
+		// Example of Conditional (Ternary) Operator, using String data type:
+		String result = x > y ? "X is bigger" : "It's not!";
+		System.out.println(result);
+		String value = x < y ? "Y is bigger" : "It's not!";
 		System.out.println(value);
 
-		/*
-		 * Selections example with one "if/else": You can use the one "if" statement and
-		 * one true block (else statement) when you have OR looking for one true OR
-		 * false condition. Syntax of one if statement with one 'true' OR 'false' block
-		 * (else block): if (conditions){ "true block" }
+		/**
+		 * Selections example with one "if/else" statements: 
+		 * You can use the one "if" statement and one true block (else statement) when you have OR looking for one true OR false condition.
+		 * 
+		 * Examples of "if/else" statement with one 'true' OR 'false' condition, depending on the condition provided:
 		 */
-
-		// Examples of "if/else" statement with one 'true' OR 'false' condition,
-		// depending on the condition provided:
 		if (x > y) {
 			System.out.println("'X' is bigger");
 		} else {
@@ -168,16 +162,20 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		// Example of "if" statement with only true statement:
 		int w = 130;
 		int h = 100;
-		if (w > h)
+		if (w > h)// NOTE: In case, if the condition here is false, the following statement won't print: 
 			System.out.println("Habibi Haya Haya");
 
 		/*
-		 * Example of "if/else if/else if/else if/else" statements with the condition of
-		 * one 'true' block: Scenario of the school report card scores: 90 - 100 = A 80
-		 * - 89 = B 70 - 79 = C 60 - 69 = D 59 & Below = F
+		 * Example of "if, else if, else if, else if, else" statements with the condition of one 'true' block: 
+		 * Scenario of the school report card scores:
+		 * 90 - 100 = A (grade A)
+		 * 80 - 89 = B (grade B)
+		 * 70 - 79 = C (grade C)
+		 * 60 - 69 = D (grade D)
+		 * 59 & Below = F (grade F)
 		 */
 
-		double grade = 90;// This Variable "grade" is equal to any value provided from the list below.
+		double grade = 90;
 
 		if (grade >= 90) {// This means if the grade is equal OR more than 90, print "A".
 			System.out.println("A");
@@ -191,12 +189,12 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 			System.out.println("F");
 		}
 		/**
-		 * Another Example of Selection with "if/else if/ else" statements: Scenario of
-		 * the vehicle dealer ship selling different models, applying on following items
-		 * on each selling car: taxes, dealer ship fee, discount, interest Rate, and
-		 * installments of 48, 60, and 72 months.
+		 * Another example of Selection with "if, else if, else" statements: 
+		 * Scenario of the vehicle dealership selling different models of cars
+		 * Following are the line items that applies to each selling car, such as: 
+		 * taxes, dealer ship fee, discount, interest Rate, and installments of 48, 60, and 72 months.
 		 */
-		System.out.println("\n>>>>>>>>>>Car Dealer Ship Receipt<<<<<<<<<<<<<\n");
+		System.out.println("\n>>>>>>>>>>>>>>Car Dealership Receipt<<<<<<<<<<<<<<<<<<<\n");
 		double camry = 0;
 		double _4Runner = 0;
 		double corola = 0;
@@ -215,12 +213,12 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 			studentDiscount = 500;
 			total = camry + cityTax + dealerFee - studentDiscount;
 			monthlyInstallment = total / 48;
-			System.out.println("Camry Price:\t\t\t\t" + camry);
-			System.out.println("City Tax:\t\t\t\t" + cityTax);
-			System.out.println("Dealer Fee:\t\t\t\t" + dealerFee);
-			System.out.println("Student Discount:\t\t\t" + studentDiscount);
-			System.out.println("Total Payment:\t\t\t\t" + total);
-			System.out.println("48 Months Installment, Per month:\t" + monthlyInstallment);
+			System.out.println("Camry Price:\t\t\t\t$" + camry);
+			System.out.println("City Tax:\t\t\t\t$" + cityTax);
+			System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+			System.out.println("Student Discount:\t\t\t$" + studentDiscount);
+			System.out.println("Total Payment:\t\t\t\t$" + total);
+			System.out.println("48 Months Installment, Per month:\t$" + monthlyInstallment);
 
 		} else if (_4Runner >= 45000 && _4Runner < 55000.0) {
 			cityTax = _4Runner * 0.08;
@@ -228,24 +226,24 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 			armyDiscount = 1000;
 			total = _4Runner + cityTax + dealerFee - armyDiscount;
 			monthlyInstallment = total / 60;
-			System.out.println("4Runner Price:\t\t\t\t" + _4Runner);
-			System.out.println("City Tax:\t\t\t\t" + cityTax);
-			System.out.println("Dealer Fee:\t\t\t\t" + dealerFee);
-			System.out.println("Army Discount:\t\t\t\t" + armyDiscount);
-			System.out.println("Total Payment:\t\t\t\t" + total);
-			System.out.println("60 Months Installment, Per month:\t" + monthlyInstallment);
+			System.out.println("4Runner Price:\t\t\t\t$" + _4Runner);
+			System.out.println("City Tax:\t\t\t\t$" + cityTax);
+			System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+			System.out.println("Army Discount:\t\t\t\t$" + armyDiscount);
+			System.out.println("Total Payment:\t\t\t\t$" + total);
+			System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 		} else if (corola >= 20000 && corola < 30000) {
 			cityTax = corola * 0.08;
 			dealerFee = 450;
 			armyDiscount = 0;
 			total = corola + cityTax + dealerFee;
 			monthlyInstallment = total / 60;
-			System.out.println("Corola Price:\t\t\t\t" + corola);
-			System.out.println("City Tax:\t\t\t\t" + cityTax);
-			System.out.println("Dealer Fee:\t\t\t\t" + dealerFee);
-			System.out.println("Student Discount:\t\t\t" + armyDiscount);
-			System.out.println("Total Payment:\t\t\t\t" + total);
-			System.out.println("60 Months Installment, Per month:\t" + monthlyInstallment);
+			System.out.println("Corola Price:\t\t\t\t$" + corola);
+			System.out.println("City Tax:\t\t\t\t$" + cityTax);
+			System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+			System.out.println("Student Discount:\t\t\t$" + armyDiscount);
+			System.out.println("Total Payment:\t\t\t\t$" + total);
+			System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 
 		} else {
 			cityTax = toyotaSupra * 0.08;
@@ -254,22 +252,20 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 			interestRate = toyotaSupra * 0.04;
 			total = toyotaSupra + cityTax + dealerFee + interestRate - studentDiscount;
 			monthlyInstallment = total / 60;
-			System.out.println("Toyot Supra Price:\t\t\t" + toyotaSupra);
-			System.out.println("City Tax:\t\t\t\t" + cityTax);
-			System.out.println("Interest Rate:\t\t\t\t" + interestRate);
-			System.out.println("Dealer Fee:\t\t\t\t" + dealerFee);
-			System.out.println("Army Discount:\t\t\t\t" + studentDiscount);
-			System.out.println("Total Payment:\t\t\t\t" + total);
-			System.out.println("60 Months Installment, Per month:\t" + monthlyInstallment);
-
-			/*
-			 * EXAMPLE OF NESTED IF BLOCKS: Here in the "nested if blocks" the execution of
-			 * blocks will be minimum of '0' zero and maximum of '3' three; depending on the
-			 * conditions we provide in the blocks.
-			 */
+			System.out.println("Toyot Supra Price:\t\t\t$" + toyotaSupra);
+			System.out.println("City Tax:\t\t\t\t$" + cityTax);
+			System.out.println("Interest Rate:\t\t\t\t$" + interestRate);
+			System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+			System.out.println("Army Discount:\t\t\t\t$" + studentDiscount);
+			System.out.println("Total Payment:\t\t\t\t$" + total);
+			System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 		}
-		System.out.println("\n^^^^^^^^^^^^^^Car Dealer Ship Receipt^^^^^^^^^^^^^^^\n");
 
+		/**
+		 * EXAMPLE OF NESTED IF BLOCKS: 
+		 * Here in the "nested if" blocks, the minimum execution of blocks will be zero and maximum of three; 
+		 * depending on the conditions we provide in the blocks.
+		 */
 		int num1 = 5;
 		if (num1 > 3) {
 			System.out.println("your first 'if statement' might be true block");

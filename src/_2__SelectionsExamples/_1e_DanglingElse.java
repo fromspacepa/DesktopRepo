@@ -7,15 +7,17 @@ public class _1e_DanglingElse {
 		/** 
 		 * DANGLING ELSE......Below is the example of Dangling Else block.
 		 * 
-		 * Note: Dangling Else is when you have an extra Else block in your "If Else" statement. and while having Dangling Else
-		 * in your "If Else" statement, you will get a Compiler Error and the code will not get run.
+		 * NOTE: 
+		 * Dangling "else" is when you have an extra "else" block in your "if else" statement. and while having Dangling "else"
+		 * in your "if else" statement, you will get a Compiler Error and the code will not get run.
 		 * 
-		 * NOTE: The flow of control for "If Else" statement is that you can have only 1 one "If block", as many "Else If blocks" as you want,
-		 * and only 1 one "Else block"; If you have 2 two "Else blocks" that 2nd "Else block" is called "Dangling Else Block" which creates 
+		 * NOTE: 
+		 * The flow of control for "if else" statement is that you can have only 1 one "if" block, as many "else if" blocks as you want,
+		 * and only 1 one "else" block; If you have 2 two "else" blocks that 2nd "else" block is called "Dangling Else Block" which creates 
 		 * Compiler Error. 
 		 * 
-		 * Following is the example, if you run it, it will not get run and you can see the Exception message in the Counsel
-		 * providing you the information that there is DanglingElse and will instruct you where the DanglingElse is occurred:
+		 * Following is the example, if you run it, it will not get run and you will get the Exception message in the Counsel,
+		 * providing you the information that there is DanglingElse and will instruct you that where the DanglingElse occurred in your code.
 		 * 
 		 */
 		

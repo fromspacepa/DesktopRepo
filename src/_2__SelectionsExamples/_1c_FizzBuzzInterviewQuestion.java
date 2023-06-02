@@ -5,9 +5,13 @@ public class _1c_FizzBuzzInterviewQuestion {
 	public static void main(String[] args) {
 
 		/*
-		 * >>> FIZZ BUZZ Examples with if statement:
+		 * Interview Question: (FIZZ BUZZ Examples with if statement)
 		 * 
-		 * ___If the attribute/variable/value is divisible by different numbers, 
+		 * In here this is just an interview question that how to find out "FIZZ", "BUZZ, or "FIZZBUZZ" 
+		 * if the variable in your code is divisible by different numbers.
+		 * 
+		 * Scenario: 
+		 * If the attribute/variable/value is divisible by different numbers, 
 		 * it is going to print out one of the following condition:
 		 * Print "TEK" if the number is divisible  by 3. 
 		 * Print "School" if the number is divisible by 5. 

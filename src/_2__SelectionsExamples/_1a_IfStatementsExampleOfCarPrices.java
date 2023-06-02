@@ -5,7 +5,7 @@ public class _1a_IfStatementsExampleOfCarPrices {
 	public static void main(String[] args) {
 		
 	/**
-	 * 	Another example of Selection using "if, else if, else if, else if, else" Statements:
+	 * 	In here these are some more examples of Selection using "if, else if, else if, else if, else" Statements:
 	 */
 
 	double carPrice = 35000.00;

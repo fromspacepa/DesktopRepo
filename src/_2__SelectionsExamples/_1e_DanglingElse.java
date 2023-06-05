@@ -32,6 +32,7 @@ public class _1e_DanglingElse {
 			  System.out.println("I love you!"); 
 		  } else {
 			  System.out.println("How are you?"); 
+			 
 		  //} else {//<<<This is "Dangling Else" >>> To see if "else" block is "Dangling else" 
 			  		//please remove the slashes before "else" in this line and execute the code.
 			  System.out.println("I am fine!");

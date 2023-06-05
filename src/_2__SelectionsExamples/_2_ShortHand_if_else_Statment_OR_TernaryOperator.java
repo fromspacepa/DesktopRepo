@@ -5,7 +5,7 @@ public class _2_ShortHand_if_else_Statment_OR_TernaryOperator {
 	public static void main(String[] args) {
 
 		/**
-		 * >>>>> SHORT-HAND "IF ELSE STATEMENT" ALSO KNOWN AS "TERNARY OPERATOR":
+		 * >>> SHORT-HAND "IF ELSE STATEMENT" ALSO KNOWN AS "TERNARY OPERATOR":
 		 * 
 		 * ___A Short-hand "if else" which is known as the "Ternary Operator" because it
 		 * is consists of three Operands. It can be used to replace multiple lines of

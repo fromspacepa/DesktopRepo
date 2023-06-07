@@ -95,7 +95,7 @@ public class _3_SwitchCases {
 		
 		System.out.println("\n--- Printing School Test Status ---\n");
 		
-		String status = "NotRecognize";
+		String status = "Pending";
 		double grade = 0;
 		
 		switch (status) {

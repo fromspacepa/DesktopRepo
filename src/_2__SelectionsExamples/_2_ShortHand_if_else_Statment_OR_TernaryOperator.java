@@ -5,79 +5,70 @@ public class _2_ShortHand_if_else_Statment_OR_TernaryOperator {
 	public static void main(String[] args) {
 
 		/**
-		 * >>> SHORT-HAND "IF ELSE STATEMENT" ALSO KNOWN AS "TERNARY OPERATOR":
+		 * In this class we are talking about Shorthand "if else" statement:
+		 *
+		 * >>> Shorthand "if else" statement also known as "Ternary Operator":
+		 * A shorthand "if else" statement which is known as the "Ternary Operator" because it is consists of three Operands, 
+		 * it can be used to replace multiple lines of codes with a single line and is most often used to replace simple "if else" statement.
 		 * 
-		 * ___A Short-hand "if else" which is known as the "Ternary Operator" because it
-		 * is consists of three Operands. It can be used to replace multiple lines of
-		 * code with a single line, and is most often used to replace simple "if else"
-		 * statements:
 		 * >>> "SHORT-HAND IF ELSE" || "TERNARY OPERATOR" SYNTAX:
-		 * DataType Variable = (Condition) ? ExpressionTrue : ExpressionFalse;
+		 * DataType Variable = (Condition) ? ExpressionTrue : ExpressionFalse, such as:
+		 * boolean  myValue  = (10 > 20) ? "No 10 is less than 20" : "No 10 is more than 20"; 
 		 * 
-		 * >>> Step By Step Explanation of the "Short-Hand if else statement" OR "Ternary Operator":
-		 * ->1st you complete the process of declaration and initialization the Variable as: "int time1 = 20;"
-		 * by Declaring the Data Type and Variable then Initialize and Assign the value to a Variable for the first time.
-		 * ->2nd you write your DataType as: "String OR boolean", ->then space, ->then Variable as: "result", 
+		 * >>> Step by step explanation of the Shorthand" if else" statement
+		 * :
+		 * ->1st you complete the process of declaration and initialization the Variable as: 
+		 * "int time1 = 20;" 
+		 * ->2nd you write your data type as: "String/boolean/int/double", ->then space, ->then Variable as: "result", 
 		 * ->then Assignment Operator as: "=", ->then write your (condition) as: "(time1 > 18)", ->then space,
 		 * ->then question mark as: "?", ->then space, ->the write ExpressionTrue as: "Good day!", 
 		 * ->then space, ->then colon as: ":", ->then space, ->then write ExpressionFalse as: "Good evening!", and
-		 * ->then Semicolon as: ";". That is all about the StepByStep Instructions for "Short-hand if else Statement"
-		 * OR "Ternary Operator".
+		 * ->then Semicolon as: ";". That is all about the StepByStep Instructions for "Short-hand if else Statement" OR "Ternary Operator".
 		 * 
-		 * ___NOTE:
-		 * In the "Short-hand if else Statement" OR "Ternary Operator" the "ExpressionTrue" OR "TrueBlock"
-		 * is always written 1st, and the "ExpressionFalse" OR "FalseBlock" is written 2nd OR at the end.
-		 * ___ALSO NOTE:
-		 * The minimum and maximum condition that will execute in the "Short-hand if else Statement"
-		 * OR "Ternary Operator" will be "1" one.
-		 * ___KEEP IN MIND:
-		 * You can not use block of codes in the "Short-hand if else Statement".
+		 * NOTE:
+		 * In Shorthand "if else" statement OR "Ternary Operator" the "ExpressionTrue" OR "TrueBlock" is always written 1st, 
+		 * and the "ExpressionFalse" OR "FalseBlock" is written 2nd. Also, the minimum and maximum condition that will execute in the 
+		 * Shorthand "if else" statement will be "1" one.
 		 * 
 		 */ 
 		
-		// INSTEAD OF WRITING REGULAR "IF ELSE STATEMENT":
+		// Instead of writing regular "if else" statement: such as follows:
 		int time = 20;
 		if (time < 18) {
 			System.out.println("Good day!");
 		} else {
 			System.out.println("Good evening!");
 		}
-		// YOU CAN SIMPLY WRITE "SHORT-HAND IF ELSE" STATEMENT:
+		// You can simply write Shorthand "if else" statement: such as follows:
 		int time1 = 20;
-		String result = time1 > 18 ? "Good day!" : "Good evening!";//Short-hand if else statement with String data type.
+		String result = time1 > 18 ? "Good day!" : "Good evening!";
 		System.out.println(result);
-		boolean greatings = time1 < 18 ? true : false;//Short-hand if else statement with boolean data type.
+		boolean greatings = time1 < 18 ? true : false;
 		System.out.println(greatings);
 		
 		
 		// Example of Selection with Ternary Operator using 'boolean' the primitive data type:
-		 
-		int x = 10;// Here the Variable 'x' is declared & initialized with the Initialization
-					// Process of Assigning value of '10' to 'x'.
-		int y = 15;// Here the Variable 'y' is declared & initialized with the Initialization
-					// Process of Assigning value of '15' to 'y'.
-		boolean z = x > y ? true : false;// Here the boolean will execute true OR false depending
-											// on the condition provided.
-		System.out.println(z);// This will print 'false' depending on the condition provided above^.
+		int x = 10;
+		int y = 15;
+		boolean z = x > y ? true : false;
+		System.out.println(z);
 
-		// Example of Selection with Ternary/Unary Operator using 'String' the Non-primitive
-		// data type:
-		String result1 = x > y ? "X is bigger" : "Y is bigger!";// Here the String will execute "X is bigger" OR "It's not!"
-															// depending on the condition provided.
+		// Example of Selection with Ternary Operator using 'String' reference data type:
+		String result1 = x > y ? "X is bigger" : "Y is bigger!";
 		String value = x < y ? "Y is bigger" : "X is bigger!";
-		System.out.println(result1);// This will print "It's not!" depending on the condition provided above^.
+		System.out.println(result1);
 		System.out.println(value);
 		
-		// More Example of "Short-hand if else Statements":
+		// More examples of Ternary Operator:
 		int num1 = 40;
 		int num2 = 50;
-		String myString = (num1 == num2) ? "Hello" : (num1 > num2) ? "Good Bye" : "Hava a good day";//Example with String.
+		String myString = (num1 == num2) ? "Hello" : (num1 > num2) ? "Good Bye" : "Hava a good day";
 		System.out.println(myString);
-		boolean myBoolean = num1 > num2 ? true : false;//Example with boolean.
+		boolean myBoolean = num1 > num2 ? true : false;
 		System.out.println(myBoolean);
-		boolean myBoolean1 = num1 < num2 ? true : num2 > num1 ? false : num1 == num2 ? true : false;//Example with boolean and with three conditions.
+		boolean myBoolean1 = num1 < num2 ? true : num2 > num1 ? false : num1 == num2 ? true : false;
 		System.out.println(myBoolean1);
-		char myChar = (num1 > num2) ? 'A' : (num2 == num1) ? 'B': 'C';//Example with char with 3 outputs.
+		char myChar = (num1 > num2) ? 'A' : (num2 == num1) ? 'B': 'C';
 		System.out.println(myChar);
 		
 

@@ -19,12 +19,18 @@ public class _1b_FindingEvenAndOddExample {
 		 * and if after the division the attribute not equals to zero "0", the second block of "else" statement will printout.
 		 * 
 		 */
+		
+		// Example of finding "Even" or "Odd" using "if else" statement:
 		 if (x % 2 == 0) {
 			 System.out.println("EVEN");
 		 } else {
 			 System.out.println("ODD");
 		 }
-				 
+		 // Example of finding "Even" or "Odd" using "Ternary Operator":
+		 String myValue = x % 2 == 0 ? "myVaule is Even" : "myValue is Odd";
+		 System.out.println(myValue);
+		
+		 // Example of finding "Even" or "Odd" using "if else" statement: 
 		 int y = 101;
 		 if (y % 2 == 0) {
 			 System.out.println("Y is EVEN numeric character");
@@ -32,8 +38,10 @@ public class _1b_FindingEvenAndOddExample {
 			 System.out.println("Y is ODD numeric character");
 					 
 		 }
-			
-				 
+
+		 // Example of finding "Even" or "Odd" using "Ternary Operator":
+		 String myVal = y % 2 == 0 ? "myVal is Even" : "myVal is Odd";
+		 System.out.println(myVal);
 
 
 	}

@@ -1,4 +1,4 @@
-package _6a2__multiLevel_Inheritance_Example;
+package _6a2__OOPs_multiLevel_Inheritance_Example;
 
 public class Runner {
 	

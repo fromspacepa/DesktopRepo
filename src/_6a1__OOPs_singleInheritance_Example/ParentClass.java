@@ -1,4 +1,4 @@
-package _6a1__singleInheritance_Example;
+package _6a1__OOPs_singleInheritance_Example;
 
 public class ParentClass {
 	

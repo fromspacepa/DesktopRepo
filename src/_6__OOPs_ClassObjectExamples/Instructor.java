@@ -30,7 +30,7 @@ public class Instructor {//This is a Class and named Instructor.
 	}
 	// Here following is the Parameterized Constructor, all the variables you see in the argument are called temporary variables. 
 	// NOTE: All the original variables are declared in the class and initialized in the default constructor above.
-	// and while use keyword "this" you will be to use similar variables names in the argument of your Parameterized Constructor. such as firstName as a firstName;
+	// and while use keyword "this" you will be able to use similar variables names in the argument of your Parameterized Constructor. such as firstName as a firstName;
 	// in case of not using keyword "this" then you won't be able to use similar names, you will then need to use different names, such as newFirstName to make a difference with the
 	// initially declared and initialized variable name: firstName.
 	// But, using keyword "this" is always recommended in order to demonstrate your code more formal and professional.

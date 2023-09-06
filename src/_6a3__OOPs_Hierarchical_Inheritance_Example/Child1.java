@@ -1,4 +1,4 @@
-package _6a3__Hierarchical_Inheritance_Example;
+package _6a3__OOPs_Hierarchical_Inheritance_Example;
 
 public class Child1 extends Parent{
 	

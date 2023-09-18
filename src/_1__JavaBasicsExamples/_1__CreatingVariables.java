@@ -1,9 +1,9 @@
 
 		 
-	// This is the package.
+	    //Following here is name of the package:
 package _1__JavaBasicsExamples;
 
-		//This here is the Class.
+		//Following here is name of the Class:
 public class _1__CreatingVariables {
 
 
@@ -78,7 +78,7 @@ public class _1__CreatingVariables {
         // Just to refresh your memories, here following is the process of declaration and initialization of a variable:
 		int y = 15;
 
-		// Following here this code/method is going to printout our code (the variable "x" and "y" that we created them above) in the counsel:
+		// Following here this code/method which is going to printout our code (the variable "x" and "y" that we created them above) in the counsel:
 		System.out.println("The value of X is:" + x + " and the value of Y is:" + y);
 		
 
@@ -129,11 +129,11 @@ public class _1__CreatingVariables {
 		boolean b3 = b1 > i;
 		b2 = b;
 		// Here this printOut method is to print out the variable "f":
-		System.out.println(f);
+		System.out.println("Printing out the value of a Variable 'F': " + f);
 		// Here this printOut method is to print out the variable "b2":
-		System.out.println(b2);
+		System.out.println("Printing out the value of a Variable 'b2: " + b2);
 		// Here this printOut method is to print out the variable "b3":
-		System.out.println(b3);
+		System.out.println("Printing out the value of a Variable 'b3': " + b3);
 
 		/**
 		 * Here we are explaining more about Reference (Non-Primitive) Data Types: 
@@ -146,10 +146,7 @@ public class _1__CreatingVariables {
 		 * "text" is the variable name.
 		 * "=" is the assignment operator.
 		 * ""texting is fun"" is the literal value that is assigned to the variable "text"
-		 * 
-		 */
-
-		String text = "texting is fun";
+		 */ String text = "texting is fun";
 		
 		// Here in this following example syntax when you say "new String", this structure is basically used to initialize any Reference data type,
 		// and this applied to all of the Reference data types.

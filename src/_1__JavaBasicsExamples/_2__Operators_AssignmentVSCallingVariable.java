@@ -23,7 +23,6 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	 * 	___NOTE: At first the value of variable "x" was "10", but here in the assignment process the values of variable "x" is changed to the value of "15"; So this is 
 	 *  basically called "Assignment", which is possible after 1st time declaration and initialization.
 	 */
-	
 	x = 15;
 
 	// Here this printOut method will call/print out the outcome in the console below:
@@ -36,9 +35,9 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	 * "5" is the value added to the value "15" previously assigned to the variable "x", with this the value of variable "x" is now "20"
 	 */
 	x += 5;
+	
 	// Here this printOut method will call/print out the outcome in the console below:
-	System.out.println("Assignment/Assignment Process:\n"+ x +"____3rd time Variable 'X' is assigned and changed it's value.\n");
-				
+	System.out.println("Assignment/Assignment Process:\n"+ x +"____3rd time Variable 'X' is assigned and changed it's value.\n");		
 				
 	//Example of Calling Variable:
 	System.out.println("Calling Variable:\n"+ x + 5+"____1st time calling Variable, the printOut is '205',"
@@ -59,15 +58,17 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	 */
 
 	//Example of Assignment Operators ShortCut:
-	x += 10;//ShortCut of Addition Assignment Operator. (The original value of Variable "X" was "20", and I added "10" to it, now the value of X is 30.
+	//ShortCut of Addition Assignment Operator: 
+	x += 10;//(The original value of Variable "X" was "20", and I added "10" to it, now the value of X is 30.
 	System.out.println("Result of Addition 'x += 10;' ShortCut Assingment Operator:");
 	System.out.println(x);//The result is printed in the Console below:
 	x = x + 10;//This and the above ^ Assignment Operator do the same job. The value of X was 30 and I added 10, now the value of X is 40.
 	System.out.println("\nThis Addition 'x = x + 10' and the above Assignment do the same job:");// 
 	System.out.println(x);//The result is printed in the Console below:
-	x = 100;//Here the value of X is changed/assigned to 100.
+	//Here the value of X is changed/assigned to 100.
+	x = 100;
 	System.out.println(x);
-	x += 5;//Here the value of X is added with 5 more, and the value of X is changed to 105.
+	//Here the value of X is added with 5 more, and the value of X is changed to 105.
 	// (x = x + 5;) this is the same as above^, but the above is a shortcut of addition operator. 
 	System.out.print(x);
 	x *= 5;//Here the value of X is multiplied by 5, now the value of X is changed to 525.

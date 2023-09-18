@@ -160,7 +160,7 @@ public class _1__CreatingVariables {
 		 * 
 		 */
 
-		// Here this printout method is print out the variable "text":
+		// Here this printOut method is to print out the variable "text":
 		System.out.println(text);
 		// Here this printOut method is to print out the variable "text1":
 		System.out.println(text1);

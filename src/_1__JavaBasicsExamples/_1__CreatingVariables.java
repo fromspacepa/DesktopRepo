@@ -1,9 +1,9 @@
 
 		 
-	    //Following here is name of the package:
+	    //Following here is name of the package: "_1__JavaBasicsExamples"
 package _1__JavaBasicsExamples;
 
-		//Following here is name of the Class:
+		//Following here is name of the Class: "_1__CreatingVariables"
 public class _1__CreatingVariables {
 
 
@@ -31,25 +31,25 @@ public class _1__CreatingVariables {
 		 * 
 		 * Following here the 1st thing will be the package which is named as: _1__JavaBasicsExamples and 2nd is the Class, which is named as: _1_CreatingVariables
 		 * NOTE:
-		 * When creating java Class in Java/Eclipse, the package name in java always starts lower-case letters and underscores, and camelCase if the name is a combination 
-		 * of two or more words. Also, the Class name in java always starts with Upper-case letters and underscores, and camelCase if the name is a combination of two or
-		 * more words.
+		 * When creating java a PACKAGE in Java/Eclipse, the package name in java always starts with a lower-case letter and underscores, and then camelCase 
+		 * if the name is a combination of two or more words. 
+		 * Also, the CLASS name in java always starts with an Upper-case letter and underscores, and camelCase if the name is a combination of two or more words.
          * 
 		 */
 
-		// Following this the simple way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:
+		// Following this is the simple way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:
 		int x = 20; 
 		
 		/** 
-		 * >>> Explanation of the above syntax of creating variable:
+		 * Explanation of the above syntax of creating variable:
 		 * "int" is a one of Primitives Data Type (Below you'll learn more about data types)
 		 * "x" is Variable 
 		 * "=" is the Assignment Operator
 		 * "20" is the value assigned to variable "x"
-		 * portion "int x" of the syntax is called Declaration 
+		 * The portion "int x" of the syntax is called Declaration 
 		 * The portion "=" of the syntax is called Assignment Operator  
-		 * The portion "20" of the syntax is called Initialization.  
-		 * "= 30;" <-This syntax is called the process of assignment.
+		 * The portion "20" of the syntax is called the value, which is going to be assigned to variable "x".  
+		 * The portion "= 30;" of the syntax is called the process of Initialization.
 		 * 
 		 * QUESTION: What is Variable/Attribute?
 		 * ANSWER: Variable in Java is a data container that saves the data values during Java program execution. 

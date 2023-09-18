@@ -1,6 +1,6 @@
 
 		 
-	    	//Following here is name of the package:
+	    //Following here is name of the package:
 package _1__JavaBasicsExamples;
 
 		//Following here is name of the Class:
@@ -34,7 +34,7 @@ public class _1__CreatingVariables {
 		 * When creating java Class in Java/Eclipse, the package name in java always starts lower-case letters and underscores, and camelCase if the name is a combination 
 		 * of two or more words. Also, the Class name in java always starts with Upper-case letters and underscores, and camelCase if the name is a combination of two or
 		 * more words.
-         	 * 
+         * 
 		 */
 
 		// Following this the simple way of creating variable/identifier, and it is the whole syntax of creating variable/identifier:

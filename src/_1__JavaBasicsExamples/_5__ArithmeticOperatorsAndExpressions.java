@@ -107,9 +107,11 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		 */
 		int sum = 5 + 5;// Here "int" is the data type; "sum" is the variable/identifier; "=" equal sign is the assignment operator; 
 		                // "5 + 5" is more then one OR multiple arithmetic operators, so that is called an Expression. 
+		System.out.println("Printing out the 'difference': " + sum);
 		double difference = 17.3 - 2.1;// Same here, after "=" assignment operator is called an Expression.
-		long result = 32238134435L / (42 - 875842 % 232);// Same here, after "=" assignment operator is called an Expression.
-
+		System.out.println("Printing out the 'difference': " + difference);
+		long result = 32238134435L / 42 - (875842 % 232);// Same here, after "=" assignment operator is called an Expression.
+		System.out.println("Printing out the 'difference': " + result);
 		/**
 		 * NOTE: When you have one ARITHMETIC OR MATHEMATIC Operator in your code, after the "=" equal sign/assignment operator, then that is called Value.
 		 * Examples are provided below: 

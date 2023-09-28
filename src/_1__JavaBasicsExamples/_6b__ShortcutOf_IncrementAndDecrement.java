@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _5b__ShortcutOf_IncrementAndDecrement {
+public class _6b__ShortcutOf_IncrementAndDecrement {
 	
 	public static void main(String[] args) {
 		

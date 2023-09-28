@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _7__Swapping {
+public class _9__Swapping {
 
 	public static void main(String[] args) {
 

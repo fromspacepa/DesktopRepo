@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _6__LogicalOperators_OR_LogicalGets {
+public class _7__LogicalOperators_OR_LogicalGets {
 
 	public static void main(String[] args) {
 

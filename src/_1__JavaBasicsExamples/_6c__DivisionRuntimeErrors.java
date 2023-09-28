@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _5c__DivisionRuntimeErrors {
+public class _6c__DivisionRuntimeErrors {
 
 	public static void main(String[] args) {
 		

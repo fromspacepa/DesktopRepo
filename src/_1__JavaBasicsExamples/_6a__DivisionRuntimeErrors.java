@@ -1,11 +1,11 @@
 package _1__JavaBasicsExamples;
 
-public class _6c__DivisionRuntimeErrors {
+public class _6a__DivisionRuntimeErrors {
 
 	public static void main(String[] args) {
 		
 		/**
-		 * >>> DIVISION Arithmetic Exceptions: 1-OF-3
+		 * >>> Division Arithmetic Exceptions: 1-OF-3
 		 * -> Division with integer and double
 		 * 
 		 * While having Arithmetic statements/executions in your Java code, you may face exceptions/errors, especially in division during runtime
@@ -30,12 +30,12 @@ public class _6c__DivisionRuntimeErrors {
 		System.out.println("Result of Remaider: " + remainder);
 		
 		/**
-		 * >>> DIVISION Arithmetic Exceptions: 2-OF-3
+		 * >>> Division Arithmetic Exceptions: 2-OF-3
 		 * -> Division of Integer by Zero: 
 		 * -> Division of Integer by Zero will give you Exception/Error
 		 * 
-		 * NOTE: While integer value is divided by zero, it will give you an Exception/Error during execution/runtime, but while you are coding
-		 * everything will look good/normal and will not indicate any errors during coding. And once the exception occurs, Java will not continue 
+		 * NOTE: While integer value is divided by zero, it will give you an Exception/Error during execution/runtime, but while you are coding,
+		 * everything will look good/normal and will not indicate any errors during coding. But once the exception occurs, Java will not continue 
 		 * to executing rest of the code. In case of same thing happens during program/application running, Java will terminate and exit the program. 
 		 * 
 		 * Following are the examples of Division of Integer by Zero: 
@@ -47,7 +47,7 @@ public class _6c__DivisionRuntimeErrors {
 		System.out.println(b/b);//This will also give you Exception.
 
 		/**
-		 * >>> DIVISION Arithmetic Exceptions: 3-OF-3
+		 * >>> Division Arithmetic Exceptions: 3-OF-3
 		 * -> Division of Double by Zero AND Division of Double Zero by Double Zero value:
 		 * -> Division of Double value by Zero will give you "Infinity" 
 		 * -> Division of Double zero value by Double zero value will give you "NaN"

@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _6a__ShortcutOperatorsOfArithmeticOperators {
+public class _5a__ShortcutOperatorsOfArithmeticOperators {
 
 	public static void main(String[] args) {
 

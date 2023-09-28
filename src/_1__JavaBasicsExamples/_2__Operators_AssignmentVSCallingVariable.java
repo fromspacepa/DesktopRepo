@@ -8,7 +8,7 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	/**
 	 * Here we are talking about Assignment Variable VS Calling the Variable:
 	 * --> Assigning Variable means that you are assigning value OR changing the value of Variable after first time initialization.
-	 * --> Calling Variable means that you are just calling/printing the value of Variable and while calling Variable, the value of variable does not change, it just
+	 * --> Calling Variable means that you are just calling/printing out the value of Variable and while calling Variable, the value of variable does not change, it just
 	 * prints the outcome in the console below:
 	 * 
 	 */
@@ -44,43 +44,39 @@ public class _2__Operators_AssignmentVSCallingVariable {
 	                   +"\nbecause it is printing '20' together with addition of '5' with no space in between, it looks like '205'.\n");
 	/**
 	 * In the above examples the value of Variable is changed few times, which was "20".
-	 *at this time calling Variable, the SysOut will print "205" because we used "+ 5" OR add "5" to previous value "20", but
-	 *the value of Variable "X" is not changed because it is concatenated, and if you call the variable X alone it will printout the value 20,
-	 *as follows in the SysOut:
+	 * at this time calling Variable, the SysOut will print "205" because we used "+ 5" OR add "5" to previous value "20", but
+	 * the value of Variable "X" is not changed because it is concatenated, and if you call the variable X alone it will printout the value 20,
+	 * as follows in the SysOut:
 	 */
 	System.out.println("Printing Variable 'X':\n" + x +"____Here this is just the printOut of Variable 'X'.\n");
 		
 	/**
 	 * IMPORTANT NOTE:
 	 * One thing you need to realize that what you do with the Assignment(s): 
-	 * (x = 5;) OR (x += 5;), is that you are assigning the right side of the equal = to the left side of the equal.
+	 * (x = 5;) OR (x += 5;), is that you are assigning the right side of the equal/assignment operator "=" to the left side of the equal/assignment operator.
 	 * 
 	 */
 
 	//Example of Assignment Operators ShortCut:
 	//ShortCut of Addition Assignment Operator: 
 	x += 10;//(The original value of Variable "X" was "20", and I added "10" to it, now the value of X is 30.
-	System.out.println("Result of Addition 'x += 10;' ShortCut Assingment Operator:");
-	System.out.println(x);//The result is printed in the Console below:
+	System.out.println("Result of Addition 'x += 10;' ShortCut Assingment Operator: " + x );
 	x = x + 10;//This and the above ^ Assignment Operator do the same job. The value of X was 30 and I added 10, now the value of X is 40.
-	System.out.println("\nThis Addition 'x = x + 10' and the above Assignment do the same job:");// 
-	System.out.println(x);//The result is printed in the Console below:
-	//Here the value of X is changed/assigned to 100.
-	x = 100;
-	System.out.println(x);
-	//Here the value of X is added with 5 more, and the value of X is changed to 105.
+	System.out.println("\nThis Addition 'x = x + 10' and the above Assignment do the same job: " + x );//The result is printed in the Console below:	
+	x = 100;// Here I assigned the value "100" to a variable "X" which was a total of "40"; now the value is changed to "100".
+	x += 5;//Here the value of X is added with 5 more, and the value of X is changed to 105.
 	// (x = x + 5;) this is the same as above^, but the above is a shortcut of addition operator. 
-	System.out.print(x);
+	System.out.println(x);
 	x *= 5;//Here the value of X is multiplied by 5, now the value of X is changed to 525.
 	// (x = x * 5;) this is the same as above^ but the above is a shortcut of multiplication operator.
-	System.out.println("\n"+x);
+	System.out.println(x);
 	x /= 5;//Here the value of X is divided by 5, now the value of X is changed to 105.
 	// (x = x / 5;) this is the same as above^, but the above is a shortcut of division operator.
 	System.out.println(x);
 	x -= 7;//Here the value of X is subtracted by 7, now the value of X is changed to 98.
 	// (x = x - 7;) this is the same as above^, but the above is a shortcut of subtraction operator.
 	System.out.println(x);
-	x %= 5;/*Here the value of X is divided in whole number, not in decimal by 5, so the remainder from value X is 3. Now the value of X is changed to 3.
+	x %= 5;/*Here the value of X is divided by 5 in whole number, not in decimal; so the remainder from value X is 3. Now the value of X is changed to 3.
 	(x = x % 5;) this is the same as above^, but the above is a shortcut of modulus (modulus means remainder/remaining) operator.
 	Note: While using Modulus "%" it basically divides the value in whole number, not in decimal, so in the results you get the remainder value.*/
 	System.out.println(x);

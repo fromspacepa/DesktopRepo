@@ -32,7 +32,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		x = 2 * 4;// Here the "x" Multiplication Operator is used, which basically multiply the value "2" of a variable by "4", which changes  
 				  // the value of variable from "2" to "8"
 		System.out.println(x);
-		x = 6 / 6;// Here the "/" Division Operator is used, which basically divide the value "6" by "2", which changes the value of varialbe
+		x = 6 / 2;// Here the "/" Division Operator is used, which basically divide the value "6" by "2", which changes the value of variable
 		          // into "3"
 		System.out.println(x);
 		x = 5 % 3;// Here the "%" Modulus/Remainder Operator is used, which basically divided the whole number (not decimal numbers) of value "5" 
@@ -54,13 +54,13 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		int radius = 5;// In this syntax "int" is the Primitive data type; "radius" which is the variable, is the Operand; "=" equal sign which is the assignment
 		               // operator is the Operator; and "5" which is the value, is the Operand.
 
-		int diameter = radius * 2;// Same here "int" is the Primitive data type, "diameter" which is the variable, is the Operand; "=" equal sign which is the
-		                          // assignment operator, is the Operator; "radius" which is the variable, is the Operand; "*" multiplication sign which is the 
-		                          // arithmetic operator, is the Operator; and "2" which is the value, is the Operand 
-		                          // and the value "2" is the Operand
+		int diameter = radius * 2;/* Same here "int" is the Primitive data type, "diameter" which is the variable, is the Operand; "=" equal sign which is the
+		                             assignment operator, is the Operator; "radius" which is the variable, is the Operand; "*" multiplication sign which is the 
+		                             arithmetic operator, is the Operator; and "2" which is the value, is the Operand
+		                          */
 		
-		System.out.println(radius);// This will print out the outcome of variable "radius" in the console
-		System.out.println(diameter);// Same here, this will print out the outcome of variable "diameter" in the console
+		System.out.println("Printing the outcome for a variable 'radius': " + radius);// This will print out the outcome of variable "radius" in the console
+		System.out.println("Printing out the outcome for a variable 'diameter': " + diameter);// Same here, this will print out the outcome of variable "diameter" in the console
 		
 		/**
 		 * >>> PRECEDENCE OF MATHIMATIC IN JAVA (3-OF-4)
@@ -108,7 +108,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		int sum = 5 + 5;// Here "int" is the data type; "sum" is the variable/identifier; "=" equal sign is the assignment operator; 
 		                // "5 + 5" is more then one OR multiple arithmetic operators, so that is called an Expression. 
 		double difference = 17.3 - 2.1;// Same here, after "=" assignment operator is called an Expression.
-		long result = 32238134435L / (42 - 875842 % 232);// Same her, after "=" assignment operator is called an Expression.
+		long result = 32238134435L / (42 - 875842 % 232);// Same here, after "=" assignment operator is called an Expression.
 
 		/**
 		 * NOTE: When you have one ARITHMETIC OR MATHEMATIC Operator in your code, after the "=" equal sign/assignment operator, then that is called Value.

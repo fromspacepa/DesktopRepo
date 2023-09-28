@@ -18,7 +18,7 @@ public class _5a__ShortcutOperatorsOfArithmeticOperators {
 		 * 
 		 * NOTE: 
 		 * - Above at the very first right side are the Shortcut Operator; 
-		 * - In the middle syntaxes are the example usages of the Shortcut of Arithmetic Operators;
+		 * - In the middle they are syntaxes and the example usages of the Shortcut of Arithmetic Operators;
 		 * - And the at last, the left side are the syntaxes are the example of usages of the Regular Arithmetic Operators;
 		 * 
 		 * Following here is the practice of both Shortcut of Arithmetic Operators and Regular Arithmetic Operators:

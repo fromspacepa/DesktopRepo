@@ -49,7 +49,7 @@ public class _1__CreatingVariables {
 		 * The portion "int x" of the syntax is called Declaration 
 		 * The portion "=" of the syntax is called Assignment Operator  
 		 * The portion "20" of the syntax is called the value, which is going to be assigned to variable "x".  
-		 * The portion "= 30;" of the syntax is called the process of Initialization.
+		 * The portion "= 20;" of the syntax is called the process of Initialization.
 		 * 
 		 * QUESTION: What is Variable/Attribute?
 		 * ANSWER: Variable in Java is a data container that saves the data values during Java program execution. 
@@ -128,6 +128,8 @@ public class _1__CreatingVariables {
 		boolean b2 = false;
 		boolean b3 = b1 > i;
 		b2 = b;
+		System.out.println("Printing out the boolean result of 'b2': " + b2);
+		System.out.println("Printing out the boolean result of 'b3': " + b3);
 		// Here this printOut method is to print out the variable "f":
 		System.out.println("Printing out the value of a Variable 'F': " + f);
 		// Here this printOut method is to print out the variable "b2":
@@ -151,6 +153,7 @@ public class _1__CreatingVariables {
 		// Here in this following example syntax when you say "new String", this structure is basically used to initialize any Reference data type,
 		// and this applied to all of the Reference data types.
 		String text1 = new String("texting is fun");
+		
 
 
 		/** 

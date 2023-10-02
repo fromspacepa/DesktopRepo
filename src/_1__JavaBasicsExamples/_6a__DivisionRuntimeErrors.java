@@ -4,7 +4,7 @@ public class _6a__DivisionRuntimeErrors {
 
 	public static void main(String[] args) {
 		
-		/**
+		/*
 		 * >>> Division Arithmetic Exceptions: 1-OF-3
 		 * -> Division with integer and double
 		 * 
@@ -19,7 +19,7 @@ public class _6a__DivisionRuntimeErrors {
 		 */
 
 	
-		int x = 13, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
+		int x = 16, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
 		
 		// Example of Quotient: 
 		int quotient = x / y; // This quotient problem will give you the result of "2"
@@ -29,7 +29,7 @@ public class _6a__DivisionRuntimeErrors {
 		int remainder = x % y; // This remainder problem will give you the result of "3"
 		System.out.println("Result of Remaider: " + remainder);
 		
-		/**
+		/*
 		 * >>> Division Arithmetic Exceptions: 2-OF-3
 		 * -> Division of Integer by Zero: 
 		 * -> Division of Integer by Zero will give you Exception/Error
@@ -40,13 +40,16 @@ public class _6a__DivisionRuntimeErrors {
 		 * 
 		 * Following are the examples of Division of Integer by Zero: 
 		 */
-		int zeroDivision = 9 / 0; // This division by zero problem will give you an Arithmetic Exception/Error:
-		System.out.println("Result of Division By Zero: " + zeroDivision);
-		int a = 10, b = 0;
-		System.out.println(a/b);//This will give you Exception.
-		System.out.println(b/b);//This will also give you Exception.
-
-		/**
+		
+		/*
+		 * int zeroDivision = 9 / 0; // This division by zero problem will give you an
+		 * Arithmetic Exception/Error: System.out.println("Result of Division By Zero: "
+		 * + zeroDivision); int a = 10, b = 0;
+		 * System.out.println("Result of Integer division by zero: " + a/b);//This will give you Exception, but here there is no indication of error/exception:
+		 *System.out.println("Result of Integer zero division by zero: " + b/b);//This will also give you Exception, but here there is no indication of error/exception:
+		 */
+		
+		/*
 		 * >>> Division Arithmetic Exceptions: 3-OF-3
 		 * -> Division of Double by Zero AND Division of Double Zero by Double Zero value:
 		 * -> Division of Double value by Zero will give you "Infinity" 
@@ -62,7 +65,7 @@ public class _6a__DivisionRuntimeErrors {
 		 * Following are the examples of Division Double value by Zero value:
 		 */
 		double c = 10.0, d = 0.0;
-		System.out.println(c/b);// This will give you infinity.
+		System.out.println(c/d);// This will give you infinity.
 		System.out.println(d/d);// This will give you NaN.
 		double z = 3.0 / 0.0;
 		System.out.println("Result of Double Division by Floating-Point: "+ z);//This will give you: Infinity
@@ -75,6 +78,8 @@ public class _6a__DivisionRuntimeErrors {
 		System.out.println("Result of Quotient/Division By Floating-Point: " + q);//This will give you: 4.545454545454545
 		double r = e % f;
 		System.out.println("Result of Remainder by Floating-Point: " + r);//This will give you: 1.1999999999999993
+		
+
 	
 
  

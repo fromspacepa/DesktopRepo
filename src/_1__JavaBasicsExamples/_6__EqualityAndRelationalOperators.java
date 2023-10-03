@@ -27,7 +27,7 @@ public class _6__EqualityAndRelationalOperators {
  		* 
  		*/
 
-		int x = 25;// As you know this is the process of declaration and initialization; Value "25" is assigned to variable "x", which is changeable any time
+		int x = 25;// As you know this is the process of declaration and initialization; Value "25" is assigned to variable "x", which is changeable any time.
 		int y = 15;// As above same here.
 		
 		/**
@@ -67,13 +67,17 @@ public class _6__EqualityAndRelationalOperators {
 		 * 
 		 */
 
-		int a = 20;// As of you know that here the value "20" is assigned to the variable "a"
-		int b = 30;// Same here the value "30" is assigned to the variable "b"
+		int a = 20;// As of now, you know that here the value "20" is assigned to the variable/attribute "a"
+		int b = 30;// Same here the value "30" is assigned to the variable/attribute "b"
 		System.out.println("\nExamples of using the Relational Operators:");
 		System.out.println(a > b);// This will results into "false"
 		System.out.println(a < b);// This will results into "true"
 		System.out.println(a >= b);// This will results into "false"
 		System.out.println(a <= b);// This will results into "true"
+		
+		
+		
+		
 
 	}
 

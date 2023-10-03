@@ -11,8 +11,8 @@ public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
 		 * 		1) Mixed Type
 		 * 		2) Mixed Type with Promotion
 		 * 		3) Type Casting:
-		 *   	__Implicite Casting
-		 *    	__Explicite Casting
+		 *   		__Implicite Casting
+		 *    		__Explicite Casting
 		 *    
 		 * 1) Mixed Type: 
 		 * is when you are trying to do an operation between double and integer values,
@@ -26,7 +26,8 @@ public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
 		int y = 3;
 		
 		// With the execution of Mixed Type Addition, this will give you the result of 9.7:
-		double sum = x + y;
+		int sum = (int) x;
+		System.out.println(sum);
 		System.out.println("The outcome for Mixed-Type execution of 'doubl <--> int':\n.......... " + sum);
 		// With the execution of Mixed-Type Multiplication, this will give you the result of 20.1:
 		double multiplication = x * y;

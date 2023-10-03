@@ -56,6 +56,23 @@ public class _5a__ShortcutOperatorsOfArithmeticOperators {
 		System.out.println("Calling the regular Modulus/RemainderOperator:\t\t" + num4);
 		
 		
+		//Basic samples of using Arithmetic shortcuts:
+		int x = 10;
+		System.out.println(x);
+		x += 20;
+		System.out.println(x);
+		x *= 10;
+		System.out.println(x);
+		x /= 20;
+		System.out.println(x);
+		x %= 10;
+		System.out.println(x);
+		x += 295;
+		System.out.println(x);
+		x -= 300;
+		System.out.println(x);
+		
+		
 
 				
 

@@ -64,6 +64,7 @@ public class _6a__DivisionRuntimeErrors {
 		 * 
 		 * Following are the examples of Division Double value by Zero value:
 		 */
+		
 		double c = 10.0, d = 0.0;
 		System.out.println(c/d);// This will give you infinity.
 		System.out.println(d/d);// This will give you NaN.

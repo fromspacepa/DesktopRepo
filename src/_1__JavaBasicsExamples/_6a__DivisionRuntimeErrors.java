@@ -42,9 +42,9 @@ public class _6a__DivisionRuntimeErrors {
 		 */
 		
 		/*
-		 * int zeroDivision = 9 / 0; // This division by zero problem will give you an
-		 * Arithmetic Exception/Error: System.out.println("Result of Division By Zero: "
-		 * + zeroDivision); int a = 10, b = 0;
+		 * int zeroDivision = 9 / 0; // This division by zero problem will give you an Arithmetic Exception/Error: 
+		 * System.out.println("Result of Division By Zero: " + zeroDivision); 
+		 * int a = 10, b = 0;
 		 * System.out.println("Result of Integer division by zero: " + a/b);//This will give you Exception, but here there is no indication of error/exception:
 		 *System.out.println("Result of Integer zero division by zero: " + b/b);//This will also give you Exception, but here there is no indication of error/exception:
 		 */

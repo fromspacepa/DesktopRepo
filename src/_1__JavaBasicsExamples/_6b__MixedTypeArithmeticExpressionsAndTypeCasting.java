@@ -132,6 +132,25 @@ public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
 		short numJ = (short) myFloat;// Explicit Casting of float data to short (Wider Range to Narrow Rage).
 		byte numK = (byte) myFloat;// Explicit Casting of float data to byte (Wider Range to Narrow Rage).
 		System.out.println("Converting float to long/int/char/short/byte:\n___"+ numG +"_"+ numH +"_"+ numI +"_"+ numJ +"_"+ numK);
+		
+		
+		System.out.println("\n Following are the examples of \"Explicit Casting\":");
+		double myDoubleValue = 66.02;
+		System.out.println("double value:\t\t\t" + myDoubleValue);
+		int myIntValue = (int) myDoubleValue;
+		System.out.println("double to integer value:\t" + myIntValue);
+		char myCharVal = (char) myDoubleValue;
+		System.out.println("double to char value:\t\t" + myCharVal);
+		byte myByteVal = (byte) myDoubleValue;
+		System.out.println("double to byte value:\t\t" + myByteVal);
+		short myShortVal = (short) myDoubleValue;
+		System.out.println("double to short value:\t\t" + myShortVal);
+		float myFloatVal = (float) myDoubleValue;
+		System.out.println("double to float value:\t\t" + myFloatVal);
+		long myLongVal = (long) myDoubleValue;
+		System.out.println("double to long value:\t\t" + myLongVal);
+		
+		
 	} 
 
 }

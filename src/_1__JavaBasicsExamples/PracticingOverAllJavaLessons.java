@@ -21,11 +21,10 @@ public class PracticingOverAllJavaLessons {
 		
 		//Practice of swapping numbers with the help of 3rd variable:
 		System.out.println("\n\n");
-		int a = 10 , b = 20;
+		int a = 30 , b = 40;
 		System.out.println(a);
 		System.out.println(b);
-		int c; 
-		c = a; 
+		int c = a;
 		a = b;
 		b = c;
 		System.out.println(a);
@@ -71,6 +70,16 @@ public class PracticingOverAllJavaLessons {
 		System.out.println(mixArithmeticShorts);
 		System.out.println(mAdd + mSub - mMul / 5 + (mDiv * mDiv) % 5);
 
+		
+		int a1 = 10;
+		int b1 = 20;
+		System.out.println("\n" + a1);
+		System.out.println(b1);
+		b1 = b1 - a1;
+		System.out.println(b1);
+		a1 = a1 + b1;
+		System.out.println(a1);
+				
 		
 		
 		

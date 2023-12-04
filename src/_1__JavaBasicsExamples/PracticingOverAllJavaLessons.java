@@ -80,8 +80,16 @@ public class PracticingOverAllJavaLessons {
 		a1 = a1 + b1;
 		System.out.println(a1);
 				
-		
-		
+		int ca = 10;
+		int ac = 20;
+		System.out.println("....Printing for ca:\t" + ca);
+		System.out.println("....Printing for ac:\t" + ac);
+		int ab;
+		ab = ca;
+		ca = ac;
+		ac = ab;
+		System.out.println("....Printing for ca:\t" + ca);
+		System.out.println("....Printing for ac:\t" + ac);
 		
 		
 

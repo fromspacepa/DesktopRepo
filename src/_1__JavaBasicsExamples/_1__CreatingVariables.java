@@ -167,6 +167,12 @@ public class _1__CreatingVariables {
 		System.out.println(text);
 		// Here this printOut method is to print out the variable "text1":
 		System.out.println(text1);
+		
+		
+		
+		int $;
+		$ = 20;
+		System.out.println("Printing the value of dollar sign....." + $);
 
 	}
 

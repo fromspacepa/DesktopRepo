@@ -39,7 +39,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		          // into/to "3", which changes the value of variable from "5" to "2"
 		          // NOTE: Modulus % means Remainder/Remaining. While using Modulus "%" it will divide the number in whole number; For instance:
 		          // above here we divided the value "5" in whole number to the value "3", which will give us the remaining value of "2"
-		System.out.println(x);
+		System.out.println("At final the Outcome of variable \"x\" is: " + x);
 		
 
 		/**

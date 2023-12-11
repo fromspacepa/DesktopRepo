@@ -11,7 +11,7 @@ public class _6__EqualityAndRelationalOperators {
  		* on the functionality they provide.
  		* 
  		* ___Here in the class we are covering/talking about two types of operators: 
- 		* 1) Equality Operators and 2) Relational Operators:
+ 		*    EQUALITY Operators & RELATIONAL Operators:
  		* 
  		* >>> EQUALITY OPERATORS:
  		* --> "==" stands for "Equal Operator"

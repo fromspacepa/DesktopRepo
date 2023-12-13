@@ -2,94 +2,110 @@ package _1__JavaBasicsExamples;
 
 public class PracticingOverAllJavaLessons {
 
-	private static char[] $myTotalMoney_withI;
+	
 
 	public static void main(String[] args) {
 		
-		// Example of creating Variables with all possible naming options:
+		int a;
+		double b;
+		a = 2;
+		b = 10.22;
+		System.out.println("Outcome of double value by zero: " + a / b);
 		
-		int $ = 10;
-		int _ = 20;
-		int myNum = 30;
-		int x = 40;
-		int _1state_$ = 50;
-	
-		System.out.println($ + _ + myNum + x + _1state_$);
+		int mixedTypeDoubleIntoInt = (int) b + a;
+		System.out.println(mixedTypeDoubleIntoInt);
+		double mixedTypeIntIntoDouble = a + b;
+		System.out.println(mixedTypeIntIntoDouble);
 		
-		String $myTotalMoney_withIn__1state_$ = "I am not rich";
-		System.out.println($myTotalMoney_withIn__1state_$);//
 		
-		//Practice of swapping numbers with the help of 3rd variable:
-		System.out.println("\n\n");
-		int a = 30 , b = 40;
-		System.out.println(a);
-		System.out.println(b);
-		int c = a;
-		a = b;
-		b = c;
-		System.out.println(a);
-		System.out.println(b);
+		/**
+		 * Variable/Attribute:
+		 * Variable is the place holder of memory 
+		 *
+		 * Operator VS Operand:
+		 * int myInt = 10; Here myInt is Operand, = is Operator, and the Value 10 is Operand.
+		 * 
+		 * Increment & Decrement Operators:
+		 * ++ <<< Increment Operator
+		 * You have Pre-Increment and Post-Increment .... Examples: ++myValue / myValue++
+		 * -- <<< Decrement Operator
+		 * You have Pre-Decrement and Post-Decrement .... Examples: --myValue / myValue--
+		 * 
+		 * Arithmetic Operators:
+		 * + Addition, - Subtraction, * Multiplication, / Division, % Modulus/Remainder, 
+		 *  
+		 * Shortcut of  Arithmetic Operators:
+		 * 
+		 * int myValue = 10;
+		 * 
+		 * myValue += 10; .... Outcome is 20
+		 * myValue -= 10; .... Outcome is 10
+		 * myValue /= 5; .... Outcome is 2
+		 * myValue *= 5 .... Outcome is 10
+		 * myValue %= 2 .... Outcome is 0
+		 * 
+		 * Precedence of Arithmetic problems in coding:
+		 * __ () Parenthesis
+		 * __ * Multiplication
+		 * __ / Division % Modulus
+		 * __ + Addition
+		 * __ - Subtraction
+		 * __ = Equal
+		 * 
+		 * Escape Sequences in Java coding are:
+		 * \t == equals one tab
+		 * \n == equals to next line
+		 * \"anyWord\" equals to "anyWord"
+		 * 
+		 * 
+		 * Equality and Relational Operators:
+		 * 
+		 * == means Equal
+		 * != means not Equal
+		 * Note: You can use equal operators with Primitive data types but not with Reference data types, because it will not give you the accurate information.
+		 * 
+		 * 
+		 * > means more than
+		 * >= means more than and equals
+		 * < means less than
+		 * <= means less than and equals
+		 * !> means not more than
+		 * !< means not less than
+		 * 
+		 * Division Exception/Errors:
+		 * 
+		 * Division of integer data type value by zero or zero value integer by zero value, will give you exception during runtime and while you running your code and where ever the
+		 * in the code body this division integer value by zero occurs, the exception will happen and running the remaining code will not run and will kicked out 
+		 * of the program. but while you are coding everything will look correct and no indication of errors will appear while you are coding.
+		 * 
+		 * Division of double data type value by zero will give you the exception/error but the code/program running will not be stopped and you will get the 
+		 * result of infinite, but you while divide the double data type zero by zero it will give you the results of NaN, and same the execution of promgram will still continue.
+		 * 
+		 * Mixed Type Arithmetic Expressions and Type Casting:
+		 * 
+		 * Mixed type is while doing operation between double into int and vice versa
+		 * Mixed type with promotion is when promoting from int to double
+		 * 
+		 * Type Casting: are Implicit Casting and Explicit Casting:
+		 * Implicit Casting is when converting from narrow to wider range data type, and this happens automatically without any exception/errors.
+		 * Explicit Casting is when converting from wider range data type into narrow data type and this can be done by the programmer,
+		 * it can't be happened automatically because it will give you exception/errors.
+		 * 
+		 * Example of Type Casting:
+		 * 
+		 * Implicit Casting:
+		 * int a = 10;
+		 * double b = 20.22;
+		 * 
+		 * double implicitCasting = a + b;
+		 * int explicitCasting = (int) a + b;
+		 * 
+		 * 
+		 */
 		
-		//Practice of Swapping numbers without the help of 3rd variable:
-		a = a -b;
-		b = b +a;
-		System.out.println(a);
-		System.out.println(b);
 		
-		//Arithmetic Operators:
-		/*
-		 * () = Parenthesis 
-		 *  * = Multiplication
-		 *  / = Division
-		 *  % = Remainder
-		 *  + = Addition
-		 *  - = Subtraction
-		 *  = = Equal
-		 */  
-		 
-		// Arithmetic Operator SHORTCUTS:
 		
-		int mMul = 10;
-		int mDiv = 5;
-		int mRem = 2;
-		int mAdd = 20;
-		int mSub = 5;
 		
-		mMul *= 5;
-		mDiv /= 1;
-		mRem %= 1;
-		mAdd += 80;
-		mSub -= 3;
-		System.out.println("\nMultiplication:\t" + mMul);
-		System.out.println("Division:\t" +mDiv);
-		System.out.println("Remainder:\t" + mRem);
-		System.out.println("Addition:\t" + mAdd);
-		System.out.println("Subtraction:\t" + mSub);
-		
-		int mixArithmeticShorts = mAdd + mSub - mMul / 5 + (mDiv * mDiv) % 5;
-		System.out.println(mixArithmeticShorts);
-		System.out.println(mAdd + mSub - mMul / 5 + (mDiv * mDiv) % 5);
-
-		
-		int a1 = 10;
-		int b1 = 20;
-		System.out.println("\n" + a1);
-		System.out.println(b1);
-		b1 = b1 - a1;
-		System.out.println(b1);
-		a1 = a1 + b1;
-		System.out.println(a1);
-				
-		int ca = 10;
-		int ac = 20;
-		System.out.println("....Printing for ca:\t" + ca);
-		System.out.println("....Printing for ac:\t" + ac);
-		int ab;
-		ab = ca;
-		ca = ac;
-		ac = ab;
-		System.out.println("....Printing for ca:\t" + ca);
-		System.out.println("....Printing for ac:\t" + ac);
 		
 		
 		

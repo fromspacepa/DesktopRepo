@@ -15,11 +15,11 @@ public class _6a__DivisionRuntimeErrors {
 		 *         what can you expect from such code statements that is demonstrated below:
 		 * 
 		 * Following are some of the Arithmetic examples, using Quotient, Remainder, Division:
-		 * -> Quotient (Quotient is the term for the result of a division problem; It means how many times one of the value is divided to another value)
+		 * ->  (Quotient is the term for the result of a division problem; It means how many times one of the value is divided to another value)
 		 */
 
 	
-		int x = 16, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
+		int x = 14, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
 		
 		// Example of Quotient: 
 		int quotient = x / y; // This quotient problem will give you the result of "2"
@@ -45,8 +45,8 @@ public class _6a__DivisionRuntimeErrors {
 		 * int zeroDivision = 9 / 0; // This division by zero problem will give you an Arithmetic Exception/Error: 
 		 * System.out.println("Result of Division By Zero: " + zeroDivision); 
 		 * int a = 10, b = 0;
-		 * System.out.println("Result of Integer division by zero: " + a/b);//This will give you Exception, but here there is no indication of error/exception:
-		 *System.out.println("Result of Integer zero division by zero: " + b/b);//This will also give you Exception, but here there is no indication of error/exception:
+		 * System.out.println("Result of Integer division by zero: " + a/b); // This will give you Exception, but here there is no indication of error/exception:
+		 * System.out.println("Result of Integer zero division by zero: " + b/b); // Same here This will also give you Exception, and no indication of error/exception:
 		 */
 		
 		/*

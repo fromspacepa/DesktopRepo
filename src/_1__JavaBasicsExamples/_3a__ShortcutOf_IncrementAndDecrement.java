@@ -24,6 +24,7 @@ public class _3a__ShortcutOf_IncrementAndDecrement {
 		Double numC = 30.25;
 		++numA; 
 		int z = ++numA / 11;//Just a different example
+		System.out.println("Outcome of varible \"z\": " + z);
 		System.out.println("Variable Initially Declared & Initialized:\t"+"numA:"+ numA +"\tnumB:"+ numB +"\tnumC:"+ numC);
 		System.out.println("Variable during PrefixIncrement Applied:\t"+"numA:"+ ++numA +"\tnumB:"+ ++numB +"\tnumC:"+ ++numC);
 		System.out.println("Variable after PrefixIncrement Applied:\t\t" +"numA:"+ numA +"\tnumB:"+ numB +"\tnumC:"+ numC);

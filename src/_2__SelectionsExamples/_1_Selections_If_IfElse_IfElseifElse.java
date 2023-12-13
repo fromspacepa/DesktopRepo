@@ -190,12 +190,13 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 System.out.println("F");
      }
 	 /**
-	  * Another example of Selection with "if nested" statements: 
+	  * Another example of Selection with "Nested If" statements: 
 	  * Scenario of the vehicle dealer-ship selling different models of cars
 	  * Following are the line items that applies to each selling car, such as: 
 	  * taxes, dealer ship fee, discount, interest Rate, and installments of 48, 60, and 72 months.
+	  * It depend on the conditions if all blocks are true, all the blocks will get executed if not, any block that is true will get executed.
 	  */
-	 System.out.println("\n>>>>>>>>>>>>>>Car Dealership Receipt<<<<<<<<<<<<<<<<<<<\n");
+	 System.out.println("\n****** Vehicle Estimated Prices used the Nested If Blocks ******");
 	 double camry = 29000;
 	 double _4Runner = 43000;
 	 double corola = 23000;
@@ -208,27 +209,27 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 double interestRate = 0;
 	 double total = 0;
 
-	 System.out.println("\n*** ESTIMATED PRICE OF \"Camry\":");
+	 System.out.println("\n1)___ESTIMATED PRICE OF \"Camry\":");
 	 if (camry >= 25000 && camry < 30000) {
 		cityTax = camry * 0.08;
 		dealerFee = 450;
 		studentDiscount = 500;
 		total = camry + cityTax + dealerFee - studentDiscount;
 		monthlyInstallment = total / 48;
-		System.out.println("Camry Price:\t\t\t\t$" + camry);
-		System.out.println("City Tax:\t\t\t\t$" + cityTax);
-		System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
-		System.out.println("Student Discount:\t\t\t$" + studentDiscount);
-		System.out.println("Total Payment:\t\t\t\t$" + total);
-		System.out.println("48 Months Installment, Per month:\t$" + monthlyInstallment);
+	System.out.println("Camry Price:\t\t\t\t$" + camry);
+	System.out.println("City Tax:\t\t\t\t$" + cityTax);
+	System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+	System.out.println("Student Discount:\t\t\t$" + studentDiscount);
+	System.out.println("Total Payment:\t\t\t\t$" + total);
+	System.out.println("48 Months Installment, Per month:\t$" + monthlyInstallment);
 		
-		System.out.println("\n*** ESTIMATED PRICE OF \"4Runner\":");
-	 } if (_4Runner >= 43000 && _4Runner < 55000.0) {
-		cityTax = _4Runner * 0.08;
-		dealerFee = 450;
-		armyDiscount = 1000;
-		total = _4Runner + cityTax + dealerFee - armyDiscount;
-		monthlyInstallment = total / 60;
+		System.out.println("\n2)___ESTIMATED PRICE OF \"4Runner\":");
+	 		if (_4Runner >= 43000 && _4Runner < 55000.0) 
+	 			cityTax = _4Runner * 0.08;
+	 			dealerFee = 450;
+	 			armyDiscount = 1000;
+	 			total = _4Runner + cityTax + dealerFee - armyDiscount;
+	 			monthlyInstallment = total / 60;
 		System.out.println("4Runner Price:\t\t\t\t$" + _4Runner);
 		System.out.println("City Tax:\t\t\t\t$" + cityTax);
 		System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
@@ -236,35 +237,35 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		System.out.println("Total Payment:\t\t\t\t$" + total);
 		System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 		
-		System.out.println("\n*** ESTIMATED PRICE OF \"Corola\":");
-	} if (corola >= 21000 && corola < 30000) {
-     	cityTax = corola * 0.08;
-		dealerFee = 450;
-		armyDiscount = 0;
-		total = corola + cityTax + dealerFee;
-		monthlyInstallment = total / 60;
-		System.out.println("Corola Price:\t\t\t\t$" + corola);
-		System.out.println("City Tax:\t\t\t\t$" + cityTax);
-		System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
-		System.out.println("Student Discount:\t\t\t$" + armyDiscount);
-		System.out.println("Total Payment:\t\t\t\t$" + total);
-		System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
+			System.out.println("\n3)___ESTIMATED PRICE OF \"Corola\":");
+				if (corola >= 21000 && corola < 30000) 
+					cityTax = corola * 0.08;
+					dealerFee = 450;
+					armyDiscount = 0;
+					total = corola + cityTax + dealerFee;
+					monthlyInstallment = total / 60;
+			System.out.println("Corola Price:\t\t\t\t$" + corola);
+		    System.out.println("City Tax:\t\t\t\t$" + cityTax);
+		    System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+		    System.out.println("Student Discount:\t\t\t$" + armyDiscount);
+		    System.out.println("Total Payment:\t\t\t\t$" + total);
+		    System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 
-		System.out.println("\n*** ESTIMATED PRICE OF \"Supra\":");
-	} if (supra >= 50000 && supra < 70000) {
-		cityTax = supra * 0.08;
-		dealerFee = 450;
-		studentDiscount = 1000;
-		interestRate = supra * 0.04;
-		total = supra + cityTax + dealerFee + interestRate - studentDiscount;
-		monthlyInstallment = total / 60;
-		System.out.println("Toyot Supra Price:\t\t\t$" + supra);
-		System.out.println("City Tax:\t\t\t\t$" + cityTax);
-		System.out.println("Interest Rate:\t\t\t\t$" + interestRate);
-		System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
-		System.out.println("Army Discount:\t\t\t\t$" + studentDiscount);
-		System.out.println("Total Payment:\t\t\t\t$" + total);
-		System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
+		    	System.out.println("\n4)___ESTIMATED PRICE OF \"Supra\":");
+		    		if (supra >= 50000 && supra < 70000) 
+		    			cityTax = supra * 0.08;
+		    			dealerFee = 450;
+		    			studentDiscount = 1000;
+		    			interestRate = supra * 0.04;
+		    			total = supra + cityTax + dealerFee + interestRate - studentDiscount;
+		    			monthlyInstallment = total / 60;
+		    	System.out.println("Toyot Supra Price:\t\t\t$" + supra);
+		    	System.out.println("City Tax:\t\t\t\t$" + cityTax);
+		    	System.out.println("Interest Rate:\t\t\t\t$" + interestRate);
+		    	System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
+		    	System.out.println("Army Discount:\t\t\t\t$" + studentDiscount);
+		    	System.out.println("Total Payment:\t\t\t\t$" + total);
+		    	System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 	}
 
 	/**

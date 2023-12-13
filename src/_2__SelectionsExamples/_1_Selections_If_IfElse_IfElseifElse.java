@@ -15,7 +15,7 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 *         (the code will be executed). Selection statements in Java are used to control the flow of the program.
 	 *  
 	 * NOTE: 
-	 * We know that the flow of execution in Java is sequential (starts from top to bottom); basically, Java will start 
+	 * We know that the flow of execution in Java is sequential (starts from top to bottom and right to left); basically, Java will start 
 	 * from the top of the code and will go towards the bottom of the code; when it reaches that selection (condition/logic) 
 	 * it will check the condition in the selection, if the condition is true, it will execute the true block, and 
 	 * if the condition is false, it will continue to the next code statement OR to the rest of the code to reach true block; 
@@ -121,14 +121,13 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 */
 
 	 // Examples of Conditional (Ternary) Operator, using boolean data type:
-	 int x = 10;
-  	 int y = 15;
-	 boolean z = x > y ? true : false;
-	 System.out.println(z);// This will print 'false' depending on the condition provided.
+	 int x = 20, y = 15;
+	 boolean ternaryCondition = x > y ? true : false;
+	 System.out.println("Outcome of Conditional \"Ternary Operator\": " + ternaryCondition);// This will print 'false' depending on the condition provided.
 		
 	 // Example of Condition (Ternary) Operator, using integer data type:
-	 int nums = x > y ? 10 : 15;
-	 System.out.println("If true, the value of X is: " + nums);
+	 int myInt = x > y ? 20 : 15;
+	 System.out.println("If true, the value of X is: " + myInt);
 	 
 	 // Example of Conditional (Ternary) Operator, using char data type:
 	 char myChar = y > x ? 'A' : 'B';
@@ -175,10 +174,12 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	  * 59 & Below = F (grade F)
 	  */
 
-	 double grade = 90;
+	 double grade = 20;
 
-	 if (grade >= 90) {// This means if the grade is equal OR more than 90, print "A".
-	 System.out.println("A");
+	 if (grade >= 100) {// This means if the grade is equal OR more than 90, print "A".
+	 System.out.println("A+");
+	 } else if (grade >= 90) { 
+     System.out.println("A");
 	 } else if (grade >= 80) {// This means if the grade is equal OR more than 80, then print "B".
 	 System.out.println("B");
 	 } else if (grade >= 70) {// This means if the grade is equal OR more than 70, then print "C".
@@ -189,16 +190,16 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 System.out.println("F");
      }
 	 /**
-	  * Another example of Selection with "if, else if, else" statements: 
-	  * Scenario of the vehicle dealership selling different models of cars
+	  * Another example of Selection with "if nested" statements: 
+	  * Scenario of the vehicle dealer-ship selling different models of cars
 	  * Following are the line items that applies to each selling car, such as: 
 	  * taxes, dealer ship fee, discount, interest Rate, and installments of 48, 60, and 72 months.
 	  */
 	 System.out.println("\n>>>>>>>>>>>>>>Car Dealership Receipt<<<<<<<<<<<<<<<<<<<\n");
-	 double camry = 0;
-	 double _4Runner = 0;
-	 double corola = 0;
-	 double toyotaSupra = 56000;
+	 double camry = 29000;
+	 double _4Runner = 43000;
+	 double corola = 23000;
+	 double supra = 65000;
 	 double cityTax = 0;
 	 double dealerFee = 0;
 	 double studentDiscount = 0;
@@ -207,6 +208,7 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 double interestRate = 0;
 	 double total = 0;
 
+	 System.out.println("\n*** ESTIMATED PRICE OF \"Camry\":");
 	 if (camry >= 25000 && camry < 30000) {
 		cityTax = camry * 0.08;
 		dealerFee = 450;
@@ -219,8 +221,9 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		System.out.println("Student Discount:\t\t\t$" + studentDiscount);
 		System.out.println("Total Payment:\t\t\t\t$" + total);
 		System.out.println("48 Months Installment, Per month:\t$" + monthlyInstallment);
-
-	} else if (_4Runner >= 45000 && _4Runner < 55000.0) {
+		
+		System.out.println("\n*** ESTIMATED PRICE OF \"4Runner\":");
+	 } if (_4Runner >= 43000 && _4Runner < 55000.0) {
 		cityTax = _4Runner * 0.08;
 		dealerFee = 450;
 		armyDiscount = 1000;
@@ -232,7 +235,9 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		System.out.println("Army Discount:\t\t\t\t$" + armyDiscount);
 		System.out.println("Total Payment:\t\t\t\t$" + total);
 		System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
-	} else if (corola >= 20000 && corola < 30000) {
+		
+		System.out.println("\n*** ESTIMATED PRICE OF \"Corola\":");
+	} if (corola >= 21000 && corola < 30000) {
      	cityTax = corola * 0.08;
 		dealerFee = 450;
 		armyDiscount = 0;
@@ -245,14 +250,15 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 		System.out.println("Total Payment:\t\t\t\t$" + total);
 		System.out.println("60 Months Installment, Per month:\t$" + monthlyInstallment);
 
-	} else {
-		cityTax = toyotaSupra * 0.08;
+		System.out.println("\n*** ESTIMATED PRICE OF \"Supra\":");
+	} if (supra >= 50000 && supra < 70000) {
+		cityTax = supra * 0.08;
 		dealerFee = 450;
 		studentDiscount = 1000;
-		interestRate = toyotaSupra * 0.04;
-		total = toyotaSupra + cityTax + dealerFee + interestRate - studentDiscount;
+		interestRate = supra * 0.04;
+		total = supra + cityTax + dealerFee + interestRate - studentDiscount;
 		monthlyInstallment = total / 60;
-		System.out.println("Toyot Supra Price:\t\t\t$" + toyotaSupra);
+		System.out.println("Toyot Supra Price:\t\t\t$" + supra);
 		System.out.println("City Tax:\t\t\t\t$" + cityTax);
 		System.out.println("Interest Rate:\t\t\t\t$" + interestRate);
 		System.out.println("Dealer Fee:\t\t\t\t$" + dealerFee);
@@ -267,13 +273,13 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 * depending on the conditions we provide in the blocks.
 	 */
 	int num1 = 5;
-	if (num1 > 3) {
-		System.out.println("your first 'if statement' might be true block");
+	if (num1 < 3) {
+		System.out.println("\n\nYour first 'if statement' might be true block");
 	}
-	if (num1 < 10) {
+	if (num1 > 10) {
 		System.out.println("read your code again!");
 	}
-	if (num1 < 50) {
+	if (num1 > 50) {
 		System.out.println("'num1' must be between 10 - 50");
 	{
 	}

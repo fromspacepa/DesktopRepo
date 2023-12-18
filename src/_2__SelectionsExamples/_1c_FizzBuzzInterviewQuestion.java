@@ -21,7 +21,7 @@ public class _1c_FizzBuzzInterviewQuestion {
 		 */
 		int num = 15;
 		if (num % 3 == 0 && num % 5 == 0) {// Here if Variable value is 15, it will print "TEK School"
-			System.out.println("TEK School");
+			System.out.println("TEK-School\n");
 		} else if (num % 5 == 0) {// Here if the Variable value is 10, it will print "School"
 			System.out.println("School");
 		} else if (num % 3 == 0) {// Here if the Variable value is 9, it will print "TEK"
@@ -31,9 +31,9 @@ public class _1c_FizzBuzzInterviewQuestion {
 		}
 
 		//EXAMPLE OF FizzBuzz:
-		int number = 30;
+		int number = 15;
 		if (number % 3 == 0 && number % 5 == 0) {// Here if Variable value is 15, it will print "FizzBuzz"
-			System.out.println("FizzBuzz");
+			System.out.println("FizzBuzz\n");
 		} else if (number % 5 == 0) {// Here if the Variable value is 10, it will print "Buzz"
 			System.out.println("Buzz");
 		} else if (number % 3 == 0) {// Here if the Variable value is 9, it will print "Fizz"

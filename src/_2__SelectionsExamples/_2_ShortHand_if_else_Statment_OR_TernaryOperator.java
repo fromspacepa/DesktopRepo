@@ -54,15 +54,15 @@ public class _2_ShortHand_if_else_Statment_OR_TernaryOperator {
 		System.out.println(z);
 
 		// Example of Selection with Ternary Operator using 'String' reference data type:
-		String result1 = x > y ? "X is bigger" : "Y is bigger!";
-		String value = x < y ? "Y is bigger" : "X is bigger!";
+		String result1 = x > y ? "X is bigger!" : "Y is bigger!";
 		System.out.println(result1);
+		String value = x < y ? "X is bigger!" : "Y is bigger!";
 		System.out.println(value);
 		
 		// More examples of Ternary Operator:
 		int num1 = 40;
 		int num2 = 50;
-		String myString = (num1 == num2) ? "Hello" : (num1 > num2) ? "Good Bye" : "Hava a good day";
+		String myString = num1 == num2 ? "Hello" : num1 > num2 ? "Good Bye" : num1 < num2 ? "Hava a good day" : "Warka Dang";
 		System.out.println(myString);
 		boolean myBoolean = num1 > num2 ? true : false;
 		System.out.println(myBoolean);

@@ -25,12 +25,12 @@ public class _3_SwitchCases {
 		 * NOTE: The "break" and "default" keywords are optional to use in "switch case"
 		 * 
 		 * >>> "break" keyword: 
-		 * When Java reaches a "break" keyword, it breaks out  the switch block. The block will stop the execution of more code inside the block,
+		 * When Java reaches a "break" keyword, it breaks out the switch block. The break will stop the execution of more code inside the block,
 		 * and when a match is found, and the job is done, it is time for a break. There is no need for more testing. A "break" keyword can save a lot
-		 * of execution time because it ignores the execution of all the rest of the code in the switch block.
+		 * of execution time because it ignores the execution of rest of the code in the switch block.
 		 * 
 		 * >>> "default" keyword: 
-		 * The "default" Keyword specifies some code to run if there is no case matched. such as "else" in the "if else" statement.
+		 * The "default" Keyword specifies some code to run if there is no case matched such as "else" in the "if else" statement.
 		 * 
 		 * >>> Example of "switch case":
 		 * 
@@ -44,26 +44,26 @@ public class _3_SwitchCases {
 		 * 
 		 */
 		// Example of "switch case" with "break" and "default" keywords:
-		System.out.println("Example of 'switch case' with 'break' and 'default' keywords:");
-		String type = "None of the accounts";
-		double amount = 300;
+		System.out.println("Example of \"switch case\" with \"break\" and \"default\" keywords:");
+		String accounTypes = "Credit";
+		double amount = 0;
 
-		switch (type) {
+		switch (accounTypes) {
 		case "Checking":
-			System.out.println(amount < 500 && amount >= 0 ? "Transaction Okay" : "Transaction more then 500 not allowed");
+			System.out.println(amount < 500 && amount >= 150 ? "Transaction Okay" : "Transaction less then \"150\" and more then \"500\" not allowed");
 			break;
 		case "Saving":
 			System.out.println("You can not directly withdraw from Saving");
 			break;
 		case "Credit":
 			default:
-			System.out.println("Habibi Haya Haya\n");
+			System.out.println("You don't have this option on \"Credit card accout\"");
 			//break;
 			
 		}
 		
 		//Example of "Fall Through"
-		//Fall Through is when there is no "break" key word in the switch statements and all the cases get executed:
+		//Fall Through is when there is no "break" keyword in the switch statements and all the cases get executed:
 		System.out.println("\nExample of 'fall through' of switch case:");
 		String greatings = "Hello";
 		switch (greatings){
@@ -73,24 +73,23 @@ public class _3_SwitchCases {
 			System.out.println("John is here");
 		case "Mike":
 			System.out.println("Mike is also here");
+			break;
 	
-		
-			//System.out.println(amount < 1000 || amount > 500 ? "Transaction Okay on
-			//Credit" : "Confirmation message sent!");
-			//System.out.println(amount < 1000 && amount > 500 ? "Transaction Okay on
-			//Credit" : "Confirmation message sent!");
-			//System.out.println(amount < 1000 ^ amount > 500 ? "Transaction Okay on
-			//Credit" : "Confirmation message sent!");
-		// Example of "if" statement with "break" keyword:
-			System.out.println("\nExample of 'if' statement with 'break' keyword:");
+		}
+			//System.out.println(amount < 1000 || amount > 500 ? "Transaction Okay on Credit" : "Confirmation message sent!");
+			//System.out.println(amount < 1000 && amount > 500 ? "Transaction Okay on Credit" : "Confirmation message sent!");
+			//System.out.println(amount < 1000 ^ amount > 500 ? "Transaction Okay on Credit" : "Confirmation message sent!");
+		    //Example of "if" statement with "break" keyword:
+			//System.out.println("\nExample of 'if' statement with 'break' keyword:");
 		if (amount < 1000) {
 			System.out.println("Transaction Okay on Credit!");
 			}
 		if (amount > 500) {
 			System.out.println("Confirmation message sent!");
+			
 			}
-			break;
-			}
+			
+			
 		//Example of School Test Status:
 		
 		System.out.println("\n--- Printing School Test Status ---\n");

@@ -14,7 +14,7 @@ public class _1d_NestedIfStatement {
 		 * 
 		 */
 
-		int grade = 91;
+		int grade = 200;
 		
 		if (grade >= 90) {
 			System.out.print("You got grade A");

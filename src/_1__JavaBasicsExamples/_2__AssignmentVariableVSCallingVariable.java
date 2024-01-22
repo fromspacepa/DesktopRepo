@@ -1,6 +1,6 @@
 package _1__JavaBasicsExamples;
 
-public class _2__Operators_AssignmentVSCallingVariable {
+public class _2__AssignmentVariableVSCallingVariable {
 
 	public static void main(String[] args) {
 		

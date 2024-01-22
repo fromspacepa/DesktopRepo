@@ -25,8 +25,28 @@ public class PracticingOverAllJavaLessons {
 			 * myVal = myVal - 50; System.out.println("After Subtraction:\t" + myVal);
 			 */
 		
+		  int even = 10;
+		  int odd = 20;
+		  String myResult = even % 2 == 0 ? "Even" : "Odd";
+		  System.out.println(myResult);
+		  String result1 = odd % 3 == 0 ? "Odd" : "Even";
+		  System.out.println(result1);
+		  
+		  int num = 15;
+		  int num1 = 20;
+		  
+		  if (num % 5 == 0 && num % 4 == 0) {
+		  System.out.println("FizzBuzz");
+		  }if (num1 % 3 == 0) { 
+		  System.out.println("Fizz");
+		  }if (num1 % 10 == 0 ^ num % 4 == 0) { 
+		  System.out.println("Buzz");
+		  }else {
+		  System.out.println("You were not able to find any of the FizzBuzz, Fizz, or ");
+		  }
+			  
 		
-		}
+		  }
 		
 		
 

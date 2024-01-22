@@ -45,7 +45,7 @@ public class _3_SwitchCases {
 		 */
 		// Example of "switch case" with "break" and "default" keywords:
 		System.out.println("Example of \"switch case\" with \"break\" and \"default\" keywords:");
-		String accounTypes = "Credit";
+		String accounTypes = "Saving";
 		double amount = 0;
 
 		switch (accounTypes) {

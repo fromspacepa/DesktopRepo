@@ -19,6 +19,8 @@ public class _1c_FizzBuzzInterviewQuestion {
 		 * Print the number if is not divisible by either 3 or 5
 		 * 
 		 */
+		
+		System.out.println("Example of printing TEK-School:");
 		int num = 15;
 		if (num % 3 == 0 && num % 5 == 0) {// Here if Variable value is 15, it will print "TEK School"
 			System.out.println("TEK-School\n");
@@ -29,6 +31,8 @@ public class _1c_FizzBuzzInterviewQuestion {
 		} else {// Else if the Variable value is 11, it will just print the number (11) which is the value of a Variable.
 			System.out.println(num);
 		}
+		
+		System.out.println("Example of printing FizzBuzz:");
 
 		//EXAMPLE OF FizzBuzz:
 		int number = 15;
@@ -42,6 +46,7 @@ public class _1c_FizzBuzzInterviewQuestion {
 			System.out.println(number);
 		}
 		
+		System.out.println("Example of printing Fizz:");
 		int myValue = 27;
 		
 		if (myValue % 6 == 0 && myValue % 10 == 0) {// Here if Variable value is 30, it will print "FizzBuzz"

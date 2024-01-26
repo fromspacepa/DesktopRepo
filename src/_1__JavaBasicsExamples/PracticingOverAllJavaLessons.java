@@ -45,6 +45,21 @@ public class PracticingOverAllJavaLessons {
 		  System.out.println("You were not able to find any of the FizzBuzz, Fizz, or ");
 		  }
 			  
+		  
+		 System.out.println("******************************\n");
+		 int myFizzBuzz = 33;
+
+		 if (myFizzBuzz % 5 == 0 && myFizzBuzz % 10 == 0) {
+			 System.out.println("FizzBuzz");
+		 }else if (myFizzBuzz % 5 == 0) {
+			 System.out.println("Fizz");
+		 }else if (myFizzBuzz % 3 == 0) {
+			 System.out.println("Buzz");
+		 }else {
+			 System.out.println("Try Again!!!");
+		 }
+		 
+		 
 		
 		  }
 		

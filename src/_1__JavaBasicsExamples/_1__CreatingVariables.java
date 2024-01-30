@@ -13,7 +13,7 @@ public class _1__CreatingVariables {
 		
 
 		/**
-		 * From this package and this class we are going to start learn about Core-Java Object Oriented Programming (OOPs).
+		 * From this package and this class we are going to start learning about Core-Java Object Oriented Programming (OOPs).
 		 * 
 		 * QUESTION: What is Java? 
 		 * ANSWER: Java is one of the popular and high-level programming language which was created in 1995, 

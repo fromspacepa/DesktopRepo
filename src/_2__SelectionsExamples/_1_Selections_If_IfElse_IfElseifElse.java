@@ -27,7 +27,6 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 * But we use it in most cases. The more important thing in "if statements" is to understand the flow of execution of your code.
 	 * 
 	 * FOLLOWING ARE THE TYPES OF SELECTION IN JAVA:
-	 * 
 	 * 1) if statement (following is the example of "if" statement): 
 	 * 
 	 * if (condition) { 

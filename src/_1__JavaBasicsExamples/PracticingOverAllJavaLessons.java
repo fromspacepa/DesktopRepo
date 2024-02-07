@@ -59,6 +59,13 @@ public class PracticingOverAllJavaLessons {
 			 System.out.println("Try Again!!!");
 		 }
 		 
+		 int myTen = 10;
+		 int myTwenty = 20;
+		 
+		 myTwenty -= myTen;
+		 myTen += myTwenty;
+		 
+		 System.out.println("myTwenty is swapped to: " + myTwenty + "\nmyTen is swapped to: " + myTen);
 		 
 		
 		  }

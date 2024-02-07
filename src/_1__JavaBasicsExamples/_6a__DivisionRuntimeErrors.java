@@ -19,7 +19,7 @@ public class _6a__DivisionRuntimeErrors {
 		 */
 
 	
-		int x = 14, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
+		int x = 13, y = 5; // As of now, you now that this is the process of variable declaration and initialization.
 		
 		// Example of Quotient: 
 		int quotient = x / y; // This quotient problem will give you the result of "2"

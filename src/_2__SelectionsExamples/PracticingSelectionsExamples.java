@@ -7,20 +7,17 @@ public class PracticingSelectionsExamples {
 	public static void main(String[] args) {
 
 
-		int a = 10;
-		int b = 20;
+		int myValue = 20;
 		
-		if (a > b) {
-			System.out.println("Hi");
-		} else if (a >= b) {
-			System.out.println("By");
-		} else {
-			System.out.println("Hi how are you?");
+		if (myValue % 2 == 0) {
+			System.out.println("Even");
+		} else if (myValue % 3 == 0) {
+			System.out.println("Odd");
 		}
 		
-		
+		String myResults = myValue % 3 == 0 ? "Even" : "Odd";
+		System.out.println(myResults);
 
-
-	}
+		}
 
 }

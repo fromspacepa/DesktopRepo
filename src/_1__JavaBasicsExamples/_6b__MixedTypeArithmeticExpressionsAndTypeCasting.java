@@ -25,9 +25,8 @@ public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
 		int y = 3;
 		
 		// With the execution of Mixed Type Addition, this will give you the result of 9.7:
-		int sum = (int) x;
-		System.out.println(sum);
-		System.out.println("The outcome for Mixed-Type execution of 'doubl <--> int': " + sum);
+		double addition = x + y;
+		System.out.println("The outcome for Mixed-Type 'double & int' addition: " + addition);
 		// With the execution of Mixed-Type Multiplication, this will give you the result of 20.1:
 		double multiplication = x * y;
 		System.out.println("The outcome for Mixed-Type execution of 'double <--> int': " + multiplication);

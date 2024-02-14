@@ -17,7 +17,7 @@ public class _1e_DanglingElse {
 		 * Compiler Error. 
 		 * 
 		 * Following is the example, if you run it, it will not get run and you will get the Exception message in the Counsel,
-		 * providing you the information that there is DanglingElse and will instruct you that where the DanglingElse occurred in your code.
+		 * providing you the information that there is "DanglingElse" and will instruct you that where the DanglingElse occurred in your code.
 		 * 
 		 */
 		

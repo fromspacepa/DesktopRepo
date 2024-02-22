@@ -6,45 +6,19 @@ public class PracticingSelectionsExamples {
 
 	public static void main(String[] args) {
 		
+		System.out.println("Switch Case Practice:");
 		
-		int findingEvenOdd = 21;
+		String drink = "Pepsi";
+		int price = 0;
+		double tax = 0.08;
+		int qty = 0;
+		int total = 0;
 		
-		String findingEvenOdd1 = findingEvenOdd % 2 == 0? "Even" : "Odd";
-		System.out.println(findingEvenOdd1);
-		
-		if (findingEvenOdd % 2 == 0) {
-			System.out.println("Even");
-		}else {
-			System.out.println("Odd");
-		}
-		int findingEvenOdds = 22;
-		
-		String findingEvenOdds1 = findingEvenOdds % 2 == 0? "\"Even\"" : "\"Odd\"";
-		System.out.println(findingEvenOdds1);
-		
-		if (findingEvenOdds % 2 == 0) {
-			System.out.println("\"Even\"");
-		} else {
-			System.out.println("\"Odd\"");
-		}
-		
-		
-		//Finding FizzBuzz in your selection statements:
-		
-		int myNum = 21;
-		
-		if (myNum % 3 == 0 && myNum % 5 == 0) { 
-			System.out.println("\"Fizz\"");
-		} else if (myNum % 3 == 0) {
-			System.out.println("\"FizzBuzz\"");
-		} else if  (myNum % 7 == 0) { 
-			System.out.println("\"Buzz\"");
-		} else {
-			System.out.println("\"Try Again!\"");
-		}
 		
 
+			
 		
-		}
+	}	
+		
 
 }

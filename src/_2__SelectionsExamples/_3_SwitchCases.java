@@ -124,13 +124,13 @@ public class _3_SwitchCases {
 		System.out.println("\nExample of Vending Machine:");
 		int price = 0;
 		String drink = "Coke";
-		int quantity = 5;
+		int quantity = 0;
 		double taxRate = 0.08;
 		double total = 0;
 	
 		DecimalFormat myDecimal = new DecimalFormat ("#0.00");//This is to import the decimal format and apply it to the decimal value in your code.
 		switch (drink) {
-		case ("PepsiCola"):
+		case "PepsiCola":
 			price = 3;
 		    taxRate = price * quantity * taxRate ;
 		    total = taxRate + price * quantity;
@@ -138,7 +138,7 @@ public class _3_SwitchCases {
 			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
 			"\nThe Total is:\t\t$" + myDecimal.format(total));
 				break;
-		case ("Coke"):
+		case "Coke":
 			price = 3;
 	        taxRate = price * quantity * taxRate ;
 	        total = taxRate + price * quantity;
@@ -146,7 +146,7 @@ public class _3_SwitchCases {
 			+ "\nThe quantity is:\t" + quantity +"-pcs" + "\nThe tax is:\t\t$" + myDecimal.format(taxRate) + 
 			"\nThe Total is:\t\t$" + myDecimal.format(total));
 				break;
-		case ("Diet Coke"):
+		case "Diet Coke":
 			price = 3;
 	        taxRate = price * quantity * taxRate ;
 	        total = taxRate + price * quantity;

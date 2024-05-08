@@ -65,7 +65,7 @@ public class _1__CreatingVariables {
 		 * __Names can be camelCase (if a name is more than one word you would use camelCase names, 
 		 *   the first letter of a first word starts with lower-case and then
 		 *   the first letter of second and third word will start with UpperCase letter.
-		 * __Names cannot use Reserved words (like Java keywords, such as int or boolean)
+		 * __Names cannot use Reserved words (like Java keywords, such as int, boolean and etc...)
 		 * 
 		 * NOTE:
 		 * After the first time of variable/identifier declaration and initialization and then 

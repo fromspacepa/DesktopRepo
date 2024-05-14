@@ -155,7 +155,6 @@ public class _1__CreatingVariables {
 		String text1 = new String("texting is fun");
 		
 
-
 		/** 
 		 * ___NOTE: In general when you want to create a Reference data type, you would need to make sure that your data type is the name of the class that 
 		 * you are trying to create an object of it, and then for a String you have the option to initialize the variable with a literal values and you also
@@ -167,7 +166,6 @@ public class _1__CreatingVariables {
 		System.out.println(text);
 		// Here this printOut method is to print out the variable "text1":
 		System.out.println(text1);
-		
 		
 		
 		int $;

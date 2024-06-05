@@ -61,7 +61,7 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 * } 
 	 * 
 	 * NOTE: 
-	 * In the above "if/else if" statement the minimum execution is zero, and same the maximum execution is zero; depending on the 
+	 * In the above "if/else if" statement the minimum execution is zero, and same the maximum execution is one; depending on the 
 	 * condition we provide; if the "if" statement block is true, it will be executed OR if the "if" statement is false, Java program 
 	 * will go towards bottom and check the "else if" statement, if it is true it will be executed; And if both "if" and "else if" statement
 	 * blocks are false, none of the blocks will get executed.
@@ -109,12 +109,12 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 *
 	 * >>> CONTROL STATEMENTS: 
 	 * ___ 2) CONDITIONAL (TERNARY) OPERATOR: 
-	 * The conditional (ternary) operator is the only JavaScript operator that takes three operands: 
+	 * __NOTE: The conditional (ternary) operator is the only JavaScript operator that takes three operands: 
 	 * A condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), 
 	 * and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.
 	 * Using Conditional (Ternary) Operator in Selection Statement is short and it's sample; it can take up to one line coding. 
-	 * If you have one condition and you need to check it and you don't have too many things to execute, depending on the condition.
-	 * You could use Conditional (Ternary) Operators, but if you have multiple conditions, depending on that if one of them is "true" 
+	 * If you have one condition and you need to check it and you don't have too many things to execute, depending on the condition, then
+	 * you could use Conditional (Ternary) Operators, but if you have multiple conditions, depending on that if one of them is "true" 
 	 * OR "false" you are going to execute lots of steps; So, you would go with using of "if/else if/else" statements.
 	 * 
 	 */
@@ -173,7 +173,7 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	  * 59 & Below = F (grade F)
 	  */
 
-	 double grade = 20;
+	 double grade = 101;
 
 	 if (grade >= 100) {// This means if the grade is equal OR more than 90, print "A".
 	 System.out.println("A+");
@@ -271,8 +271,9 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	 * EXAMPLE OF NESTED IF BLOCKS: 
 	 * Here in the "nested if" blocks, the minimum execution of blocks will be zero and maximum of three; 
 	 * depending on the conditions we provide in the blocks.
+	 * __In the following example the last block of if statement will be executed:
 	 */
-	int num1 = 5;
+	int num1 = 51;
 	if (num1 < 3) {
 		System.out.println("\n\nYour first 'if statement' might be true block");
 	}
@@ -282,8 +283,16 @@ public class _1_Selections_If_IfElse_IfElseifElse {
 	if (num1 > 50) {
 		System.out.println("'num1' must be between 10 - 50");
 	{
+		
+		
+	
 	}
-
+	// Example of little practice of Double dimension Arrays: 
+	int arr [][] = new int [5][5];
+	arr [0][0] = 10;
+	arr [0][1] = 20;
+	int sum;
+	System.out.println("Outcome of double diminsion array: " + (sum = arr[0][0] + arr [0][1]));
 	}
 	}
 

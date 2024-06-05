@@ -66,9 +66,10 @@ public class _3a__ShortcutOf_IncrementAndDecrement {
 		c = ++a - b++ + a++;
 		System.out.println("Outcome of Variable 'C' :" + c);
 		System.out.println(a);
+		System.out.println(b);
 		d = a * b % a + b++ - b + ++b - 7;
 
-		System.out.println("Outcome of Variable 'B' :" + d );
+		System.out.println("Outcome of Variable 'B' :" + d);
 		System.out.println(a);
 		System.out.println(b);
 

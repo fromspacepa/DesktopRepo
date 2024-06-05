@@ -122,6 +122,7 @@ public class _5__ArithmeticOperatorsAndExpressions {
 		double num7 = 10.20;
 		long num8 = 32238134435L;
 
+
 	}
 
 }

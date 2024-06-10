@@ -69,6 +69,17 @@ public class _1a_IfStatementsExampleOfCarPrices {
 	System.out.println("\nYou are eligible for Expedited Shipment!");
 	} else {
 		System.out.println("Normal Shipment Applied!");
+		
+		int myNum = 10;
+		
+		if (myNum % 3 == 0) {
+			System.out.println("Even");
+		} else {
+			System.out.println("Odd");
+		}
+		
+		String result = myNum % 3 == 0? "Even" : "Odd";
+		System.out.println(result);
 
 
 }}}

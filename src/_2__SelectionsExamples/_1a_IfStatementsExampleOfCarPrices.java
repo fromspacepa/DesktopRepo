@@ -78,7 +78,7 @@ public class _1a_IfStatementsExampleOfCarPrices {
 			System.out.println("Odd");
 		}
 		
-		String result = myNum % 3 == 0? "Even" : "Odd";
+		String  result = myNum % 3 == 0? "Even" : "Odd";
 		System.out.println(result);
 
 

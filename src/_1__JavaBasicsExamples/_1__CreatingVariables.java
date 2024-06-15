@@ -69,7 +69,7 @@ public class _1__CreatingVariables {
 		 * 
 		 * NOTE:
 		 * After the first time of variable/identifier declaration and initialization and then 
-		 * changing the value of a variable is called the process of Assignment.
+		 * changing the value of a variable Or assign new valued to the variable is called the process of Assignment.
 		 * 
 		 */
 	

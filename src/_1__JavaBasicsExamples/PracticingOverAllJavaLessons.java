@@ -67,6 +67,16 @@ public class PracticingOverAllJavaLessons {
 		 
 		 System.out.println("myTwenty is swapped to: " + myTwenty + "\nmyTen is swapped to: " + myTen);
 		 
+		 int val = 20;
+		 int val1 = 20;
+		if (val == 20 ^ val1 == 20) {
+			System.out.println("true");
+			
+		} else {
+			System.out.println("false");
+		}
+		 
+		 
 		
 		  }
 		

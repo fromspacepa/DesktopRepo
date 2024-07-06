@@ -1,3 +1,4 @@
+
 package _1__JavaBasicsExamples;
 
 public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
@@ -148,6 +149,13 @@ public class _6b__MixedTypeArithmeticExpressionsAndTypeCasting {
 		long myLongVal = (long) myDoubleValue;
 		System.out.println("double to long value:\t\t" + myLongVal);
 		
+		
+		int intVal = 10; double dblVal = 20.22;
+		
+		int explicitCasting = (int) dblVal;
+		System.out.println(explicitCasting); 
+		double implicitCasting = intVal;
+		System.out.println(implicitCasting);
 		
 	} 
 

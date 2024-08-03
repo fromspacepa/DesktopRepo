@@ -10,7 +10,7 @@ public class _8__Power__ToThePowerOfExamples {
 		 * At this time, I still need to study more about the above subject. Once all the info is collected, the detailed explanation will be provided.
 		 */
 
-		int myNum = 30;
+		int myNum = 50;
 		int myValue = 5;
 		
 		System.out.println(myValue ^ myNum);

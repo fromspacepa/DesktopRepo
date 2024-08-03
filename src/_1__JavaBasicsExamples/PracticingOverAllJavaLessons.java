@@ -47,7 +47,7 @@ public class PracticingOverAllJavaLessons {
 			  
 		  
 		 System.out.println("******************************\n");
-		 int myFizzBuzz = 33;
+		 int myFizzBuzz = 22;
 
 		 if (myFizzBuzz % 5 == 0 && myFizzBuzz % 10 == 0) {
 			 System.out.println("FizzBuzz");

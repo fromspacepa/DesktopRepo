@@ -58,9 +58,9 @@ public class _6__EqualityAndRelationalOperators {
 		 * >>> RELATIONAL OPERATORS:
 		 * 
 		 * --> "<" stands for "Less than"
-		 * --> "<=" stands for "Less than and Equal to"
-		 * --> ">" stands for "More than"
-		 * --> ">=" stands for "More than and Equal to"
+		 * --> "<=" stands for "Less than OR Equal to"
+		 * --> ">" stands for "More/Greater than"
+		 * --> ">=" stands for "More/Greater than OR Equal to"
 		 * 
 		 * NOTE: Using of the Relational Operators will give the boolean (true/false) result, depending on the condition provided in your code.
 		 * Example of using Relational Operators:
